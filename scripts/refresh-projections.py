@@ -236,7 +236,13 @@ def injury_multiplier(status):
 
 def boom_bust(mean, standard_deviation, residuals):
     if mean is None:
-        return None, None, None, None
+        return (
+            None,
+            None,
+            None,
+            None,
+            "no_projection"
+        )
     sd = max(2.5, numeric(standard_deviation, mean * 0.30))
     floor = max(0.0, mean - 1.04 * sd)
     ceiling = mean + 1.04 * sd
