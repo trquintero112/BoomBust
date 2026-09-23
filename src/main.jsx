@@ -3,7 +3,7 @@ import{createRoot}from'react-dom/client';
 import{Search,RefreshCw,Zap,TrendingUp,TrendingDown,Users,Trophy}from'lucide-react';
 import'./style.css';
 const POS=['ALL','QB','RB','WR','TE','K','FLX','DST'];
-const num=v=>{const n=Number(v);return Number.isFinite(n)?n:null};
+const num=v=>{if(v===null||v===undefined||v==='')return null;const n=Number(v);return Number.isFinite(n)?n:null};
 const fmt=(v,d=1)=>num(v)===null?'N/A':num(v).toFixed(d);
 const pct=v=>num(v)===null?'N/A':`${Math.round(num(v))}%`;
 function enrich(p,ownership={}){const own=ownership[String(p.id)]||ownership[String(p.sleeperId)]||null;return{...p,pv:num(p.projection),bv:num(p.boom),uv:num(p.bust),tv:num(p.trend),ownership:own}}

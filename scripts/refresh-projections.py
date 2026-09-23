@@ -12,6 +12,20 @@ import requests
 OUTPUT = Path("public/data/latest.json")
 SCORING = "PPR"
 POSITIONS = {"QB", "RB", "WR", "TE", "K", "DST"}
+
+TEAM_ALIASES = {
+    "LA": "LAR", "LAR": "LAR", "STL": "LAR",
+    "JAC": "JAX", "JAX": "JAX",
+    "WSH": "WAS", "WAS": "WAS",
+    "OAK": "LV", "LV": "LV",
+    "SD": "LAC", "LAC": "LAC",
+}
+
+
+def normalize_team(value):
+    team = str(value or "").upper().strip()
+    return TEAM_ALIASES.get(team, team)
+
 http = requests.Session()
 http.headers.update({"User-Agent": "boom-bust-lab/5.0"})
 
@@ -243,7 +257,7 @@ def build_dst_models(dst_history):
         values = group["points"].astype(float).to_numpy()
         model = regression_projection(values, "DST")
         if model:
-            models[str(team)] = model
+            models[normalize_team(team)] = model
         if len(values) >= 5:
             for index in range(4, len(values)):
                 estimate = regression_projection(values[max(0, index-8):index], "DST")
@@ -299,12 +313,29 @@ def make_players(sleeper_players, skill_models, kicker_models, dst_models, resid
         position=str(player.get("position") or "").upper(); position="DST" if position in {"DEF","D/ST"} else position
         name=player.get("full_name") or f"{player.get('first_name','')} {player.get('last_name','')}".strip()
         if not name or position not in POSITIONS: continue
-        key=clean_name(name); team=player.get("team") or "FA"
+        key=clean_name(name); team = normalize_team(player.get("team") or "FA")
         # Match kicker models by Sleeper's GSIS ID first, then normalized name.
         # nflverse play-by-play commonly identifies kickers by GSIS player ID.
-        kicker_key = clean_name(player.get("gsis_id") or key)
-        if position == "K": model=kicker_models.get(kicker_key) or kicker_models.get(key); position_residuals=residuals["K"]
-        elif position == "DST": model=dst_models.get(team); position_residuals=residuals["DST"]
+        kicker_keys = [
+            clean_name(identifier)
+            for identifier in (
+                player.get("gsis_id"),
+                player.get("nfl_id"),
+                player.get("espn_id"),
+                player.get("sportradar_id"),
+                name,
+            )
+            if identifier
+        ]
+        if position == "K":
+            model = next(
+                (kicker_models.get(kicker_key) for kicker_key in kicker_keys if kicker_models.get(kicker_key)),
+                None,
+            )
+            position_residuals = residuals["K"]
+        elif position == "DST":
+            model = dst_models.get(normalize_team(team))
+            position_residuals = residuals["DST"]
         else: model=skill_models.get(key); position_residuals=residuals[position]
         status=(injuries.get(key) or player.get("injury_status") or "Healthy") if target_week==current_week else "Historical"
         multiplier=injury_multiplier(status) if target_week==current_week else 1.0
