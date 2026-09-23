@@ -167,6 +167,7 @@ const [
     {
       week,
       scoring,
+      position: "ALL"
     }
   ),
 
