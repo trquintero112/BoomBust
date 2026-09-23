@@ -13,13 +13,7 @@ OUTPUT = Path("public/data/latest.json")
 SCORING = "PPR"
 POSITIONS = {"QB", "RB", "WR", "TE", "K", "DST"}
 http = requests.Session()
-http.headers.update({"User-Agent": "boom-bust-lab/4.0"})
-
-# Conservative fallbacks are used only when nflverse has no usable player history.
-POSITION_FALLBACKS = {
-    "K": {"projection": 8.0, "sd": 3.0},
-    "DST": {"projection": 7.0, "sd": 4.0},
-}
+http.headers.update({"User-Agent": "boom-bust-lab/4.1"})
 
 
 def clean_name(value):
@@ -134,23 +128,15 @@ def stats_before_week(all_stats, season, target_week):
     if all_stats.empty:
         return pd.DataFrame()
     data = all_stats.copy()
-    if "season" in data.columns:
-        season_values = pd.to_numeric(data["season"], errors="coerce")
-    else:
-        season_values = pd.Series([season] * len(data), index=data.index)
-    if "week" in data.columns:
-        week_values = pd.to_numeric(data["week"], errors="coerce")
-    else:
-        week_values = pd.Series([0] * len(data), index=data.index)
+    season_values = pd.to_numeric(data.get("season", season), errors="coerce")
+    week_values = pd.to_numeric(data.get("week", 0), errors="coerce")
     return data[(season_values < season) | ((season_values == season) & (week_values < target_week))].copy()
 
 
 def build_player_models(data):
     if data.empty:
         return {}, {position: [] for position in POSITIONS}
-    points_col = fantasy_column(data)
-    name_col = player_name_column(data)
-    id_col = player_id_column(data)
+    points_col, name_col, id_col = fantasy_column(data), player_name_column(data), player_id_column(data)
     if not points_col or not name_col or not id_col:
         return {}, {position: [] for position in POSITIONS}
     data = data.copy()
@@ -243,31 +229,14 @@ def make_players(sleeper_players, models, residuals, matchups, injuries, target_
         key = clean_name(name)
         team = player.get("team") or "FA"
         model = models.get(key)
-
-        # K/DST fallback prevents blank/zero groups when player-level nflverse history is absent.
-        if model is None and position in POSITION_FALLBACKS and team != "FA":
-            fallback = POSITION_FALLBACKS[position]
-            model = {
-                "projection": fallback["projection"], "weightedAverage": fallback["projection"],
-                "recentAverage": fallback["projection"], "trend": 0.0,
-                "standardDeviation": fallback["sd"], "games": 0,
-                "method": "position_baseline_fallback",
-            }
-
-        # Current-week injury status is not applied retroactively to past-week backtests.
         status = (injuries.get(key) or player.get("injury_status") or "Healthy") if target_week == current_week else "Historical"
         multiplier = injury_multiplier(status) if target_week == current_week else 1.0
         projection = None if not model else round(model["projection"] * multiplier, 2)
-
         if team == "FA":
             status, projection = "FREE AGENT", 0.0
-
-        floor, ceiling, boom, bust, method = boom_bust(
-            projection, None if not model else model["standardDeviation"], residuals.get(position, [])
-        )
+        floor, ceiling, boom, bust, method = boom_bust(projection, None if not model else model["standardDeviation"], residuals.get(position, []))
         if team == "FA":
             floor, ceiling, boom, bust, method = 0.0, 0.0, 0, 100, "inactive_player"
-
         confidence = 0 if not model else min(95, 45 + model["games"] * 5 + (10 if len(residuals.get(position, [])) >= 20 else 0))
         if multiplier < 1:
             confidence = max(20, confidence - 15)
@@ -291,22 +260,15 @@ def main():
     schedule, injuries = load_schedule(season), load_injuries(season)
     injuries_by_name = injury_index(injuries)
     week_snapshots = {}
-
-    # Build as-of-week projections for every week through the current week.
     for target_week in range(1, current_week + 1):
-        training = stats_before_week(all_stats, season, target_week)
-        models, residuals = build_player_models(training)
-        players = make_players(
-            sleeper_players, models, residuals, build_matchups(schedule, target_week),
-            injuries_by_name, target_week, current_week
-        )
+        models, residuals = build_player_models(stats_before_week(all_stats, season, target_week))
+        players = make_players(sleeper_players, models, residuals, build_matchups(schedule, target_week), injuries_by_name, target_week, current_week)
         week_snapshots[str(target_week)] = {
             "week": target_week,
             "generatedMode": "historical_backtest" if target_week < current_week else "current",
             "players": players,
         }
-        print(f"Week {target_week}: {len(players)} players, {sum(p['projection'] is not None for p in players)} projections")
-
+        print(f"Week {target_week}: {sum(p['projection'] is not None for p in players)} projections")
     current_players = week_snapshots[str(current_week)]["players"]
     output = {
         "season": season, "week": current_week, "defaultWeek": current_week,
@@ -316,14 +278,9 @@ def main():
             {"id": "sleeper", "name": "Sleeper", "status": "live"},
             {"id": "nflverse", "name": "nflverse through nflreadpy", "status": "live"},
         ],
-        "methodology": {
-            "kickerFallback": "8.0-point baseline with 3.0-point standard deviation when player history is unavailable",
-            "defenseFallback": "7.0-point baseline with 4.0-point standard deviation when team defense history is unavailable",
-            "historicalWeeks": "Each past week is rebuilt using only games before that week; current injury labels are not applied retroactively",
-        },
+        "methodology": {"historicalWeeks": "Each past week is rebuilt using only games before that week."},
         "supportedPositions": ["QB", "RB", "WR", "TE", "K", "FLX", "DST"],
-        "players": current_players,
-        "weekSnapshots": week_snapshots,
+        "players": current_players, "weekSnapshots": week_snapshots,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(output, indent=2, allow_nan=False), encoding="utf-8")
