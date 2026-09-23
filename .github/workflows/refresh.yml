@@ -1,4 +1,4 @@
-name: Refresh custom fantasy projections
+name: Refresh projections and ESPN leagues
 on:
   workflow_dispatch:
   schedule:
@@ -16,16 +16,19 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - name: Install model dependencies
+      - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Build projections and boom-bust probabilities
+      - name: Build custom projections
         run: python scripts/refresh-projections.py
+      - name: Add both ESPN leagues
+        run: python scripts/augment-espn.py
         env:
-          ESPN_LEAGUE_ID: ${{ secrets.ESPN_LEAGUE_ID }}
+          ESPN_LEAGUE_1: ${{ secrets.ESPN_LEAGUE_1 }}
+          ESPN_LEAGUE_2: ${{ secrets.ESPN_LEAGUE_2 }}
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
-      - name: Commit refreshed JSON
+      - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh custom fantasy projections"
+          commit_message: "chore: refresh projections and ESPN leagues"
           file_pattern: public/data/latest.json
