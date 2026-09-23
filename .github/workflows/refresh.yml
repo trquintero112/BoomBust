@@ -1,0 +1,53 @@
+name: Refresh fantasy projections
+
+on:
+  workflow_dispatch:
+    inputs:
+      week:
+        description: NFL week
+        required: true
+        default: "4"
+      season:
+        description: NFL season
+        required: true
+        default: "2026"
+      scoring:
+        description: Scoring format
+        required: true
+        default: "PPR"
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Download and normalize data
+        run: npm run refresh:data
+        env:
+          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
+          NFL_WEEK: ${{ inputs.week || '4' }}
+          NFL_SEASON: ${{ inputs.season || '2026' }}
+          NFL_SCORING: ${{ inputs.scoring || 'PPR' }}
+
+      - name: Commit refreshed JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh fantasy projections"
+          file_pattern: public/data/latest.json
