@@ -33,14 +33,14 @@ if (!FANTASYPROS_API_KEY) {
 /*
  * Fetch JSON and provide a useful error message.
  */
-async function fetchJson(url,*options = {}) {
+async function fetchJson(url, options = {}) {
   const response =*await fetch(url, options);
 
   if (*response.ok) {
     const responseT*xt = await response.text();
 
     t*row new Error(
-      `Request fail*d ${response.status} ${response.st*tusText}: ${responseText.slice(
+      `Request fail*d ${response.status} ${response.statusText}: ${responseText.slice(
         0,
         1000
       )}`
