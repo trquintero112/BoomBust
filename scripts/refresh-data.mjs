@@ -2,7 +2,20 @@ import fs from "node:fs/promises";
 
 const key = process.env.FANTASYPROS_API_KEY;
 const season = process.env.NFL_SEASON || "2026";
-const week = process.env.NFL_WEEK || "4";
+const now = new Date();
+
+const season = now.getFullYear();
+
+const nflStart = new Date(`${season}-09-01`);
+
+const days = Math.floor(
+  (now - nflStart) / (1000 * 60 * 60 * 24)
+);
+
+const week = Math.max(
+  1,
+  Math.min(18, Math.floor(days / 7) + 1)
+);
 const scoring = process.env.NFL_SCORING || "PPR";
 
 if (!key) {
