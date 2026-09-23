@@ -16,20 +16,11 @@ http = requests.Session()
 http.headers.update({"User-Agent": "boom-bust-lab/5.0"})
 
 
-SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
-
 def clean_name(value):
     value = str(value or "").lower().strip()
+    value = re.sub(r"[^a-z0-9 ]+", "", value)
+    return re.sub(r"\s+", " ", value)
 
-    value = re.sub(r"[^a-z0-9 ]+", " ", value)
-
-    tokens = [
-        token
-        for token in value.split()
-        if token not in SUFFIXES
-    ]
-
-    return " ".join(tokens)
 
 def numeric(value, default=None):
     try:
