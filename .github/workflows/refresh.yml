@@ -35,4 +35,3 @@ jobs:
         with:
           commit_message: "chore: refresh fantasy projections"
           file_pattern: public/data/latest.json
-`
