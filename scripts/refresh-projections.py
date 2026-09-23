@@ -155,7 +155,10 @@ def kicker_points_by_play(pbp):
             continue
         fg_result = str(play.get("field_goal_result") or "").lower()
         xp_result = str(play.get("extra_point_result") or "").lower()
-        kicker = play.get("kicker_player_name") or play.get("kicker_player_id")
+        # Prefer a stable GSIS player ID. Some nflverse PBP releases do not
+        # populate kicker_player_name consistently, which caused models to be
+        # created under IDs while the final player lookup used names.
+        kicker = play.get("kicker_player_id") or play.get("kicker_player_name")
         points = 0.0
         if fg_result == "made":
             distance = numeric(play.get("kick_distance"), 0) or 0
@@ -297,7 +300,10 @@ def make_players(sleeper_players, skill_models, kicker_models, dst_models, resid
         name=player.get("full_name") or f"{player.get('first_name','')} {player.get('last_name','')}".strip()
         if not name or position not in POSITIONS: continue
         key=clean_name(name); team=player.get("team") or "FA"
-        if position == "K": model=kicker_models.get(key); position_residuals=residuals["K"]
+        # Match kicker models by Sleeper's GSIS ID first, then normalized name.
+        # nflverse play-by-play commonly identifies kickers by GSIS player ID.
+        kicker_key = clean_name(player.get("gsis_id") or key)
+        if position == "K": model=kicker_models.get(kicker_key) or kicker_models.get(key); position_residuals=residuals["K"]
         elif position == "DST": model=dst_models.get(team); position_residuals=residuals["DST"]
         else: model=skill_models.get(key); position_residuals=residuals[position]
         status=(injuries.get(key) or player.get("injury_status") or "Healthy") if target_week==current_week else "Historical"
@@ -327,7 +333,15 @@ def main():
         residuals["K"],residuals["DST"]=k_residuals,d_residuals
         players=make_players(sleeper_players,skill_models,kicker_models,dst_models,residuals,build_matchups(schedule,target_week),injuries_by_name,target_week,current_week)
         week_snapshots[str(target_week)]={"week":target_week,"generatedMode":"historical_backtest" if target_week<current_week else "current","players":players}
-        print(f"Week {target_week}: K models={len(kicker_models)}, DST models={len(dst_models)}")
+        matched_kickers = sum(
+            1 for player in sleeper_players.values()
+            if str(player.get("position") or "").upper() == "K"
+            and (
+                clean_name(player.get("gsis_id") or "") in kicker_models
+                or clean_name(player.get("full_name") or "") in kicker_models
+            )
+        )
+        print(f"Week {target_week}: K models={len(kicker_models)}, K matched={matched_kickers}, DST models={len(dst_models)}")
     output={"season":season,"week":current_week,"defaultWeek":current_week,"availableWeeks":list(range(1,current_week+1)),"scoring":SCORING,"generatedAt":pd.Timestamp.utcnow().isoformat(),"isDemo":False,"providers":[{"id":"sleeper","name":"Sleeper","status":"live"},{"id":"nflverse","name":"nflverse through nflreadpy","status":"live"}],"methodology":{"kicker":"Play-by-play field goals scored 3/4/5 by distance plus one per made extra point, projected from up to eight prior games","dst":"Sacks, interceptions, lost fumbles, safeties, defensive/return touchdowns, and points-allowed bands, projected from up to eight prior games","historicalWeeks":"Each week uses only data before that week"},"supportedPositions":["QB","RB","WR","TE","K","FLX","DST"],"players":week_snapshots[str(current_week)]["players"],"weekSnapshots":week_snapshots}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True); OUTPUT.write_text(json.dumps(output,indent=2,allow_nan=False),encoding="utf-8")
 
