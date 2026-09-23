@@ -1,37 +1,31 @@
-name: Refresh fantasy projections
-
+name: Refresh custom fantasy projections
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "17 */6 * * *"
-
 permissions:
   contents: write
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      - name: Configure Node
-        uses: actions/setup-node@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 24
-
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Download and normalize data
-        run: npm run refresh:data
+          python-version: "3.11"
+          cache: pip
+      - name: Install model dependencies
+        run: pip install -r requirements.txt
+      - name: Build projections and boom-bust probabilities
+        run: python scripts/refresh-projections.py
         env:
-          FANTASYPROS_API_KEY: ${{ secrets.FANTASYPROS_API_KEY }}
-
+          ESPN_LEAGUE_ID: ${{ secrets.ESPN_LEAGUE_ID }}
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
       - name: Commit refreshed JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh fantasy projections"
+          commit_message: "chore: refresh custom fantasy projections"
           file_pattern: public/data/latest.json
