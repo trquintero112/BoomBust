@@ -1,0 +1,24 @@
+name: Apply Full Kicker ID Crosswalk Fix
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Apply nflverse player ID crosswalk
+        run: python scripts/apply-kicker-crosswalk-fix.py
+      - name: Validate patched source
+        run: python -m py_compile scripts/refresh-projections.py
+      - name: Commit patched projection script
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "fix: map kicker projections through ffverse ID crosswalk"
+          file_pattern: scripts/refresh-projections.py
