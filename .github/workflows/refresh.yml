@@ -2,19 +2,7 @@ name: Refresh fantasy projections
 
 on:
   workflow_dispatch:
-    inputs:
-      week:
-        description: NFL week
-        required: true
-        default: "4"
-      season:
-        description: NFL season
-        required: true
-        default: "2026"
-      scoring:
-        description: Scoring format
-        required: true
-        default: "PPR"
+  
 
   schedule:
     - cron: "17 */6 * * *"
