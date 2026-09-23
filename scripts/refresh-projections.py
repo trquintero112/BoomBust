@@ -312,12 +312,29 @@ def add_kicker_id_aliases(kicker_models, player_ids):
 def build_matchups(schedule, week):
     if schedule.empty or "week" not in schedule:
         return {}
-    games = schedule[pd.to_numeric(schedule["week"], errors="coerce") == week]
+
+    games = schedule[
+        pd.to_numeric(
+            schedule["week"],
+            errors="coerce"
+        ) == week
+    ]
+
     result = {}
+
     for _, game in games.iterrows():
-        home, away = str(game.get("home_team") or ""), str(game.get("away_team") or "")
+        home = normalize_team(
+            str(game.get("home_team") or "")
+        )
+
+        away = normalize_team(
+            str(game.get("away_team") or "")
+        )
+
         if home and away:
-            result[home], result[away] = f"vs {away}", f"@ {home}"
+            result[home] = f"vs {away}"
+            result[away] = f"@ {home}"
+
     return result
 
 
