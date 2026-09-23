@@ -2,7 +2,7 @@
   "season": 2026,
   "week": 3,
   "scoring": "PPR",
-  "generatedAt": "2026-09-23T17:03:02.369121+00:00",
+  "generatedAt": "2026-09-23T17:32:53.251701+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -5809,35 +5809,6 @@
       }
     },
     {
-      "id": "11566",
-      "sleeperId": "11566",
-      "name": "Jayden Daniels",
-      "team": "WAS",
-      "pos": "QB",
-      "opp": "vs SEA",
-      "injury": "Doubtful",
-      "projection": 7.53,
-      "floor": 1.6,
-      "ceiling": 13.5,
-      "boom": 25,
-      "bust": 28,
-      "confidence": 80,
-      "trend": -1.09,
-      "flexEligible": false,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 7.53
-      },
-      "model": {
-        "projection": 13.685854412698415,
-        "weightedAverage": 14.550555555555556,
-        "recentAverage": 12.585,
-        "trend": -1.088095238095236,
-        "standardDeviation": 5.743040508799697,
-        "games": 8
-      }
-    },
-    {
       "id": "11562",
       "sleeperId": "11562",
       "name": "Spencer Rattler",
@@ -6733,6 +6704,35 @@
         "recentAverage": 18.220000000000002,
         "trend": -1.1109523809523796,
         "standardDeviation": 10.980382506998561,
+        "games": 8
+      }
+    },
+    {
+      "id": "11566",
+      "sleeperId": "11566",
+      "name": "Jayden Daniels",
+      "team": "WAS",
+      "pos": "QB",
+      "opp": "vs SEA",
+      "injury": "Out",
+      "projection": 0.0,
+      "floor": 0.0,
+      "ceiling": 6.0,
+      "boom": 25,
+      "bust": 52,
+      "confidence": 80,
+      "trend": -1.09,
+      "flexEligible": false,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {
+        "projection": 13.685854412698415,
+        "weightedAverage": 14.550555555555556,
+        "recentAverage": 12.585,
+        "trend": -1.088095238095236,
+        "standardDeviation": 5.743040508799697,
         "games": 8
       }
     },
@@ -13716,35 +13716,6 @@
       }
     },
     {
-      "id": "8228",
-      "sleeperId": "8228",
-      "name": "Jaylen Warren",
-      "team": "PIT",
-      "pos": "RB",
-      "opp": "vs CIN",
-      "injury": "Healthy",
-      "projection": 10.54,
-      "floor": 2.6,
-      "ceiling": 18.5,
-      "boom": 18,
-      "bust": 17,
-      "confidence": 95,
-      "trend": -1.04,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 10.54
-      },
-      "model": {
-        "projection": 10.544022222222221,
-        "weightedAverage": 11.169444444444444,
-        "recentAverage": 10.15,
-        "trend": -1.0440476190476176,
-        "standardDeviation": 7.622605010287307,
-        "games": 8
-      }
-    },
-    {
       "id": "13345",
       "sleeperId": "13345",
       "name": "Jonah Coleman",
@@ -13857,6 +13828,35 @@
         "recentAverage": 10.575000000000001,
         "trend": -0.20952380952380892,
         "standardDeviation": 6.889484741256055,
+        "games": 8
+      }
+    },
+    {
+      "id": "8228",
+      "sleeperId": "8228",
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "pos": "RB",
+      "opp": "vs CIN",
+      "injury": "Questionable",
+      "projection": 8.96,
+      "floor": 1.0,
+      "ceiling": 16.9,
+      "boom": 18,
+      "bust": 17,
+      "confidence": 80,
+      "trend": -1.04,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 8.96
+      },
+      "model": {
+        "projection": 10.544022222222221,
+        "weightedAverage": 11.169444444444444,
+        "recentAverage": 10.15,
+        "trend": -1.0440476190476176,
+        "standardDeviation": 7.622605010287307,
         "games": 8
       }
     },
