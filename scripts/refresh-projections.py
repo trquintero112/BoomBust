@@ -310,15 +310,32 @@ def main():
         key = clean_name(name)
         model = models.get(key)
         status = injuries_by_name.get(key) or player.get("injury_status") or "Healthy"
+        
+        team = player.get("team") or "FA"
+        
         multiplier = injury_multiplier(status)
+        
         projection = None if not model else round(model["projection"] * multiplier, 2)
+        
+        # Free agents should never have a weekly projection
+        if team == "FA":
+            status = "FREE AGENT"
+            projection = 0.0
+        
         floor, ceiling, boom, bust, probability_method = boom_bust(
             projection,
             None if not model else model["standardDeviation"],
             residuals.get(position, []),
         )
-
-        confidence = 0
+        
+        # Force all FA players to zero values
+        if team == "FA":
+            floor = 0.0
+            ceiling = 0.0
+            boom = 0
+            bust = 100
+            probability_method = "inactive_player"
+            confidence = 0
         if model:
             confidence = min(95, 45 + model["games"] * 5 + (10 if len(residuals.get(position, [])) >= 20 else 0))
             if multiplier < 1:
@@ -328,7 +345,7 @@ def main():
             "id": str(sleeper_id),
             "sleeperId": str(sleeper_id),
             "name": name,
-            "team": player.get("team") or "FA",
+            "team": team,
             "pos": position,
             "opp": matchups.get(player.get("team") or "", ""),
             "injury": status,
