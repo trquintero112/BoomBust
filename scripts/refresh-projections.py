@@ -265,6 +265,50 @@ def build_dst_models(dst_history):
     return models, residuals
 
 
+
+def add_kicker_id_aliases(kicker_models, player_ids):
+    """Add cross-platform aliases using nflverse/ffverse player ID mappings."""
+    if player_ids.empty:
+        return kicker_models
+
+    aliases = dict(kicker_models)
+    id_columns = [
+        "sleeper_id", "gsis_id", "nfl_id", "espn_id",
+        "sportradar_id", "fantasypros_id", "name", "merge_name",
+    ]
+
+    for _, row in player_ids.iterrows():
+        source_model = None
+        source_key = None
+
+        # PBP kicker history is normally keyed by GSIS ID. Name keys remain a fallback.
+        for column in ("gsis_id", "nfl_id", "name", "merge_name"):
+            if column not in player_ids.columns:
+                continue
+            value = row.get(column)
+            if value is None or (hasattr(value, "__class__") and str(value) == "nan"):
+                continue
+            candidate = clean_name(value)
+            if candidate in aliases:
+                source_model = aliases[candidate]
+                source_key = candidate
+                break
+
+        if source_model is None:
+            continue
+
+        for column in id_columns:
+            if column not in player_ids.columns:
+                continue
+            value = row.get(column)
+            if value is None or str(value).lower() in {"nan", "none", ""}:
+                continue
+            aliases[clean_name(value)] = source_model
+
+        source_model.setdefault("crosswalkSource", source_key)
+
+    return aliases
+
 def build_matchups(schedule, week):
     if schedule.empty or "week" not in schedule:
         return {}
@@ -319,6 +363,8 @@ def make_players(sleeper_players, skill_models, kicker_models, dst_models, resid
         kicker_keys = [
             clean_name(identifier)
             for identifier in (
+                sleeper_id,
+                player.get("player_id"),
                 player.get("gsis_id"),
                 player.get("nfl_id"),
                 player.get("espn_id"),
@@ -355,11 +401,13 @@ def main():
     pbp=load_frame(lambda:nfl.load_pbp([season-1,season]),"Play by play")
     schedule=load_frame(lambda:nfl.load_schedules([season-1,season]),"Schedules")
     injuries=load_frame(lambda:nfl.load_injuries([season]),"Injuries")
+    player_ids=load_frame(lambda:nfl.load_ff_playerids(),"Fantasy player ID crosswalk")
     all_kicker=kicker_points_by_play(pbp); all_dst=dst_weekly_points(pbp,schedule); injuries_by_name=injury_index(injuries)
     week_snapshots={}
     for target_week in range(1,current_week+1):
         training=stats_before_week(player_stats,season,target_week); skill_models,residuals=build_skill_models(training)
         k_training=stats_before_week(all_kicker,season,target_week); kicker_models,k_residuals=build_kicker_models(k_training)
+        kicker_models=add_kicker_id_aliases(kicker_models,player_ids)
         d_training=stats_before_week(all_dst,season,target_week); dst_models,d_residuals=build_dst_models(d_training)
         residuals["K"],residuals["DST"]=k_residuals,d_residuals
         players=make_players(sleeper_players,skill_models,kicker_models,dst_models,residuals,build_matchups(schedule,target_week),injuries_by_name,target_week,current_week)
