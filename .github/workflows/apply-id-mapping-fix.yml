@@ -1,0 +1,24 @@
+name: Apply Kicker and Rams ID Mapping Fix
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Patch current source files
+        run: python scripts/apply-id-mapping-fix.py
+      - name: Validate Python source
+        run: python -m py_compile scripts/refresh-projections.py
+      - name: Commit patched files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "fix: use player IDs and team aliases for K/DST mapping"
+          file_pattern: scripts/refresh-projections.py src/main.jsx
