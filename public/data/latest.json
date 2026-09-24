@@ -8,7 +8,7 @@
     3
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-09-24T17:18:37.582517+00:00",
+  "generatedAt": "2026-09-24T21:36:16.341542+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -1452,38 +1452,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "2020",
-      "sleeperId": "2020",
-      "name": "Cairo Santos",
-      "team": "CHI",
-      "pos": "K",
-      "opp": "vs PHI",
-      "injury": "Healthy",
-      "projection": 8.81,
-      "floor": 5.3,
-      "ceiling": 12.3,
-      "boom": 16,
-      "bust": 13,
-      "confidence": 95,
-      "trend": -0.24,
-      "flexEligible": false,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 8.81
-      },
-      "model": {
-        "projection": 8.813438095238094,
-        "weightedAverage": 8.972222222222221,
-        "recentAverage": 9.0,
-        "trend": -0.2380952380952376,
-        "standardDeviation": 3.3273756282434617,
-        "games": 8,
-        "method": "historical_position_model",
-        "crosswalkSource": "000031203"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "12711",
       "sleeperId": "12711",
       "name": "Tyler Loop",
@@ -1736,6 +1704,38 @@
         "games": 8,
         "method": "historical_position_model",
         "crosswalkSource": "000038567"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "2020",
+      "sleeperId": "2020",
+      "name": "Cairo Santos",
+      "team": "CHI",
+      "pos": "K",
+      "opp": "vs PHI",
+      "injury": "Questionable",
+      "projection": 7.49,
+      "floor": 4.0,
+      "ceiling": 11.0,
+      "boom": 16,
+      "bust": 13,
+      "confidence": 95,
+      "trend": -0.24,
+      "flexEligible": false,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 7.49
+      },
+      "model": {
+        "projection": 8.813438095238094,
+        "weightedAverage": 8.972222222222221,
+        "recentAverage": 9.0,
+        "trend": -0.2380952380952376,
+        "standardDeviation": 3.3273756282434617,
+        "games": 8,
+        "method": "historical_position_model",
+        "crosswalkSource": "000031203"
       },
       "projectionWeek": 3
     },
@@ -11847,7 +11847,7 @@
       "team": "NYG",
       "pos": "QB",
       "opp": "vs TEN",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 11.4,
@@ -18952,37 +18952,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "9757",
-      "sleeperId": "9757",
-      "name": "Kendre Miller",
-      "team": "NO",
-      "pos": "RB",
-      "opp": "vs LV",
-      "injury": "Healthy",
-      "projection": 5.39,
-      "floor": 1.3,
-      "ceiling": 9.5,
-      "boom": 18,
-      "bust": 17,
-      "confidence": 95,
-      "trend": 0.34,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 5.39
-      },
-      "model": {
-        "projection": 5.391594444444444,
-        "weightedAverage": 5.688888888888889,
-        "recentAverage": 4.95,
-        "trend": 0.3440476190476191,
-        "standardDeviation": 3.9215294028150365,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "11588",
       "sleeperId": "11588",
       "name": "Jawhar Jordan",
@@ -19133,6 +19102,37 @@
         "trend": -2.800000000000002,
         "standardDeviation": 2.5,
         "games": 2,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "9757",
+      "sleeperId": "9757",
+      "name": "Kendre Miller",
+      "team": "NO",
+      "pos": "RB",
+      "opp": "vs LV",
+      "injury": "Questionable",
+      "projection": 4.58,
+      "floor": 0.5,
+      "ceiling": 8.7,
+      "boom": 18,
+      "bust": 19,
+      "confidence": 95,
+      "trend": 0.34,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 4.58
+      },
+      "model": {
+        "projection": 5.391594444444444,
+        "weightedAverage": 5.688888888888889,
+        "recentAverage": 4.95,
+        "trend": 0.3440476190476191,
+        "standardDeviation": 3.9215294028150365,
+        "games": 8,
         "method": "historical_position_model"
       },
       "projectionWeek": 3
@@ -41566,37 +41566,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "8225",
-      "sleeperId": "8225",
-      "name": "Daniel Bellinger",
-      "team": "TEN",
-      "pos": "TE",
-      "opp": "@ NYG",
-      "injury": "Healthy",
-      "projection": 3.64,
-      "floor": 0,
-      "ceiling": 7.9,
-      "boom": 15,
-      "bust": 21,
-      "confidence": 95,
-      "trend": 0.33,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 3.64
-      },
-      "model": {
-        "projection": 3.638737142857143,
-        "weightedAverage": 3.5000000000000004,
-        "recentAverage": 4.15,
-        "trend": 0.3321428571428571,
-        "standardDeviation": 4.135711201577927,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "11597",
       "sleeperId": "11597",
       "name": "Theo Johnson",
@@ -41808,6 +41777,37 @@
         "recentAverage": 3.2,
         "trend": 0.03452380952381,
         "standardDeviation": 4.68277619122918,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "8225",
+      "sleeperId": "8225",
+      "name": "Daniel Bellinger",
+      "team": "TEN",
+      "pos": "TE",
+      "opp": "@ NYG",
+      "injury": "Questionable",
+      "projection": 3.09,
+      "floor": 0,
+      "ceiling": 7.4,
+      "boom": 15,
+      "bust": 25,
+      "confidence": 95,
+      "trend": 0.33,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 3.09
+      },
+      "model": {
+        "projection": 3.638737142857143,
+        "weightedAverage": 3.5000000000000004,
+        "recentAverage": 4.15,
+        "trend": 0.3321428571428571,
+        "standardDeviation": 4.135711201577927,
         "games": 8,
         "method": "historical_position_model"
       },
@@ -62107,37 +62107,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "11625",
-      "sleeperId": "11625",
-      "name": "Adonai Mitchell",
-      "team": "NYJ",
-      "pos": "WR",
-      "opp": "@ DET",
-      "injury": "Healthy",
-      "projection": 7.52,
-      "floor": 0,
-      "ceiling": 15.7,
-      "boom": 17,
-      "bust": 17,
-      "confidence": 95,
-      "trend": -1.3,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 7.52
-      },
-      "model": {
-        "projection": 7.517365952380952,
-        "weightedAverage": 8.327777777777778,
-        "recentAverage": 6.625,
-        "trend": -1.304761904761903,
-        "standardDeviation": 7.895749308511331,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "11618",
       "sleeperId": "11618",
       "name": "Jalen McMillan",
@@ -62195,6 +62164,37 @@
         "trend": 0.0,
         "standardDeviation": 2.5,
         "games": 1,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "11632",
+      "sleeperId": "11632",
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "pos": "WR",
+      "opp": "vs TEN",
+      "injury": "Healthy",
+      "projection": 7.22,
+      "floor": 0,
+      "ceiling": 21.3,
+      "boom": 17,
+      "bust": 17,
+      "confidence": 85,
+      "trend": -3.68,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 7.22
+      },
+      "model": {
+        "projection": 7.217430428571428,
+        "weightedAverage": 8.785714285714286,
+        "recentAverage": 5.325,
+        "trend": -3.6771428571428557,
+        "standardDeviation": 13.5622638228284,
+        "games": 6,
         "method": "historical_position_model"
       },
       "projectionWeek": 3
@@ -62603,6 +62603,37 @@
       "projectionWeek": 3
     },
     {
+      "id": "11625",
+      "sleeperId": "11625",
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "pos": "WR",
+      "opp": "@ DET",
+      "injury": "Questionable",
+      "projection": 6.39,
+      "floor": 0,
+      "ceiling": 14.6,
+      "boom": 17,
+      "bust": 17,
+      "confidence": 95,
+      "trend": -1.3,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 6.39
+      },
+      "model": {
+        "projection": 7.517365952380952,
+        "weightedAverage": 8.327777777777778,
+        "recentAverage": 6.625,
+        "trend": -1.304761904761903,
+        "standardDeviation": 7.895749308511331,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
       "id": "4981",
       "sleeperId": "4981",
       "name": "Calvin Ridley",
@@ -62691,37 +62722,6 @@
         "trend": -2.100000000000002,
         "standardDeviation": 2.5,
         "games": 2,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
-      "id": "11632",
-      "sleeperId": "11632",
-      "name": "Malik Nabers",
-      "team": "NYG",
-      "pos": "WR",
-      "opp": "vs TEN",
-      "injury": "Questionable",
-      "projection": 6.13,
-      "floor": 0,
-      "ceiling": 20.2,
-      "boom": 17,
-      "bust": 17,
-      "confidence": 85,
-      "trend": -3.68,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 6.13
-      },
-      "model": {
-        "projection": 7.217430428571428,
-        "weightedAverage": 8.785714285714286,
-        "recentAverage": 5.325,
-        "trend": -3.6771428571428557,
-        "standardDeviation": 13.5622638228284,
-        "games": 6,
         "method": "historical_position_model"
       },
       "projectionWeek": 3
@@ -64029,37 +64029,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "11626",
-      "sleeperId": "11626",
-      "name": "Xavier Legette",
-      "team": "CAR",
-      "pos": "WR",
-      "opp": "@ CLE",
-      "injury": "Healthy",
-      "projection": 3.61,
-      "floor": 0.6,
-      "ceiling": 6.6,
-      "boom": 17,
-      "bust": 24,
-      "confidence": 95,
-      "trend": 0.29,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 3.61
-      },
-      "model": {
-        "projection": 3.605327142857143,
-        "weightedAverage": 3.5749999999999997,
-        "recentAverage": 3.85,
-        "trend": 0.2892857142857145,
-        "standardDeviation": 2.916425160069381,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "13420",
       "sleeperId": "13420",
       "name": "Bryce Lance",
@@ -64178,6 +64147,37 @@
         "recentAverage": 1.9250000000000003,
         "trend": -0.23690476190476192,
         "standardDeviation": 5.619465531271,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "11626",
+      "sleeperId": "11626",
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "pos": "WR",
+      "opp": "@ CLE",
+      "injury": "Questionable",
+      "projection": 3.06,
+      "floor": 0.0,
+      "ceiling": 6.1,
+      "boom": 17,
+      "bust": 27,
+      "confidence": 95,
+      "trend": 0.29,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 3.06
+      },
+      "model": {
+        "projection": 3.605327142857143,
+        "weightedAverage": 3.5749999999999997,
+        "recentAverage": 3.85,
+        "trend": 0.2892857142857145,
+        "standardDeviation": 2.916425160069381,
         "games": 8,
         "method": "historical_position_model"
       },
@@ -66271,29 +66271,6 @@
       "id": "2701",
       "sleeperId": "2701",
       "name": "AJ Cruz",
-      "team": "FA",
-      "pos": "WR",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 0,
-      "trend": null,
-      "flexEligible": true,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {},
-      "projectionWeek": 3
-    },
-    {
-      "id": "12865",
-      "sleeperId": "12865",
-      "name": "AJ Henning",
       "team": "FA",
       "pos": "WR",
       "opp": "",
@@ -78384,29 +78361,6 @@
       "id": "5637",
       "sleeperId": "5637",
       "name": "Garrett Johnson",
-      "team": "FA",
-      "pos": "WR",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 0,
-      "trend": null,
-      "flexEligible": true,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {},
-      "projectionWeek": 3
-    },
-    {
-      "id": "6045",
-      "sleeperId": "6045",
-      "name": "Gary Jennings",
       "team": "FA",
       "pos": "WR",
       "opp": "",
@@ -101376,6 +101330,29 @@
       "projectionWeek": 3
     },
     {
+      "id": "12865",
+      "sleeperId": "12865",
+      "name": "AJ Henning",
+      "team": "MIA",
+      "pos": "WR",
+      "opp": "vs KC",
+      "injury": "Healthy",
+      "projection": null,
+      "floor": null,
+      "ceiling": null,
+      "boom": null,
+      "bust": null,
+      "confidence": 0,
+      "trend": null,
+      "flexEligible": true,
+      "probabilityMethod": "no_projection",
+      "sources": {
+        "customNflverseModel": null
+      },
+      "model": {},
+      "projectionWeek": 3
+    },
+    {
       "id": "4937",
       "sleeperId": "4937",
       "name": "Al Riles",
@@ -102279,6 +102256,29 @@
       "team": "ATL",
       "pos": "WR",
       "opp": "@ GB",
+      "injury": "Healthy",
+      "projection": null,
+      "floor": null,
+      "ceiling": null,
+      "boom": null,
+      "bust": null,
+      "confidence": 0,
+      "trend": null,
+      "flexEligible": true,
+      "probabilityMethod": "no_projection",
+      "sources": {
+        "customNflverseModel": null
+      },
+      "model": {},
+      "projectionWeek": 3
+    },
+    {
+      "id": "6045",
+      "sleeperId": "6045",
+      "name": "Gary Jennings",
+      "team": "LAC",
+      "pos": "WR",
+      "opp": "@ BUF",
       "injury": "Healthy",
       "projection": null,
       "floor": null,
@@ -169734,29 +169734,6 @@
           "projectionWeek": 1
         },
         {
-          "id": "12865",
-          "sleeperId": "12865",
-          "name": "AJ Henning",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 1
-        },
-        {
           "id": "1226",
           "sleeperId": "1226",
           "name": "AJ Jenkins",
@@ -181610,29 +181587,6 @@
           "id": "5637",
           "sleeperId": "5637",
           "name": "Garrett Johnson",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 1
-        },
-        {
-          "id": "6045",
-          "sleeperId": "6045",
-          "name": "Gary Jennings",
           "team": "FA",
           "pos": "WR",
           "opp": "",
@@ -204199,6 +204153,29 @@
           "projectionWeek": 1
         },
         {
+          "id": "12865",
+          "sleeperId": "12865",
+          "name": "AJ Henning",
+          "team": "MIA",
+          "pos": "WR",
+          "opp": "@ LV",
+          "injury": "Historical",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 1
+        },
+        {
           "id": "4937",
           "sleeperId": "4937",
           "name": "Al Riles",
@@ -205378,6 +205355,29 @@
           "team": "ATL",
           "pos": "WR",
           "opp": "@ PIT",
+          "injury": "Historical",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 1
+        },
+        {
+          "id": "6045",
+          "sleeperId": "6045",
+          "name": "Gary Jennings",
+          "team": "LAC",
+          "pos": "WR",
+          "opp": "vs ARI",
           "injury": "Historical",
           "projection": null,
           "floor": null,
@@ -273796,29 +273796,6 @@
           "projectionWeek": 2
         },
         {
-          "id": "12865",
-          "sleeperId": "12865",
-          "name": "AJ Henning",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 2
-        },
-        {
           "id": "1226",
           "sleeperId": "1226",
           "name": "AJ Jenkins",
@@ -285734,29 +285711,6 @@
           "id": "5637",
           "sleeperId": "5637",
           "name": "Garrett Johnson",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 2
-        },
-        {
-          "id": "6045",
-          "sleeperId": "6045",
-          "name": "Gary Jennings",
           "team": "FA",
           "pos": "WR",
           "opp": "",
@@ -308385,6 +308339,29 @@
           "projectionWeek": 2
         },
         {
+          "id": "12865",
+          "sleeperId": "12865",
+          "name": "AJ Henning",
+          "team": "MIA",
+          "pos": "WR",
+          "opp": "@ SF",
+          "injury": "Historical",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 2
+        },
+        {
           "id": "4937",
           "sleeperId": "4937",
           "name": "Al Riles",
@@ -309357,6 +309334,29 @@
           "team": "ATL",
           "pos": "WR",
           "opp": "vs CAR",
+          "injury": "Historical",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 2
+        },
+        {
+          "id": "6045",
+          "sleeperId": "6045",
+          "name": "Gary Jennings",
+          "team": "LAC",
+          "pos": "WR",
+          "opp": "vs LV",
           "injury": "Historical",
           "projection": null,
           "floor": null,
@@ -312467,38 +312467,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "2020",
-          "sleeperId": "2020",
-          "name": "Cairo Santos",
-          "team": "CHI",
-          "pos": "K",
-          "opp": "vs PHI",
-          "injury": "Healthy",
-          "projection": 8.81,
-          "floor": 5.3,
-          "ceiling": 12.3,
-          "boom": 16,
-          "bust": 13,
-          "confidence": 95,
-          "trend": -0.24,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 8.81
-          },
-          "model": {
-            "projection": 8.813438095238094,
-            "weightedAverage": 8.972222222222221,
-            "recentAverage": 9.0,
-            "trend": -0.2380952380952376,
-            "standardDeviation": 3.3273756282434617,
-            "games": 8,
-            "method": "historical_position_model",
-            "crosswalkSource": "000031203"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "12711",
           "sleeperId": "12711",
           "name": "Tyler Loop",
@@ -312751,6 +312719,38 @@
             "games": 8,
             "method": "historical_position_model",
             "crosswalkSource": "000038567"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "2020",
+          "sleeperId": "2020",
+          "name": "Cairo Santos",
+          "team": "CHI",
+          "pos": "K",
+          "opp": "vs PHI",
+          "injury": "Questionable",
+          "projection": 7.49,
+          "floor": 4.0,
+          "ceiling": 11.0,
+          "boom": 16,
+          "bust": 13,
+          "confidence": 95,
+          "trend": -0.24,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 7.49
+          },
+          "model": {
+            "projection": 8.813438095238094,
+            "weightedAverage": 8.972222222222221,
+            "recentAverage": 9.0,
+            "trend": -0.2380952380952376,
+            "standardDeviation": 3.3273756282434617,
+            "games": 8,
+            "method": "historical_position_model",
+            "crosswalkSource": "000031203"
           },
           "projectionWeek": 3
         },
@@ -322862,7 +322862,7 @@
           "team": "NYG",
           "pos": "QB",
           "opp": "vs TEN",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 11.4,
@@ -329967,37 +329967,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "9757",
-          "sleeperId": "9757",
-          "name": "Kendre Miller",
-          "team": "NO",
-          "pos": "RB",
-          "opp": "vs LV",
-          "injury": "Healthy",
-          "projection": 5.39,
-          "floor": 1.3,
-          "ceiling": 9.5,
-          "boom": 18,
-          "bust": 17,
-          "confidence": 95,
-          "trend": 0.34,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 5.39
-          },
-          "model": {
-            "projection": 5.391594444444444,
-            "weightedAverage": 5.688888888888889,
-            "recentAverage": 4.95,
-            "trend": 0.3440476190476191,
-            "standardDeviation": 3.9215294028150365,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "11588",
           "sleeperId": "11588",
           "name": "Jawhar Jordan",
@@ -330148,6 +330117,37 @@
             "trend": -2.800000000000002,
             "standardDeviation": 2.5,
             "games": 2,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "9757",
+          "sleeperId": "9757",
+          "name": "Kendre Miller",
+          "team": "NO",
+          "pos": "RB",
+          "opp": "vs LV",
+          "injury": "Questionable",
+          "projection": 4.58,
+          "floor": 0.5,
+          "ceiling": 8.7,
+          "boom": 18,
+          "bust": 19,
+          "confidence": 95,
+          "trend": 0.34,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 4.58
+          },
+          "model": {
+            "projection": 5.391594444444444,
+            "weightedAverage": 5.688888888888889,
+            "recentAverage": 4.95,
+            "trend": 0.3440476190476191,
+            "standardDeviation": 3.9215294028150365,
+            "games": 8,
             "method": "historical_position_model"
           },
           "projectionWeek": 3
@@ -352581,37 +352581,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "8225",
-          "sleeperId": "8225",
-          "name": "Daniel Bellinger",
-          "team": "TEN",
-          "pos": "TE",
-          "opp": "@ NYG",
-          "injury": "Healthy",
-          "projection": 3.64,
-          "floor": 0,
-          "ceiling": 7.9,
-          "boom": 15,
-          "bust": 21,
-          "confidence": 95,
-          "trend": 0.33,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 3.64
-          },
-          "model": {
-            "projection": 3.638737142857143,
-            "weightedAverage": 3.5000000000000004,
-            "recentAverage": 4.15,
-            "trend": 0.3321428571428571,
-            "standardDeviation": 4.135711201577927,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "11597",
           "sleeperId": "11597",
           "name": "Theo Johnson",
@@ -352823,6 +352792,37 @@
             "recentAverage": 3.2,
             "trend": 0.03452380952381,
             "standardDeviation": 4.68277619122918,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "8225",
+          "sleeperId": "8225",
+          "name": "Daniel Bellinger",
+          "team": "TEN",
+          "pos": "TE",
+          "opp": "@ NYG",
+          "injury": "Questionable",
+          "projection": 3.09,
+          "floor": 0,
+          "ceiling": 7.4,
+          "boom": 15,
+          "bust": 25,
+          "confidence": 95,
+          "trend": 0.33,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.09
+          },
+          "model": {
+            "projection": 3.638737142857143,
+            "weightedAverage": 3.5000000000000004,
+            "recentAverage": 4.15,
+            "trend": 0.3321428571428571,
+            "standardDeviation": 4.135711201577927,
             "games": 8,
             "method": "historical_position_model"
           },
@@ -373122,37 +373122,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "11625",
-          "sleeperId": "11625",
-          "name": "Adonai Mitchell",
-          "team": "NYJ",
-          "pos": "WR",
-          "opp": "@ DET",
-          "injury": "Healthy",
-          "projection": 7.52,
-          "floor": 0,
-          "ceiling": 15.7,
-          "boom": 17,
-          "bust": 17,
-          "confidence": 95,
-          "trend": -1.3,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 7.52
-          },
-          "model": {
-            "projection": 7.517365952380952,
-            "weightedAverage": 8.327777777777778,
-            "recentAverage": 6.625,
-            "trend": -1.304761904761903,
-            "standardDeviation": 7.895749308511331,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "11618",
           "sleeperId": "11618",
           "name": "Jalen McMillan",
@@ -373210,6 +373179,37 @@
             "trend": 0.0,
             "standardDeviation": 2.5,
             "games": 1,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "11632",
+          "sleeperId": "11632",
+          "name": "Malik Nabers",
+          "team": "NYG",
+          "pos": "WR",
+          "opp": "vs TEN",
+          "injury": "Healthy",
+          "projection": 7.22,
+          "floor": 0,
+          "ceiling": 21.3,
+          "boom": 17,
+          "bust": 17,
+          "confidence": 85,
+          "trend": -3.68,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 7.22
+          },
+          "model": {
+            "projection": 7.217430428571428,
+            "weightedAverage": 8.785714285714286,
+            "recentAverage": 5.325,
+            "trend": -3.6771428571428557,
+            "standardDeviation": 13.5622638228284,
+            "games": 6,
             "method": "historical_position_model"
           },
           "projectionWeek": 3
@@ -373618,6 +373618,37 @@
           "projectionWeek": 3
         },
         {
+          "id": "11625",
+          "sleeperId": "11625",
+          "name": "Adonai Mitchell",
+          "team": "NYJ",
+          "pos": "WR",
+          "opp": "@ DET",
+          "injury": "Questionable",
+          "projection": 6.39,
+          "floor": 0,
+          "ceiling": 14.6,
+          "boom": 17,
+          "bust": 17,
+          "confidence": 95,
+          "trend": -1.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 6.39
+          },
+          "model": {
+            "projection": 7.517365952380952,
+            "weightedAverage": 8.327777777777778,
+            "recentAverage": 6.625,
+            "trend": -1.304761904761903,
+            "standardDeviation": 7.895749308511331,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
           "id": "4981",
           "sleeperId": "4981",
           "name": "Calvin Ridley",
@@ -373706,37 +373737,6 @@
             "trend": -2.100000000000002,
             "standardDeviation": 2.5,
             "games": 2,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
-          "id": "11632",
-          "sleeperId": "11632",
-          "name": "Malik Nabers",
-          "team": "NYG",
-          "pos": "WR",
-          "opp": "vs TEN",
-          "injury": "Questionable",
-          "projection": 6.13,
-          "floor": 0,
-          "ceiling": 20.2,
-          "boom": 17,
-          "bust": 17,
-          "confidence": 85,
-          "trend": -3.68,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 6.13
-          },
-          "model": {
-            "projection": 7.217430428571428,
-            "weightedAverage": 8.785714285714286,
-            "recentAverage": 5.325,
-            "trend": -3.6771428571428557,
-            "standardDeviation": 13.5622638228284,
-            "games": 6,
             "method": "historical_position_model"
           },
           "projectionWeek": 3
@@ -375044,37 +375044,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "11626",
-          "sleeperId": "11626",
-          "name": "Xavier Legette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ CLE",
-          "injury": "Healthy",
-          "projection": 3.61,
-          "floor": 0.6,
-          "ceiling": 6.6,
-          "boom": 17,
-          "bust": 24,
-          "confidence": 95,
-          "trend": 0.29,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 3.61
-          },
-          "model": {
-            "projection": 3.605327142857143,
-            "weightedAverage": 3.5749999999999997,
-            "recentAverage": 3.85,
-            "trend": 0.2892857142857145,
-            "standardDeviation": 2.916425160069381,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "13420",
           "sleeperId": "13420",
           "name": "Bryce Lance",
@@ -375193,6 +375162,37 @@
             "recentAverage": 1.9250000000000003,
             "trend": -0.23690476190476192,
             "standardDeviation": 5.619465531271,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "11626",
+          "sleeperId": "11626",
+          "name": "Xavier Legette",
+          "team": "CAR",
+          "pos": "WR",
+          "opp": "@ CLE",
+          "injury": "Questionable",
+          "projection": 3.06,
+          "floor": 0.0,
+          "ceiling": 6.1,
+          "boom": 17,
+          "bust": 27,
+          "confidence": 95,
+          "trend": 0.29,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.06
+          },
+          "model": {
+            "projection": 3.605327142857143,
+            "weightedAverage": 3.5749999999999997,
+            "recentAverage": 3.85,
+            "trend": 0.2892857142857145,
+            "standardDeviation": 2.916425160069381,
             "games": 8,
             "method": "historical_position_model"
           },
@@ -377286,29 +377286,6 @@
           "id": "2701",
           "sleeperId": "2701",
           "name": "AJ Cruz",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "12865",
-          "sleeperId": "12865",
-          "name": "AJ Henning",
           "team": "FA",
           "pos": "WR",
           "opp": "",
@@ -389399,29 +389376,6 @@
           "id": "5637",
           "sleeperId": "5637",
           "name": "Garrett Johnson",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "6045",
-          "sleeperId": "6045",
-          "name": "Gary Jennings",
           "team": "FA",
           "pos": "WR",
           "opp": "",
@@ -412391,6 +412345,29 @@
           "projectionWeek": 3
         },
         {
+          "id": "12865",
+          "sleeperId": "12865",
+          "name": "AJ Henning",
+          "team": "MIA",
+          "pos": "WR",
+          "opp": "vs KC",
+          "injury": "Healthy",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 3
+        },
+        {
           "id": "4937",
           "sleeperId": "4937",
           "name": "Al Riles",
@@ -413294,6 +413271,29 @@
           "team": "ATL",
           "pos": "WR",
           "opp": "@ GB",
+          "injury": "Healthy",
+          "projection": null,
+          "floor": null,
+          "ceiling": null,
+          "boom": null,
+          "bust": null,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "no_projection",
+          "sources": {
+            "customNflverseModel": null
+          },
+          "model": {},
+          "projectionWeek": 3
+        },
+        {
+          "id": "6045",
+          "sleeperId": "6045",
+          "name": "Gary Jennings",
+          "team": "LAC",
+          "pos": "WR",
+          "opp": "@ BUF",
           "injury": "Healthy",
           "projection": null,
           "floor": null,
@@ -417300,7 +417300,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "ACTIVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
                 4,
@@ -417313,7 +417313,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11625",
-              "projection": 7.52,
+              "projection": 6.39,
               "boom": 17,
               "bust": 17,
               "confidence": 95
@@ -417538,7 +417538,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "OUT",
+              "injuryStatus": "INJURY_RESERVE",
               "eligibleSlots": [
                 0,
                 7,
@@ -419541,7 +419541,7 @@
               "lineupSlotId": 17,
               "lineupSlot": "K",
               "starter": true,
-              "injuryStatus": "ACTIVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 17,
                 20,
@@ -419550,7 +419550,7 @@
               "matchMethod": "espn_id",
               "matchConfidence": 1.0,
               "modelPlayerId": "2020",
-              "projection": 8.81,
+              "projection": 7.49,
               "boom": 16,
               "bust": 13,
               "confidence": 95
@@ -419658,7 +419658,7 @@
               "lineupSlotId": 4,
               "lineupSlot": "WR",
               "starter": true,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
                 4,
@@ -419671,7 +419671,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11632",
-              "projection": 6.13,
+              "projection": 7.22,
               "boom": 17,
               "bust": 17,
               "confidence": 85
@@ -424482,7 +424482,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
                 4,
@@ -424495,7 +424495,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11632",
-              "projection": 6.13,
+              "projection": 7.22,
               "boom": 17,
               "bust": 17,
               "confidence": 85
@@ -425805,7 +425805,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "ACTIVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
                 4,
@@ -425818,7 +425818,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11625",
-              "projection": 7.52,
+              "projection": 6.39,
               "boom": 17,
               "bust": 17,
               "confidence": 95
