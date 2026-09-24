@@ -8,7 +8,7 @@
     3
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-09-24T05:01:58.643117+00:00",
+  "generatedAt": "2026-09-24T11:57:06.020869+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -423568,9 +423568,9 @@
               "canonicalName": "jeremiyah love",
               "proTeam": "ARI",
               "position": "RB",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -423680,9 +423680,9 @@
               "canonicalName": "jaylen warren",
               "proTeam": "PIT",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 2,
@@ -423795,8 +423795,8 @@
               "canonicalName": "aaron jones",
               "proTeam": "MIN",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
