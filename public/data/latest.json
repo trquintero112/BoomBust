@@ -8,7 +8,7 @@
     3
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-09-25T05:05:18.658593+00:00",
+  "generatedAt": "2026-09-25T11:58:56.613745+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -419262,9 +419262,9 @@
               "canonicalName": "luther burden",
               "proTeam": "CHI",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -419317,9 +419317,9 @@
               "canonicalName": "michael wilson",
               "proTeam": "ARI",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -419763,35 +419763,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4569587",
-              "sleeperId": "8126",
-              "name": "Wan'Dale Robinson",
-              "nameKey": "wan dale robinson",
-              "canonicalName": "wan dale robinson",
-              "proTeam": "TEN",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "8126",
-              "projection": 10.31,
-              "boom": 17,
-              "bust": 17,
-              "confidence": 95
-            },
-            {
               "espnId": "4038941",
               "sleeperId": "6797",
               "name": "Justin Herbert",
@@ -420062,6 +420033,35 @@
               "projection": 6.26,
               "boom": 15,
               "bust": 13,
+              "confidence": 95
+            },
+            {
+              "espnId": "4032473",
+              "sleeperId": "8676",
+              "name": "Rashid Shaheed",
+              "nameKey": "rashid shaheed",
+              "canonicalName": "rashid shaheed",
+              "proTeam": "SEA",
+              "position": "WR",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "8676",
+              "projection": 4.62,
+              "boom": 17,
+              "bust": 19,
               "confidence": 95
             }
           ]
@@ -421870,14 +421870,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "8126": {
-          "isRostered": true,
-          "ownerTeamId": 11,
-          "ownerTeamName": "Team 11",
-          "isMyTeam": true,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "6797": {
           "isRostered": true,
           "ownerTeamId": 11,
@@ -421951,6 +421943,14 @@
           "matchConfidence": 0.99
         },
         "12487": {
+          "isRostered": true,
+          "ownerTeamId": 11,
+          "ownerTeamName": "Team 11",
+          "isMyTeam": true,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "8676": {
           "isRostered": true,
           "ownerTeamId": 11,
           "ownerTeamName": "Team 11",
@@ -422560,12 +422560,12 @@
               "confidence": 95
             },
             {
-              "espnId": "-16030",
-              "sleeperId": "JAX",
-              "name": "Jaguars D/ST",
-              "nameKey": "jaguars dst",
-              "canonicalName": "jaguars dst",
-              "proTeam": "JAX",
+              "espnId": "-16017",
+              "sleeperId": "NE",
+              "name": "Patriots D/ST",
+              "nameKey": "patriots dst",
+              "canonicalName": "patriots dst",
+              "proTeam": "NE",
               "position": "DST",
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
@@ -422578,8 +422578,8 @@
               ],
               "matchMethod": "dst_team",
               "matchConfidence": 1.0,
-              "modelPlayerId": "JAX",
-              "projection": 7.55,
+              "modelPlayerId": "NE",
+              "projection": 10.85,
               "boom": 18,
               "bust": 19,
               "confidence": 95
@@ -425817,6 +425817,35 @@
               "boom": 17,
               "bust": 17,
               "confidence": 95
+            },
+            {
+              "espnId": "4429025",
+              "sleeperId": "9754",
+              "name": "Quentin Johnston",
+              "nameKey": "quentin johnston",
+              "canonicalName": "quentin johnston",
+              "proTeam": "LAC",
+              "position": "WR",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "9754",
+              "projection": 6.85,
+              "boom": 17,
+              "bust": 17,
+              "confidence": 95
             }
           ]
         },
@@ -426861,7 +426890,7 @@
           "matchMethod": "dst_team",
           "matchConfidence": 1.0
         },
-        "JAX": {
+        "NE": {
           "isRostered": true,
           "ownerTeamId": 1,
           "ownerTeamName": "Team 1",
@@ -427774,6 +427803,14 @@
           "matchConfidence": 0.99
         },
         "11625": {
+          "isRostered": true,
+          "ownerTeamId": 10,
+          "ownerTeamName": "Team 10",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "9754": {
           "isRostered": true,
           "ownerTeamId": 10,
           "ownerTeamName": "Team 10",
