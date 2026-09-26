@@ -20,6 +20,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Build custom projections
         run: python scripts/refresh-projections.py
+      - name: Enhance player IDs and defensive matchups
+        run: python scripts/enhance-player-mapping-matchups.py
       - name: Add both ESPN leagues
         run: python scripts/augment-espn.py
         env:
