@@ -8,7 +8,7 @@
     3
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-09-25T21:40:33.755399+00:00",
+  "generatedAt": "2026-09-26T05:08:33.964079+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -18208,6 +18208,37 @@
       "projectionWeek": 3
     },
     {
+      "id": "4866",
+      "sleeperId": "4866",
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "pos": "RB",
+      "opp": "@ CHI",
+      "injury": "Healthy",
+      "projection": 10.02,
+      "floor": 2.9,
+      "ceiling": 17.1,
+      "boom": 18,
+      "bust": 17,
+      "confidence": 95,
+      "trend": -0.98,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 10.02
+      },
+      "model": {
+        "projection": 10.015600000000001,
+        "weightedAverage": 11.000000000000002,
+        "recentAverage": 8.725000000000001,
+        "trend": -0.9750000000000012,
+        "standardDeviation": 6.811531713624645,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
       "id": "6039",
       "sleeperId": "6039",
       "name": "Ty Johnson",
@@ -18481,37 +18512,6 @@
         "recentAverage": 7.9,
         "trend": -0.5154761904761911,
         "standardDeviation": 4.374908162301401,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
-      "id": "4866",
-      "sleeperId": "4866",
-      "name": "Saquon Barkley",
-      "team": "PHI",
-      "pos": "RB",
-      "opp": "@ CHI",
-      "injury": "Questionable",
-      "projection": 8.51,
-      "floor": 1.4,
-      "ceiling": 15.6,
-      "boom": 18,
-      "bust": 17,
-      "confidence": 95,
-      "trend": -0.98,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 8.51
-      },
-      "model": {
-        "projection": 10.015600000000001,
-        "weightedAverage": 11.000000000000002,
-        "recentAverage": 8.725000000000001,
-        "trend": -0.9750000000000012,
-        "standardDeviation": 6.811531713624645,
         "games": 8,
         "method": "historical_position_model"
       },
@@ -63409,37 +63409,6 @@
       "projectionWeek": 3
     },
     {
-      "id": "5848",
-      "sleeperId": "5848",
-      "name": "Marquise Brown",
-      "team": "PHI",
-      "pos": "WR",
-      "opp": "@ CHI",
-      "injury": "Healthy",
-      "projection": 4.51,
-      "floor": 0.8,
-      "ceiling": 8.2,
-      "boom": 17,
-      "bust": 19,
-      "confidence": 95,
-      "trend": -0.41,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 4.51
-      },
-      "model": {
-        "projection": 4.506367857142858,
-        "weightedAverage": 4.7666666666666675,
-        "recentAverage": 4.375,
-        "trend": -0.4142857142857142,
-        "standardDeviation": 3.5351298218230767,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
       "id": "11650",
       "sleeperId": "11650",
       "name": "Luke McCaffrey",
@@ -63868,6 +63837,37 @@
         "recentAverage": 4.550000000000001,
         "trend": -0.8166666666666675,
         "standardDeviation": 5.042108402529357,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
+      "id": "5848",
+      "sleeperId": "5848",
+      "name": "Marquise Brown",
+      "team": "PHI",
+      "pos": "WR",
+      "opp": "@ CHI",
+      "injury": "Questionable",
+      "projection": 3.83,
+      "floor": 0.2,
+      "ceiling": 7.5,
+      "boom": 17,
+      "bust": 23,
+      "confidence": 95,
+      "trend": -0.41,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 3.83
+      },
+      "model": {
+        "projection": 4.506367857142858,
+        "weightedAverage": 4.7666666666666675,
+        "recentAverage": 4.375,
+        "trend": -0.4142857142857142,
+        "standardDeviation": 3.5351298218230767,
         "games": 8,
         "method": "historical_position_model"
       },
@@ -64711,6 +64711,37 @@
       "projectionWeek": 3
     },
     {
+      "id": "11623",
+      "sleeperId": "11623",
+      "name": "Jordan Whittington",
+      "team": "LAR",
+      "pos": "WR",
+      "opp": "@ DEN",
+      "injury": "Healthy",
+      "projection": 1.64,
+      "floor": 0,
+      "ceiling": 4.2,
+      "boom": 17,
+      "bust": 39,
+      "confidence": 95,
+      "trend": 0.12,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 1.64
+      },
+      "model": {
+        "projection": 1.6423414285714286,
+        "weightedAverage": 1.6,
+        "recentAverage": 1.825,
+        "trend": 0.11785714285714285,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 3
+    },
+    {
       "id": "8204",
       "sleeperId": "8204",
       "name": "Bo Melton",
@@ -64766,37 +64797,6 @@
         "weightedAverage": 1.375,
         "recentAverage": 1.85,
         "trend": -0.4071428571428571,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 3
-    },
-    {
-      "id": "11623",
-      "sleeperId": "11623",
-      "name": "Jordan Whittington",
-      "team": "LAR",
-      "pos": "WR",
-      "opp": "@ DEN",
-      "injury": "Questionable",
-      "projection": 1.4,
-      "floor": 0,
-      "ceiling": 4.0,
-      "boom": 17,
-      "bust": 42,
-      "confidence": 95,
-      "trend": 0.12,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 1.4
-      },
-      "model": {
-        "projection": 1.6423414285714286,
-        "weightedAverage": 1.6,
-        "recentAverage": 1.825,
-        "trend": 0.11785714285714285,
         "standardDeviation": 2.5,
         "games": 8,
         "method": "historical_position_model"
@@ -329223,6 +329223,37 @@
           "projectionWeek": 3
         },
         {
+          "id": "4866",
+          "sleeperId": "4866",
+          "name": "Saquon Barkley",
+          "team": "PHI",
+          "pos": "RB",
+          "opp": "@ CHI",
+          "injury": "Healthy",
+          "projection": 10.02,
+          "floor": 2.9,
+          "ceiling": 17.1,
+          "boom": 18,
+          "bust": 17,
+          "confidence": 95,
+          "trend": -0.98,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 10.02
+          },
+          "model": {
+            "projection": 10.015600000000001,
+            "weightedAverage": 11.000000000000002,
+            "recentAverage": 8.725000000000001,
+            "trend": -0.9750000000000012,
+            "standardDeviation": 6.811531713624645,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
           "id": "6039",
           "sleeperId": "6039",
           "name": "Ty Johnson",
@@ -329496,37 +329527,6 @@
             "recentAverage": 7.9,
             "trend": -0.5154761904761911,
             "standardDeviation": 4.374908162301401,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
-          "id": "4866",
-          "sleeperId": "4866",
-          "name": "Saquon Barkley",
-          "team": "PHI",
-          "pos": "RB",
-          "opp": "@ CHI",
-          "injury": "Questionable",
-          "projection": 8.51,
-          "floor": 1.4,
-          "ceiling": 15.6,
-          "boom": 18,
-          "bust": 17,
-          "confidence": 95,
-          "trend": -0.98,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 8.51
-          },
-          "model": {
-            "projection": 10.015600000000001,
-            "weightedAverage": 11.000000000000002,
-            "recentAverage": 8.725000000000001,
-            "trend": -0.9750000000000012,
-            "standardDeviation": 6.811531713624645,
             "games": 8,
             "method": "historical_position_model"
           },
@@ -374424,37 +374424,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "5848",
-          "sleeperId": "5848",
-          "name": "Marquise Brown",
-          "team": "PHI",
-          "pos": "WR",
-          "opp": "@ CHI",
-          "injury": "Healthy",
-          "projection": 4.51,
-          "floor": 0.8,
-          "ceiling": 8.2,
-          "boom": 17,
-          "bust": 19,
-          "confidence": 95,
-          "trend": -0.41,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 4.51
-          },
-          "model": {
-            "projection": 4.506367857142858,
-            "weightedAverage": 4.7666666666666675,
-            "recentAverage": 4.375,
-            "trend": -0.4142857142857142,
-            "standardDeviation": 3.5351298218230767,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
           "id": "11650",
           "sleeperId": "11650",
           "name": "Luke McCaffrey",
@@ -374883,6 +374852,37 @@
             "recentAverage": 4.550000000000001,
             "trend": -0.8166666666666675,
             "standardDeviation": 5.042108402529357,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
+          "id": "5848",
+          "sleeperId": "5848",
+          "name": "Marquise Brown",
+          "team": "PHI",
+          "pos": "WR",
+          "opp": "@ CHI",
+          "injury": "Questionable",
+          "projection": 3.83,
+          "floor": 0.2,
+          "ceiling": 7.5,
+          "boom": 17,
+          "bust": 23,
+          "confidence": 95,
+          "trend": -0.41,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.83
+          },
+          "model": {
+            "projection": 4.506367857142858,
+            "weightedAverage": 4.7666666666666675,
+            "recentAverage": 4.375,
+            "trend": -0.4142857142857142,
+            "standardDeviation": 3.5351298218230767,
             "games": 8,
             "method": "historical_position_model"
           },
@@ -375726,6 +375726,37 @@
           "projectionWeek": 3
         },
         {
+          "id": "11623",
+          "sleeperId": "11623",
+          "name": "Jordan Whittington",
+          "team": "LAR",
+          "pos": "WR",
+          "opp": "@ DEN",
+          "injury": "Healthy",
+          "projection": 1.64,
+          "floor": 0,
+          "ceiling": 4.2,
+          "boom": 17,
+          "bust": 39,
+          "confidence": 95,
+          "trend": 0.12,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.64
+          },
+          "model": {
+            "projection": 1.6423414285714286,
+            "weightedAverage": 1.6,
+            "recentAverage": 1.825,
+            "trend": 0.11785714285714285,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3
+        },
+        {
           "id": "8204",
           "sleeperId": "8204",
           "name": "Bo Melton",
@@ -375781,37 +375812,6 @@
             "weightedAverage": 1.375,
             "recentAverage": 1.85,
             "trend": -0.4071428571428571,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3
-        },
-        {
-          "id": "11623",
-          "sleeperId": "11623",
-          "name": "Jordan Whittington",
-          "team": "LAR",
-          "pos": "WR",
-          "opp": "@ DEN",
-          "injury": "Questionable",
-          "projection": 1.4,
-          "floor": 0,
-          "ceiling": 4.0,
-          "boom": 17,
-          "bust": 42,
-          "confidence": 95,
-          "trend": 0.12,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 1.4
-          },
-          "model": {
-            "projection": 1.6423414285714286,
-            "weightedAverage": 1.6,
-            "recentAverage": 1.825,
-            "trend": 0.11785714285714285,
             "standardDeviation": 2.5,
             "games": 8,
             "method": "historical_position_model"
@@ -418722,7 +418722,7 @@
               "lineupSlotId": 2,
               "lineupSlot": "RB",
               "starter": true,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
                 3,
@@ -418734,7 +418734,7 @@
               "matchMethod": "espn_id",
               "matchConfidence": 1.0,
               "modelPlayerId": "4866",
-              "projection": 8.51,
+              "projection": 10.02,
               "boom": 18,
               "bust": 17,
               "confidence": 95
@@ -423056,7 +423056,7 @@
               "lineupSlotId": 23,
               "lineupSlot": "FLEX",
               "starter": true,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
                 3,
@@ -423068,7 +423068,7 @@
               "matchMethod": "espn_id",
               "matchConfidence": 1.0,
               "modelPlayerId": "4866",
-              "projection": 8.51,
+              "projection": 10.02,
               "boom": 18,
               "bust": 17,
               "confidence": 95
