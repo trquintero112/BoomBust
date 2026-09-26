@@ -1,0 +1,21 @@
+name: Apply Luther Mapping and Matchup Enhancement
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Patch refresh workflow
+        run: python scripts/apply-model-enhancement.py
+      - name: Validate enhancement script
+        run: python -m py_compile scripts/enhance-player-mapping-matchups.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat: add ID backfill and defensive matchup adjustments"
+          file_pattern: .github/workflows/refresh.yml
