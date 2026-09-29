@@ -9,7 +9,7 @@
     4
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-09-29T05:51:51.138323+00:00",
+  "generatedAt": "2026-09-29T13:04:10.862249+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -526014,7 +526014,7 @@
     {
       "id": "2062109136",
       "name": "Liberals of Long Island",
-      "scoringPeriodId": 3,
+      "scoringPeriodId": 4,
       "myTeamId": 11,
       "teams": [
         {
@@ -526089,8 +526089,8 @@
               "canonicalName": "george pickens",
               "proTeam": "DAL",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -526118,9 +526118,9 @@
               "canonicalName": "tee higgins",
               "proTeam": "CIN",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -526317,9 +526317,9 @@
               "canonicalName": "dalton kincaid",
               "proTeam": "BUF",
               "position": "TE",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -528027,9 +528027,9 @@
               "canonicalName": "zay flowers",
               "proTeam": "BAL",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -528166,9 +528166,9 @@
               "canonicalName": "quentin johnston",
               "proTeam": "LAC",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -528931,9 +528931,9 @@
               "canonicalName": "travis etienne",
               "proTeam": "NO",
               "position": "RB",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 2,
@@ -528988,9 +528988,9 @@
               "canonicalName": "carnell tate",
               "proTeam": "TEN",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -529018,9 +529018,9 @@
               "canonicalName": "kyle pitts",
               "proTeam": "ATL",
               "position": "TE",
-              "lineupSlotId": 6,
-              "lineupSlot": "TE",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -529210,9 +529210,9 @@
               "canonicalName": "patriots dst",
               "proTeam": "NE",
               "position": "DST",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 16,
+              "lineupSlot": "DST",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -529261,9 +529261,9 @@
               "canonicalName": "dalton schultz",
               "proTeam": "HOU",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 6,
+              "lineupSlot": "TE",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -529279,31 +529279,6 @@
               "projection": 9.43,
               "boom": 15,
               "bust": 13,
-              "confidence": 95
-            },
-            {
-              "espnId": "-16010",
-              "sleeperId": "TEN",
-              "name": "Titans D/ST",
-              "nameKey": "titans dst",
-              "canonicalName": "titans dst",
-              "proTeam": "TEN",
-              "position": "DST",
-              "lineupSlotId": 16,
-              "lineupSlot": "DST",
-              "starter": true,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                16,
-                20,
-                21
-              ],
-              "matchMethod": "dst_team",
-              "matchConfidence": 1.0,
-              "modelPlayerId": "TEN",
-              "projection": 3.61,
-              "boom": 18,
-              "bust": 27,
               "confidence": 95
             }
           ]
@@ -529830,8 +529805,8 @@
               "canonicalName": "ladd mcconkey",
               "proTeam": "LAC",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -529916,8 +529891,8 @@
               "canonicalName": "parker washington",
               "proTeam": "JAX",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -530429,9 +530404,9 @@
               "canonicalName": "rachaad white",
               "proTeam": "WAS",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -530514,9 +530489,9 @@
               "canonicalName": "broncos dst",
               "proTeam": "DEN",
               "position": "DST",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 16,
+              "lineupSlot": "DST",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -530593,9 +530568,9 @@
               "canonicalName": "braelon allen",
               "proTeam": "NYJ",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -530646,9 +530621,9 @@
               "canonicalName": "bengals dst",
               "proTeam": "CIN",
               "position": "DST",
-              "lineupSlotId": 16,
-              "lineupSlot": "DST",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -530879,9 +530854,9 @@
               "canonicalName": "jake ferguson",
               "proTeam": "DAL",
               "position": "TE",
-              "lineupSlotId": 6,
-              "lineupSlot": "TE",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -531043,9 +531018,9 @@
               "canonicalName": "kenyon sadiq",
               "proTeam": "NYJ",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 6,
+              "lineupSlot": "TE",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -532513,14 +532488,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "TEN": {
-          "isRostered": true,
-          "ownerTeamId": 7,
-          "ownerTeamName": "Team 7",
-          "isMyTeam": false,
-          "matchMethod": "dst_team",
-          "matchConfidence": 1.0
-        },
         "9221": {
           "isRostered": true,
           "ownerTeamId": 8,
@@ -533179,15 +533146,15 @@
         }
       ],
       "matchup": {
-        "homeTeamId": 11,
-        "awayTeamId": 8
+        "homeTeamId": 9,
+        "awayTeamId": 11
       },
       "connected": true
     },
     {
       "id": "991905298",
       "name": "Family Football League (FFL)",
-      "scoringPeriodId": 3,
+      "scoringPeriodId": 4,
       "myTeamId": 9,
       "teams": [
         {
@@ -533206,8 +533173,8 @@
               "canonicalName": "jaxon smith njigba",
               "proTeam": "SEA",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -533235,8 +533202,8 @@
               "canonicalName": "justin jefferson",
               "proTeam": "MIN",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
               "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
@@ -535557,9 +535524,9 @@
               "canonicalName": "malik nabers",
               "proTeam": "NYG",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -535586,9 +535553,9 @@
               "canonicalName": "ladd mcconkey",
               "proTeam": "LAC",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -535644,9 +535611,9 @@
               "canonicalName": "david montgomery",
               "proTeam": "HOU",
               "position": "RB",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -535729,9 +535696,9 @@
               "canonicalName": "michael wilson",
               "proTeam": "ARI",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -536125,9 +536092,9 @@
               "canonicalName": "luther burden",
               "proTeam": "CHI",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -536427,9 +536394,9 @@
               "canonicalName": "denzel boston",
               "proTeam": "CLE",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -537657,8 +537624,8 @@
               "canonicalName": "dallas goedert",
               "proTeam": "PHI",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
+              "lineupSlotId": 21,
+              "lineupSlot": "IR",
               "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
@@ -539158,8 +539125,8 @@
         }
       ],
       "matchup": {
-        "homeTeamId": 4,
-        "awayTeamId": 9
+        "homeTeamId": 9,
+        "awayTeamId": 5
       },
       "connected": true
     }
