@@ -9,7 +9,7 @@
     4
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-02T05:50:04.812180+00:00",
+  "generatedAt": "2026-10-02T12:48:41.294879+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -526419,35 +526419,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4432773",
-              "sleeperId": "11631",
-              "name": "Brian Thomas Jr.",
-              "nameKey": "brian thomas jr",
-              "canonicalName": "brian thomas",
-              "proTeam": "JAX",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "canonical_name",
-              "matchConfidence": 0.97,
-              "modelPlayerId": "11631",
-              "projection": 5.34,
-              "boom": null,
-              "bust": null,
-              "confidence": 85
-            },
-            {
               "espnId": "15847",
               "sleeperId": "1466",
               "name": "Travis Kelce",
@@ -526695,6 +526666,34 @@
               "projection": 9.44,
               "boom": 17,
               "bust": 14,
+              "confidence": 95
+            },
+            {
+              "espnId": "4596334",
+              "sleeperId": "9511",
+              "name": "Keaton Mitchell",
+              "nameKey": "keaton mitchell",
+              "canonicalName": "keaton mitchell",
+              "proTeam": "LAC",
+              "position": "RB",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "QUESTIONABLE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "9511",
+              "projection": 3.8,
+              "boom": 18,
+              "bust": 20,
               "confidence": 95
             }
           ]
@@ -531848,14 +531847,6 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
-        "11631": {
-          "isRostered": true,
-          "ownerTeamId": 1,
-          "ownerTeamName": "Team 1",
-          "isMyTeam": false,
-          "matchMethod": "canonical_name",
-          "matchConfidence": 0.97
-        },
         "1466": {
           "isRostered": true,
           "ownerTeamId": 1,
@@ -531921,6 +531912,14 @@
           "matchConfidence": 1.0
         },
         "12711": {
+          "isRostered": true,
+          "ownerTeamId": 1,
+          "ownerTeamName": "Team 1",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "9511": {
           "isRostered": true,
           "ownerTeamId": 1,
           "ownerTeamName": "Team 1",
