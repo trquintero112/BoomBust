@@ -9,7 +9,7 @@
     4
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-03T16:29:38.898612+00:00",
+  "generatedAt": "2026-10-03T21:26:03.609927+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -7468,18 +7468,18 @@
       "team": "LV",
       "pos": "QB",
       "opp": "vs KC",
-      "injury": "Questionable",
-      "projection": 3.41,
-      "floor": 1.2,
-      "ceiling": 5.6,
+      "injury": "Healthy",
+      "projection": 4.01,
+      "floor": 1.8,
+      "ceiling": 6.2,
       "boom": 25,
-      "bust": 32,
+      "bust": 28,
       "confidence": 60,
       "trend": 0.0,
       "flexEligible": false,
       "probabilityMethod": "empirical_position_residuals",
       "sources": {
-        "customNflverseModel": 3.41
+        "customNflverseModel": 4.01
       },
       "model": {
         "projection": 4.722639999999999,
@@ -7492,7 +7492,7 @@
       },
       "projectionWeek": 4,
       "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 4.01
+      "projectionBeforeMatchup": 4.72
     },
     {
       "id": "8002",
@@ -28233,7 +28233,7 @@
       "team": "SEA",
       "pos": "RB",
       "opp": "vs LAC",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 3.4,
@@ -66892,8 +66892,8 @@
       "team": "NO",
       "pos": "WR",
       "opp": "vs ATL",
-      "injury": "Questionable",
-      "projection": 0.1,
+      "injury": "Healthy",
+      "projection": 0.11,
       "floor": 0.0,
       "ceiling": 3.0,
       "boom": 17,
@@ -66903,7 +66903,7 @@
       "flexEligible": true,
       "probabilityMethod": "empirical_position_residuals",
       "sources": {
-        "customNflverseModel": 0.1
+        "customNflverseModel": 0.11
       },
       "model": {
         "projection": 0.10269,
@@ -66916,7 +66916,7 @@
       },
       "projectionWeek": 4,
       "matchupModifier": 1.15,
-      "projectionBeforeMatchup": 0.09
+      "projectionBeforeMatchup": 0.1
     },
     {
       "id": "5859",
@@ -102405,7 +102405,7 @@
       "team": "CAR",
       "pos": "WR",
       "opp": "vs DET",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 3.0,
@@ -428143,18 +428143,18 @@
           "team": "LV",
           "pos": "QB",
           "opp": "vs KC",
-          "injury": "Questionable",
-          "projection": 3.41,
-          "floor": 1.2,
-          "ceiling": 5.6,
+          "injury": "Healthy",
+          "projection": 4.01,
+          "floor": 1.8,
+          "ceiling": 6.2,
           "boom": 25,
-          "bust": 32,
+          "bust": 28,
           "confidence": 60,
           "trend": 0.0,
           "flexEligible": false,
           "probabilityMethod": "empirical_position_residuals",
           "sources": {
-            "customNflverseModel": 3.41
+            "customNflverseModel": 4.01
           },
           "model": {
             "projection": 4.722639999999999,
@@ -428167,7 +428167,7 @@
           },
           "projectionWeek": 4,
           "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 4.01
+          "projectionBeforeMatchup": 4.72
         },
         {
           "id": "8002",
@@ -448908,7 +448908,7 @@
           "team": "SEA",
           "pos": "RB",
           "opp": "vs LAC",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 3.4,
@@ -487567,8 +487567,8 @@
           "team": "NO",
           "pos": "WR",
           "opp": "vs ATL",
-          "injury": "Questionable",
-          "projection": 0.1,
+          "injury": "Healthy",
+          "projection": 0.11,
           "floor": 0.0,
           "ceiling": 3.0,
           "boom": 17,
@@ -487578,7 +487578,7 @@
           "flexEligible": true,
           "probabilityMethod": "empirical_position_residuals",
           "sources": {
-            "customNflverseModel": 0.1
+            "customNflverseModel": 0.11
           },
           "model": {
             "projection": 0.10269,
@@ -487591,7 +487591,7 @@
           },
           "projectionWeek": 4,
           "matchupModifier": 1.15,
-          "projectionBeforeMatchup": 0.09
+          "projectionBeforeMatchup": 0.1
         },
         {
           "id": "5859",
@@ -523080,7 +523080,7 @@
           "team": "CAR",
           "pos": "WR",
           "opp": "vs DET",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 3.0,
@@ -530959,7 +530959,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "OUT",
+              "injuryStatus": "INJURY_RESERVE",
               "eligibleSlots": [
                 25,
                 2,
@@ -536354,7 +536354,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "OUT",
+              "injuryStatus": "INJURY_RESERVE",
               "eligibleSlots": [
                 25,
                 2,
