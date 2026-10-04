@@ -9,7 +9,7 @@
     4
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-03T21:26:03.609927+00:00",
+  "generatedAt": "2026-10-04T06:02:11.937894+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -64345,6 +64345,39 @@
       "projectionBeforeMatchup": 4.27
     },
     {
+      "id": "5938",
+      "sleeperId": "5938",
+      "name": "Lil'Jordan Humphrey",
+      "team": "DEN",
+      "pos": "WR",
+      "opp": "@ SF",
+      "injury": "Healthy",
+      "projection": 4.08,
+      "floor": 0.0,
+      "ceiling": 9.1,
+      "boom": 17,
+      "bust": 20,
+      "confidence": 95,
+      "trend": -0.29,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 4.08
+      },
+      "model": {
+        "projection": 4.238232857142857,
+        "weightedAverage": 4.4,
+        "recentAverage": 4.275,
+        "trend": -0.2892857142857137,
+        "standardDeviation": 5.059908948926707,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 4,
+      "matchupModifier": 0.9614,
+      "projectionBeforeMatchup": 4.24
+    },
+    {
       "id": "8676",
       "sleeperId": "8676",
       "name": "Rashid Shaheed",
@@ -90157,37 +90190,6 @@
         "customNflverseModel": 0.0
       },
       "model": {},
-      "projectionWeek": 4
-    },
-    {
-      "id": "5938",
-      "sleeperId": "5938",
-      "name": "Lil'Jordan Humphrey",
-      "team": "FA",
-      "pos": "WR",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 95,
-      "trend": -0.29,
-      "flexEligible": true,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 4.238232857142857,
-        "weightedAverage": 4.4,
-        "recentAverage": 4.275,
-        "trend": -0.2892857142857137,
-        "standardDeviation": 5.059908948926707,
-        "games": 8,
-        "method": "historical_position_model"
-      },
       "projectionWeek": 4
     },
     {
@@ -169504,6 +169506,39 @@
           "projectionBeforeMatchup": 5.19
         },
         {
+          "id": "5938",
+          "sleeperId": "5938",
+          "name": "Lil'Jordan Humphrey",
+          "team": "DEN",
+          "pos": "WR",
+          "opp": "@ KC",
+          "injury": "Historical",
+          "projection": 4.92,
+          "floor": 0.0,
+          "ceiling": 10.0,
+          "boom": 17,
+          "bust": 17,
+          "confidence": 95,
+          "trend": 0.61,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 4.92
+          },
+          "model": {
+            "projection": 5.186582380952382,
+            "weightedAverage": 5.452777777777778,
+            "recentAverage": 4.75,
+            "trend": 0.613095238095238,
+            "standardDeviation": 5.059908948926706,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 1,
+          "matchupModifier": 0.9475,
+          "projectionBeforeMatchup": 5.19
+        },
+        {
           "id": "5086",
           "sleeperId": "5086",
           "name": "Marquez Valdes-Scantling",
@@ -194491,37 +194526,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 1
-        },
-        {
-          "id": "5938",
-          "sleeperId": "5938",
-          "name": "Lil'Jordan Humphrey",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.61,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 5.186582380952382,
-            "weightedAverage": 5.452777777777778,
-            "recentAverage": 4.75,
-            "trend": 0.613095238095238,
-            "standardDeviation": 5.059908948926706,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 1
         },
         {
@@ -274524,6 +274528,39 @@
           "projectionBeforeMatchup": 5.23
         },
         {
+          "id": "5938",
+          "sleeperId": "5938",
+          "name": "Lil'Jordan Humphrey",
+          "team": "DEN",
+          "pos": "WR",
+          "opp": "vs JAX",
+          "injury": "Historical",
+          "projection": 4.74,
+          "floor": 0.0,
+          "ceiling": 9.6,
+          "boom": 17,
+          "bust": 17,
+          "confidence": 95,
+          "trend": 0.61,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 4.74
+          },
+          "model": {
+            "projection": 5.186582380952382,
+            "weightedAverage": 5.452777777777778,
+            "recentAverage": 4.75,
+            "trend": 0.613095238095238,
+            "standardDeviation": 5.059908948926706,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 2,
+          "matchupModifier": 0.9127,
+          "projectionBeforeMatchup": 5.19
+        },
+        {
           "id": "8917",
           "sleeperId": "8917",
           "name": "KaVontae Turpin",
@@ -300039,37 +300076,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 2
-        },
-        {
-          "id": "5938",
-          "sleeperId": "5938",
-          "name": "Lil'Jordan Humphrey",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.61,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 5.186582380952382,
-            "weightedAverage": 5.452777777777778,
-            "recentAverage": 4.75,
-            "trend": 0.613095238095238,
-            "standardDeviation": 5.059908948926706,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 2
         },
         {
@@ -380329,6 +380335,39 @@
           "projectionBeforeMatchup": 4.35
         },
         {
+          "id": "5938",
+          "sleeperId": "5938",
+          "name": "Lil'Jordan Humphrey",
+          "team": "DEN",
+          "pos": "WR",
+          "opp": "vs LAR",
+          "injury": "Historical",
+          "projection": 4.59,
+          "floor": 0.0,
+          "ceiling": 10.3,
+          "boom": 17,
+          "bust": 21,
+          "confidence": 95,
+          "trend": -0.29,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 4.59
+          },
+          "model": {
+            "projection": 4.238232857142857,
+            "weightedAverage": 4.4,
+            "recentAverage": 4.275,
+            "trend": -0.2892857142857137,
+            "standardDeviation": 5.059908948926707,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3,
+          "matchupModifier": 1.0834,
+          "projectionBeforeMatchup": 4.24
+        },
+        {
           "id": "8076",
           "sleeperId": "8076",
           "name": "Michael Bandy",
@@ -405514,37 +405553,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "5938",
-          "sleeperId": "5938",
-          "name": "Lil'Jordan Humphrey",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.29,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 4.238232857142857,
-            "weightedAverage": 4.4,
-            "recentAverage": 4.275,
-            "trend": -0.2892857142857137,
-            "standardDeviation": 5.059908948926707,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 3
         },
         {
@@ -485020,6 +485028,39 @@
           "projectionBeforeMatchup": 4.27
         },
         {
+          "id": "5938",
+          "sleeperId": "5938",
+          "name": "Lil'Jordan Humphrey",
+          "team": "DEN",
+          "pos": "WR",
+          "opp": "@ SF",
+          "injury": "Healthy",
+          "projection": 4.08,
+          "floor": 0.0,
+          "ceiling": 9.1,
+          "boom": 17,
+          "bust": 20,
+          "confidence": 95,
+          "trend": -0.29,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 4.08
+          },
+          "model": {
+            "projection": 4.238232857142857,
+            "weightedAverage": 4.4,
+            "recentAverage": 4.275,
+            "trend": -0.2892857142857137,
+            "standardDeviation": 5.059908948926707,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 4,
+          "matchupModifier": 0.9614,
+          "projectionBeforeMatchup": 4.24
+        },
+        {
           "id": "8676",
           "sleeperId": "8676",
           "name": "Rashid Shaheed",
@@ -510835,37 +510876,6 @@
           "projectionWeek": 4
         },
         {
-          "id": "5938",
-          "sleeperId": "5938",
-          "name": "Lil'Jordan Humphrey",
-          "team": "FA",
-          "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.29,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 4.238232857142857,
-            "weightedAverage": 4.4,
-            "recentAverage": 4.275,
-            "trend": -0.2892857142857137,
-            "standardDeviation": 5.059908948926707,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 4
-        },
-        {
           "id": "12077",
           "sleeperId": "12077",
           "name": "Lincoln Victor",
@@ -528428,34 +528438,6 @@
               "confidence": 95
             },
             {
-              "espnId": "3149687",
-              "sleeperId": "11370",
-              "name": "Chris Brooks",
-              "nameKey": "chris brooks",
-              "canonicalName": "chris brooks",
-              "proTeam": "GB",
-              "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                2,
-                3,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "11370",
-              "projection": 2.46,
-              "boom": 18,
-              "bust": 29,
-              "confidence": 95
-            },
-            {
               "espnId": "4597500",
               "sleeperId": "11625",
               "name": "Adonai Mitchell",
@@ -528521,9 +528503,9 @@
               "canonicalName": "kendre miller",
               "proTeam": "NO",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -528567,6 +528549,34 @@
               "projection": 10.78,
               "boom": 15,
               "bust": 13,
+              "confidence": 95
+            },
+            {
+              "espnId": "4429835",
+              "sleeperId": "12048",
+              "name": "George Holani",
+              "nameKey": "george holani",
+              "canonicalName": "george holani",
+              "proTeam": "SEA",
+              "position": "RB",
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "12048",
+              "projection": 4.08,
+              "boom": 18,
+              "bust": 18,
               "confidence": 95
             }
           ]
@@ -532423,14 +532433,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "11370": {
-          "isRostered": true,
-          "ownerTeamId": 5,
-          "ownerTeamName": "Team 5",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "11625": {
           "isRostered": true,
           "ownerTeamId": 5,
@@ -532462,6 +532464,14 @@
           "isMyTeam": false,
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
+        },
+        "12048": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
         },
         "7564": {
           "isRostered": true,
@@ -534366,8 +534376,8 @@
               "canonicalName": "saquon barkley",
               "proTeam": "PHI",
               "position": "RB",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -534479,9 +534489,9 @@
               "canonicalName": "terry mclaurin",
               "proTeam": "WAS",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "DOUBTFUL",
               "eligibleSlots": [
                 3,
@@ -534562,9 +534572,9 @@
               "canonicalName": "rams dst",
               "proTeam": "LAR",
               "position": "DST",
-              "lineupSlotId": 16,
-              "lineupSlot": "DST",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -534587,8 +534597,8 @@
               "canonicalName": "chuba hubbard",
               "proTeam": "CAR",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -534666,32 +534676,6 @@
               "confidence": 95
             },
             {
-              "espnId": "3052587",
-              "sleeperId": "4892",
-              "name": "Baker Mayfield",
-              "nameKey": "baker mayfield",
-              "canonicalName": "baker mayfield",
-              "proTeam": "TB",
-              "position": "QB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "OUT",
-              "eligibleSlots": [
-                0,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "espn_id",
-              "matchConfidence": 1.0,
-              "modelPlayerId": "4892",
-              "projection": 0.0,
-              "boom": 25,
-              "bust": 52,
-              "confidence": 95
-            },
-            {
               "espnId": "4428718",
               "sleeperId": "10213",
               "name": "Tre Tucker",
@@ -534699,9 +534683,9 @@
               "canonicalName": "tre tucker",
               "proTeam": "LV",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -534797,6 +534781,31 @@
               "matchConfidence": 0.99,
               "modelPlayerId": "9225",
               "projection": 4.78,
+              "boom": 18,
+              "bust": 19,
+              "confidence": 95
+            },
+            {
+              "espnId": "-16003",
+              "sleeperId": "CHI",
+              "name": "Bears D/ST",
+              "nameKey": "bears dst",
+              "canonicalName": "bears dst",
+              "proTeam": "CHI",
+              "position": "DST",
+              "lineupSlotId": 16,
+              "lineupSlot": "DST",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                16,
+                20,
+                21
+              ],
+              "matchMethod": "dst_team",
+              "matchConfidence": 1.0,
+              "modelPlayerId": "CHI",
+              "projection": 6.16,
               "boom": 18,
               "bust": 19,
               "confidence": 95
@@ -538485,14 +538494,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "4892": {
-          "isRostered": true,
-          "ownerTeamId": 4,
-          "ownerTeamName": "Team 4",
-          "isMyTeam": false,
-          "matchMethod": "espn_id",
-          "matchConfidence": 1.0
-        },
         "10213": {
           "isRostered": true,
           "ownerTeamId": 4,
@@ -538524,6 +538525,14 @@
           "isMyTeam": false,
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
+        },
+        "CHI": {
+          "isRostered": true,
+          "ownerTeamId": 4,
+          "ownerTeamName": "Team 4",
+          "isMyTeam": false,
+          "matchMethod": "dst_team",
+          "matchConfidence": 1.0
         },
         "9509": {
           "isRostered": true,
