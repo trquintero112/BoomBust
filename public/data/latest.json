@@ -10,7 +10,7 @@
     5
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-10T06:01:46.432187+00:00",
+  "generatedAt": "2026-10-10T12:42:27.817149+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -633969,35 +633969,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4429025",
-              "sleeperId": "9754",
-              "name": "Quentin Johnston",
-              "nameKey": "quentin johnston",
-              "canonicalName": "quentin johnston",
-              "proTeam": "LAC",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "OUT",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "9754",
-              "projection": 0.0,
-              "boom": 18,
-              "bust": 61,
-              "confidence": 95
-            },
-            {
               "espnId": "4426338",
               "sleeperId": "11563",
               "name": "Bo Nix",
@@ -634081,8 +634052,8 @@
               "canonicalName": "adonai mitchell",
               "proTeam": "NYJ",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
+              "lineupSlotId": 21,
+              "lineupSlot": "IR",
               "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
@@ -634210,6 +634181,64 @@
               "projection": 8.38,
               "boom": 18,
               "bust": 19,
+              "confidence": 95
+            },
+            {
+              "espnId": "4429205",
+              "sleeperId": "9756",
+              "name": "Jordan Addison",
+              "nameKey": "jordan addison",
+              "canonicalName": "jordan addison",
+              "proTeam": "MIN",
+              "position": "WR",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "QUESTIONABLE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "9756",
+              "projection": 6.23,
+              "boom": 18,
+              "bust": 17,
+              "confidence": 95
+            },
+            {
+              "espnId": "4635008",
+              "sleeperId": "11637",
+              "name": "Keon Coleman",
+              "nameKey": "keon coleman",
+              "canonicalName": "keon coleman",
+              "proTeam": "BUF",
+              "position": "WR",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "11637",
+              "projection": 11.27,
+              "boom": 18,
+              "bust": 17,
               "confidence": 95
             }
           ]
@@ -638097,14 +638126,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "9754": {
-          "isRostered": true,
-          "ownerTeamId": 5,
-          "ownerTeamName": "Team 5",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "11563": {
           "isRostered": true,
           "ownerTeamId": 5,
@@ -638168,6 +638189,22 @@
           "isMyTeam": false,
           "matchMethod": "dst_team",
           "matchConfidence": 1.0
+        },
+        "9756": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "11637": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
         },
         "7564": {
           "isRostered": true,
