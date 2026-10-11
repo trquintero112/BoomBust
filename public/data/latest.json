@@ -10,7 +10,7 @@
     5
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-11T05:59:15.170545+00:00",
+  "generatedAt": "2026-10-11T13:04:07.120713+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -103118,7 +103118,7 @@
       "team": "JAX",
       "pos": "WR",
       "opp": "vs PHI",
-      "injury": "Healthy",
+      "injury": "Out",
       "projection": null,
       "floor": null,
       "ceiling": null,
@@ -629390,7 +629390,7 @@
           "team": "JAX",
           "pos": "WR",
           "opp": "vs PHI",
-          "injury": "Healthy",
+          "injury": "Out",
           "projection": null,
           "floor": null,
           "ceiling": null,
