@@ -10,7 +10,7 @@
     5
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-12T06:09:15.210140+00:00",
+  "generatedAt": "2026-10-12T15:42:06.806345+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -63068,39 +63068,6 @@
       "projectionBeforeMatchup": 8.36
     },
     {
-      "id": "11635",
-      "sleeperId": "11635",
-      "name": "Ladd McConkey",
-      "team": "LAC",
-      "pos": "WR",
-      "opp": "vs DEN",
-      "injury": "Healthy",
-      "projection": 6.75,
-      "floor": 1.3,
-      "ceiling": 12.2,
-      "boom": 18,
-      "bust": 17,
-      "confidence": 95,
-      "trend": -0.31,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 6.75
-      },
-      "model": {
-        "projection": 7.93573261904762,
-        "weightedAverage": 7.747222222222224,
-        "recentAverage": 9.075000000000001,
-        "trend": -0.3130952380952389,
-        "standardDeviation": 6.239147721100559,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 5,
-      "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 7.94
-    },
-    {
       "id": "11608",
       "sleeperId": "11608",
       "name": "Isaiah Williams",
@@ -63528,6 +63495,39 @@
       "projectionWeek": 5,
       "matchupModifier": 1.0391,
       "projectionBeforeMatchup": 6.88
+    },
+    {
+      "id": "11635",
+      "sleeperId": "11635",
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "pos": "WR",
+      "opp": "vs DEN",
+      "injury": "Questionable",
+      "projection": 5.74,
+      "floor": 0.3,
+      "ceiling": 11.2,
+      "boom": 18,
+      "bust": 17,
+      "confidence": 95,
+      "trend": -0.31,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 5.74
+      },
+      "model": {
+        "projection": 7.93573261904762,
+        "weightedAverage": 7.747222222222224,
+        "recentAverage": 9.075000000000001,
+        "trend": -0.3130952380952389,
+        "standardDeviation": 6.239147721100559,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 5,
+      "matchupModifier": 0.85,
+      "projectionBeforeMatchup": 6.75
     },
     {
       "id": "11783",
@@ -589266,39 +589266,6 @@
           "projectionBeforeMatchup": 8.36
         },
         {
-          "id": "11635",
-          "sleeperId": "11635",
-          "name": "Ladd McConkey",
-          "team": "LAC",
-          "pos": "WR",
-          "opp": "vs DEN",
-          "injury": "Healthy",
-          "projection": 6.75,
-          "floor": 1.3,
-          "ceiling": 12.2,
-          "boom": 18,
-          "bust": 17,
-          "confidence": 95,
-          "trend": -0.31,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 6.75
-          },
-          "model": {
-            "projection": 7.93573261904762,
-            "weightedAverage": 7.747222222222224,
-            "recentAverage": 9.075000000000001,
-            "trend": -0.3130952380952389,
-            "standardDeviation": 6.239147721100559,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 5,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 7.94
-        },
-        {
           "id": "11608",
           "sleeperId": "11608",
           "name": "Isaiah Williams",
@@ -589726,6 +589693,39 @@
           "projectionWeek": 5,
           "matchupModifier": 1.0391,
           "projectionBeforeMatchup": 6.88
+        },
+        {
+          "id": "11635",
+          "sleeperId": "11635",
+          "name": "Ladd McConkey",
+          "team": "LAC",
+          "pos": "WR",
+          "opp": "vs DEN",
+          "injury": "Questionable",
+          "projection": 5.74,
+          "floor": 0.3,
+          "ceiling": 11.2,
+          "boom": 18,
+          "bust": 17,
+          "confidence": 95,
+          "trend": -0.31,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 5.74
+          },
+          "model": {
+            "projection": 7.93573261904762,
+            "weightedAverage": 7.747222222222224,
+            "recentAverage": 9.075000000000001,
+            "trend": -0.3130952380952389,
+            "standardDeviation": 6.239147721100559,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 5,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 6.75
         },
         {
           "id": "11783",
@@ -634039,7 +634039,7 @@
               "lineupSlotId": 2,
               "lineupSlot": "RB",
               "starter": true,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "DOUBTFUL",
               "eligibleSlots": [
                 2,
                 3,
@@ -635623,7 +635623,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "ACTIVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
                 4,
@@ -635636,7 +635636,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11635",
-              "projection": 6.75,
+              "projection": 5.74,
               "boom": 18,
               "bust": 17,
               "confidence": 95
@@ -636460,7 +636460,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "DOUBTFUL",
               "eligibleSlots": [
                 3,
                 4,
@@ -641506,7 +641506,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "ACTIVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
                 4,
@@ -641519,7 +641519,7 @@
               "matchMethod": "exact_name",
               "matchConfidence": 0.99,
               "modelPlayerId": "11635",
-              "projection": 6.75,
+              "projection": 5.74,
               "boom": 18,
               "bust": 17,
               "confidence": 95
@@ -641864,7 +641864,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "DOUBTFUL",
               "eligibleSlots": [
                 3,
                 4,
