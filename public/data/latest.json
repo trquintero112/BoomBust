@@ -11,7 +11,7 @@
     6
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-13T22:54:08.900542+00:00",
+  "generatedAt": "2026-10-14T05:02:58.754217+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -7200,6 +7200,39 @@
       "projectionBeforeMatchup": 8.77
     },
     {
+      "id": "6111",
+      "sleeperId": "6111",
+      "name": "Jake Browning",
+      "team": "LAC",
+      "pos": "QB",
+      "opp": "@ KC",
+      "injury": "Healthy",
+      "projection": 6.68,
+      "floor": 0.0,
+      "ceiling": 13.9,
+      "boom": 25,
+      "bust": 28,
+      "confidence": 80,
+      "trend": -2.11,
+      "flexEligible": false,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 6.68
+      },
+      "model": {
+        "projection": 7.856378399999999,
+        "weightedAverage": 8.34,
+        "recentAverage": 7.75,
+        "trend": -2.1120000000000023,
+        "standardDeviation": 8.219082673875475,
+        "games": 5,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 6,
+      "matchupModifier": 0.85,
+      "projectionBeforeMatchup": 7.86
+    },
+    {
       "id": "6768",
       "sleeperId": "6768",
       "name": "Tua Tagovailoa",
@@ -11545,37 +11578,6 @@
         "customNflverseModel": 0.0
       },
       "model": {},
-      "projectionWeek": 6
-    },
-    {
-      "id": "6111",
-      "sleeperId": "6111",
-      "name": "Jake Browning",
-      "team": "FA",
-      "pos": "QB",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 80,
-      "trend": -2.11,
-      "flexEligible": false,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 7.856378399999999,
-        "weightedAverage": 8.34,
-        "recentAverage": 7.75,
-        "trend": -2.1120000000000023,
-        "standardDeviation": 8.219082673875475,
-        "games": 5,
-        "method": "historical_position_model"
-      },
       "projectionWeek": 6
     },
     {
@@ -112900,6 +112902,39 @@
           "projectionBeforeMatchup": 8.11
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "vs ARI",
+          "injury": "Historical",
+          "projection": 9.04,
+          "floor": 0.0,
+          "ceiling": 18.9,
+          "boom": 24,
+          "bust": 30,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 9.04
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 1,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "11562",
           "sleeperId": "11562",
           "name": "Spencer Rattler",
@@ -117113,37 +117148,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 1
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 1
         },
         {
@@ -217658,6 +217662,39 @@
           "projectionBeforeMatchup": 8.11
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "vs LV",
+          "injury": "Historical",
+          "projection": 7.23,
+          "floor": 0.0,
+          "ceiling": 15.1,
+          "boom": 24,
+          "bust": 29,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 7.23
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 2,
+          "matchupModifier": 0.9196,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "11562",
           "sleeperId": "11562",
           "name": "Spencer Rattler",
@@ -221871,37 +221908,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 2
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 2
         },
         {
@@ -322904,6 +322910,39 @@
           "projectionBeforeMatchup": 8.11
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "@ BUF",
+          "injury": "Historical",
+          "projection": 8.36,
+          "floor": 0.0,
+          "ceiling": 17.4,
+          "boom": 25,
+          "bust": 28,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 8.36
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3,
+          "matchupModifier": 1.0632,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "11562",
           "sleeperId": "11562",
           "name": "Spencer Rattler",
@@ -327117,37 +327156,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 3
         },
         {
@@ -428247,6 +428255,39 @@
           "projectionBeforeMatchup": 8.0
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "@ SEA",
+          "injury": "Historical",
+          "projection": 6.68,
+          "floor": 0.0,
+          "ceiling": 13.9,
+          "boom": 25,
+          "bust": 28,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 6.68
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 4,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "12524",
           "sleeperId": "12524",
           "name": "Shedeur Sanders",
@@ -432526,37 +432567,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 4
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 4
         },
         {
@@ -533720,6 +533730,39 @@
           "projectionBeforeMatchup": 8.41
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "vs DEN",
+          "injury": "Historical",
+          "projection": 7.33,
+          "floor": 0.0,
+          "ceiling": 15.3,
+          "boom": 25,
+          "bust": 28,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 7.33
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 5,
+          "matchupModifier": 0.9321,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "13425",
           "sleeperId": "13425",
           "name": "Jalon Daniels",
@@ -538065,37 +538108,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 5
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 5
         },
         {
@@ -639065,6 +639077,39 @@
           "projectionBeforeMatchup": 8.77
         },
         {
+          "id": "6111",
+          "sleeperId": "6111",
+          "name": "Jake Browning",
+          "team": "LAC",
+          "pos": "QB",
+          "opp": "@ KC",
+          "injury": "Healthy",
+          "projection": 6.68,
+          "floor": 0.0,
+          "ceiling": 13.9,
+          "boom": 25,
+          "bust": 28,
+          "confidence": 80,
+          "trend": -2.11,
+          "flexEligible": false,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 6.68
+          },
+          "model": {
+            "projection": 7.856378399999999,
+            "weightedAverage": 8.34,
+            "recentAverage": 7.75,
+            "trend": -2.1120000000000023,
+            "standardDeviation": 8.219082673875475,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 6,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 7.86
+        },
+        {
           "id": "6768",
           "sleeperId": "6768",
           "name": "Tua Tagovailoa",
@@ -643410,37 +643455,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 6
-        },
-        {
-          "id": "6111",
-          "sleeperId": "6111",
-          "name": "Jake Browning",
-          "team": "FA",
-          "pos": "QB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": -2.11,
-          "flexEligible": false,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 7.856378399999999,
-            "weightedAverage": 8.34,
-            "recentAverage": 7.75,
-            "trend": -2.1120000000000023,
-            "standardDeviation": 8.219082673875475,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 6
         },
         {
@@ -739224,7 +739238,7 @@
               "name": "Harrison Mevis",
               "nameKey": "harrison mevis",
               "canonicalName": "harrison mevis",
-              "proTeam": "LAR",
+              "proTeam": "",
               "position": "K",
               "lineupSlotId": 17,
               "lineupSlot": "K",
@@ -747158,9 +747172,9 @@
               "canonicalName": "chase brown",
               "proTeam": "CIN",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -747186,8 +747200,8 @@
               "canonicalName": "malik nabers",
               "proTeam": "NYG",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -747330,8 +747344,8 @@
               "canonicalName": "michael wilson",
               "proTeam": "ARI",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
@@ -747359,9 +747373,9 @@
               "canonicalName": "broncos dst",
               "proTeam": "DEN",
               "position": "DST",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 16,
+              "lineupSlot": "DST",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -747412,9 +747426,9 @@
               "canonicalName": "vikings dst",
               "proTeam": "MIN",
               "position": "DST",
-              "lineupSlotId": 16,
-              "lineupSlot": "DST",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 16,
@@ -747488,9 +747502,9 @@
               "canonicalName": "rj harvey",
               "proTeam": "DEN",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -748238,9 +748252,9 @@
               "canonicalName": "jayden daniels",
               "proTeam": "WAS",
               "position": "QB",
-              "lineupSlotId": 0,
-              "lineupSlot": "QB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 0,
@@ -748375,9 +748389,9 @@
               "canonicalName": "patrick mahomes",
               "proTeam": "KC",
               "position": "QB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 0,
+              "lineupSlot": "QB",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 0,
