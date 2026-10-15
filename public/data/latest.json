@@ -11,7 +11,7 @@
     6
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-15T04:51:07.951547+00:00",
+  "generatedAt": "2026-10-15T11:41:23.557977+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -742725,30 +742725,29 @@
               "confidence": 95
             },
             {
-              "espnId": "5082424",
-              "sleeperId": "13833",
-              "name": "Dominic Zvada",
-              "nameKey": "dominic zvada",
-              "canonicalName": "dominic zvada",
-              "proTeam": "NYG",
+              "espnId": "4249087",
+              "sleeperId": "6083",
+              "name": "Matt Gay",
+              "nameKey": "matt gay",
+              "canonicalName": "matt gay",
+              "proTeam": "LV",
               "position": "K",
               "lineupSlotId": 17,
               "lineupSlot": "K",
               "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
-                25,
                 17,
                 20,
                 21
               ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "13833",
-              "projection": 11.83,
+              "matchMethod": "espn_id",
+              "matchConfidence": 1.0,
+              "modelPlayerId": "6083",
+              "projection": 10.05,
               "boom": 17,
               "bust": 13,
-              "confidence": 80
+              "confidence": 95
             }
           ]
         },
@@ -744693,13 +744692,13 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
-        "13833": {
+        "6083": {
           "isRostered": true,
           "ownerTeamId": 11,
           "ownerTeamName": "Team 11",
           "isMyTeam": true,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
+          "matchMethod": "espn_id",
+          "matchConfidence": 1.0
         },
         "9493": {
           "isRostered": true,
@@ -747620,32 +747619,6 @@
               "confidence": 75
             },
             {
-              "espnId": "2969939",
-              "sleeperId": "2306",
-              "name": "Jameis Winston",
-              "nameKey": "jameis winston",
-              "canonicalName": "jameis winston",
-              "proTeam": "NYG",
-              "position": "QB",
-              "lineupSlotId": 0,
-              "lineupSlot": "QB",
-              "starter": true,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                0,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "espn_id",
-              "matchConfidence": 1.0,
-              "modelPlayerId": "2306",
-              "projection": 12.12,
-              "boom": 25,
-              "bust": 28,
-              "confidence": 90
-            },
-            {
               "espnId": "4697745",
               "sleeperId": "12711",
               "name": "Tyler Loop",
@@ -747668,6 +747641,32 @@
               "projection": 10.18,
               "boom": 17,
               "bust": 13,
+              "confidence": 95
+            },
+            {
+              "espnId": "14880",
+              "sleeperId": "1166",
+              "name": "Kirk Cousins",
+              "nameKey": "kirk cousins",
+              "canonicalName": "kirk cousins",
+              "proTeam": "LV",
+              "position": "QB",
+              "lineupSlotId": 0,
+              "lineupSlot": "QB",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                0,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "espn_id",
+              "matchConfidence": 1.0,
+              "modelPlayerId": "1166",
+              "projection": 20.55,
+              "boom": 22,
+              "bust": 23,
               "confidence": 95
             }
           ]
@@ -750356,14 +750355,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "2306": {
-          "isRostered": true,
-          "ownerTeamId": 8,
-          "ownerTeamName": "Team 8",
-          "isMyTeam": false,
-          "matchMethod": "espn_id",
-          "matchConfidence": 1.0
-        },
         "12711": {
           "isRostered": true,
           "ownerTeamId": 8,
@@ -750371,6 +750362,14 @@
           "isMyTeam": false,
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
+        },
+        "1166": {
+          "isRostered": true,
+          "ownerTeamId": 8,
+          "ownerTeamName": "Team 8",
+          "isMyTeam": false,
+          "matchMethod": "espn_id",
+          "matchConfidence": 1.0
         },
         "9221": {
           "isRostered": true,
