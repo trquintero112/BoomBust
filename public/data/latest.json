@@ -11,7 +11,7 @@
     6
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-17T10:55:28.530251+00:00",
+  "generatedAt": "2026-10-17T15:42:53.820788+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -749298,9 +749298,9 @@
               "canonicalName": "dallas goedert",
               "proTeam": "PHI",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 6,
+              "lineupSlot": "TE",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -749535,6 +749535,34 @@
               "projection": 24.63,
               "boom": 19,
               "bust": 19,
+              "confidence": 95
+            },
+            {
+              "espnId": "4373626",
+              "sleeperId": "8132",
+              "name": "Tyler Allgeier",
+              "nameKey": "tyler allgeier",
+              "canonicalName": "tyler allgeier",
+              "proTeam": "ARI",
+              "position": "RB",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "8132",
+              "projection": 6.0,
+              "boom": 18,
+              "bust": 17,
               "confidence": 95
             }
           ]
@@ -750862,6 +750890,14 @@
           "matchConfidence": 1.0
         },
         "8183": {
+          "isRostered": true,
+          "ownerTeamId": 12,
+          "ownerTeamName": "Team 12",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "8132": {
           "isRostered": true,
           "ownerTeamId": 12,
           "ownerTeamName": "Team 12",
