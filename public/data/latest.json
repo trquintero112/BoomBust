@@ -12,7 +12,7 @@
     7
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-20T21:43:13.685229+00:00",
+  "generatedAt": "2026-10-21T04:59:15.553780+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -20361,39 +20361,6 @@
       "projectionBeforeMatchup": 0.88
     },
     {
-      "id": "11582",
-      "sleeperId": "11582",
-      "name": "Carson Steele",
-      "team": "PHI",
-      "pos": "RB",
-      "opp": "vs DAL",
-      "injury": "Questionable",
-      "projection": 0.97,
-      "floor": 0.0,
-      "ceiling": 3.9,
-      "boom": 18,
-      "bust": 45,
-      "confidence": 65,
-      "trend": 1.4,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.97
-      },
-      "model": {
-        "projection": 0.9832666666666665,
-        "weightedAverage": 0.9333333333333332,
-        "recentAverage": 0.7,
-        "trend": 1.3999999999999997,
-        "standardDeviation": 2.5,
-        "games": 2,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 7,
-      "matchupModifier": 1.15,
-      "projectionBeforeMatchup": 0.84
-    },
-    {
       "id": "11280",
       "sleeperId": "11280",
       "name": "Brady Russell",
@@ -23305,6 +23272,39 @@
       },
       "model": {},
       "projectionWeek": 7
+    },
+    {
+      "id": "11582",
+      "sleeperId": "11582",
+      "name": "Carson Steele",
+      "team": "PHI",
+      "pos": "RB",
+      "opp": "vs DAL",
+      "injury": "Out",
+      "projection": 0.0,
+      "floor": 0,
+      "ceiling": 2.6,
+      "boom": 18,
+      "bust": 58,
+      "confidence": 65,
+      "trend": 1.4,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {
+        "projection": 0.9832666666666665,
+        "weightedAverage": 0.9333333333333332,
+        "recentAverage": 0.7,
+        "trend": 1.3999999999999997,
+        "standardDeviation": 2.5,
+        "games": 2,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 7,
+      "matchupModifier": 1.15,
+      "projectionBeforeMatchup": 0.0
     },
     {
       "id": "13595",
@@ -83050,19 +83050,19 @@
       "id": "11311",
       "sleeperId": "11311",
       "name": "Jason Brownlee",
-      "team": "FA",
+      "team": "NYG",
       "pos": "WR",
-      "opp": "",
-      "injury": "FREE AGENT",
+      "opp": "@ HOU",
+      "injury": "Healthy",
       "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
+      "floor": 0,
+      "ceiling": 2.6,
+      "boom": 18,
+      "bust": 60,
       "confidence": 70,
       "trend": 0.0,
       "flexEligible": true,
-      "probabilityMethod": "inactive_player",
+      "probabilityMethod": "empirical_position_residuals",
       "sources": {
         "customNflverseModel": 0.0
       },
@@ -83075,7 +83075,9 @@
         "games": 3,
         "method": "historical_position_model"
       },
-      "projectionWeek": 7
+      "projectionWeek": 7,
+      "matchupModifier": 1.15,
+      "projectionBeforeMatchup": 0.0
     },
     {
       "id": "6247",
@@ -187773,19 +187775,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "vs DAL",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 17,
+          "bust": 61,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -187798,7 +187800,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 1
+          "projectionWeek": 1,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -293333,19 +293337,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "@ LAR",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 17,
+          "bust": 61,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -293358,7 +293362,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 2
+          "projectionWeek": 2,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -398853,19 +398859,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "vs TEN",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 17,
+          "bust": 61,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -398878,7 +398884,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 3
+          "projectionWeek": 3,
+          "matchupModifier": 1.1406,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -504381,19 +504389,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "vs ARI",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 17,
+          "bust": 61,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -504406,7 +504414,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 4
+          "projectionWeek": 4,
+          "matchupModifier": 1.112,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -610009,19 +610019,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "@ WAS",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 18,
+          "bust": 61,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -610034,7 +610044,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 5
+          "projectionWeek": 5,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -715674,19 +715686,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "vs NO",
+          "injury": "Historical",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 18,
+          "bust": 60,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -715699,7 +715711,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 6
+          "projectionWeek": 6,
+          "matchupModifier": 0.911,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -757911,39 +757925,6 @@
           "projectionBeforeMatchup": 0.88
         },
         {
-          "id": "11582",
-          "sleeperId": "11582",
-          "name": "Carson Steele",
-          "team": "PHI",
-          "pos": "RB",
-          "opp": "vs DAL",
-          "injury": "Questionable",
-          "projection": 0.97,
-          "floor": 0.0,
-          "ceiling": 3.9,
-          "boom": 18,
-          "bust": 45,
-          "confidence": 65,
-          "trend": 1.4,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.97
-          },
-          "model": {
-            "projection": 0.9832666666666665,
-            "weightedAverage": 0.9333333333333332,
-            "recentAverage": 0.7,
-            "trend": 1.3999999999999997,
-            "standardDeviation": 2.5,
-            "games": 2,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 7,
-          "matchupModifier": 1.15,
-          "projectionBeforeMatchup": 0.84
-        },
-        {
           "id": "11280",
           "sleeperId": "11280",
           "name": "Brady Russell",
@@ -760855,6 +760836,39 @@
           },
           "model": {},
           "projectionWeek": 7
+        },
+        {
+          "id": "11582",
+          "sleeperId": "11582",
+          "name": "Carson Steele",
+          "team": "PHI",
+          "pos": "RB",
+          "opp": "vs DAL",
+          "injury": "Out",
+          "projection": 0.0,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 18,
+          "bust": 58,
+          "confidence": 65,
+          "trend": 1.4,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 0.9832666666666665,
+            "weightedAverage": 0.9333333333333332,
+            "recentAverage": 0.7,
+            "trend": 1.3999999999999997,
+            "standardDeviation": 2.5,
+            "games": 2,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 7,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "13595",
@@ -820600,19 +820614,19 @@
           "id": "11311",
           "sleeperId": "11311",
           "name": "Jason Brownlee",
-          "team": "FA",
+          "team": "NYG",
           "pos": "WR",
-          "opp": "",
-          "injury": "FREE AGENT",
+          "opp": "@ HOU",
+          "injury": "Healthy",
           "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
+          "floor": 0,
+          "ceiling": 2.6,
+          "boom": 18,
+          "bust": 60,
           "confidence": 70,
           "trend": 0.0,
           "flexEligible": true,
-          "probabilityMethod": "inactive_player",
+          "probabilityMethod": "empirical_position_residuals",
           "sources": {
             "customNflverseModel": 0.0
           },
@@ -820625,7 +820639,9 @@
             "games": 3,
             "method": "historical_position_model"
           },
-          "projectionWeek": 7
+          "projectionWeek": 7,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "6247",
@@ -843375,35 +843391,6 @@
               "confidence": 95
             },
             {
-              "espnId": "3121422",
-              "sleeperId": "5927",
-              "name": "Terry McLaurin",
-              "nameKey": "terry mclaurin",
-              "canonicalName": "terry mclaurin",
-              "proTeam": "WAS",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "OUT",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "espn_id",
-              "matchConfidence": 1.0,
-              "modelPlayerId": "5927",
-              "projection": 0.0,
-              "boom": 18,
-              "bust": 60,
-              "confidence": 95
-            },
-            {
               "espnId": "4248528",
               "sleeperId": "8167",
               "name": "Christian Watson",
@@ -848945,14 +848932,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "5927": {
-          "isRostered": true,
-          "ownerTeamId": 1,
-          "ownerTeamName": "Team 1",
-          "isMyTeam": false,
-          "matchMethod": "espn_id",
-          "matchConfidence": 1.0
-        },
         "8167": {
           "isRostered": true,
           "ownerTeamId": 1,
@@ -850658,9 +850637,9 @@
               "canonicalName": "quinshon judkins",
               "proTeam": "CLE",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 2,
@@ -850852,9 +850831,9 @@
               "canonicalName": "jordan mason",
               "proTeam": "MIN",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "INJURY_RESERVE",
               "eligibleSlots": [
                 2,
