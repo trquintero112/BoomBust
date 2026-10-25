@@ -12,7 +12,7 @@
     7
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-24T20:57:44.161566+00:00",
+  "generatedAt": "2026-10-25T04:54:18.070633+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -20328,6 +20328,39 @@
       "projectionBeforeMatchup": 1.63
     },
     {
+      "id": "6931",
+      "sleeperId": "6931",
+      "name": "DeeJay Dallas",
+      "team": "MIN",
+      "pos": "RB",
+      "opp": "vs IND",
+      "injury": "Healthy",
+      "projection": 1.61,
+      "floor": 0.0,
+      "ceiling": 4.2,
+      "boom": 18,
+      "bust": 38,
+      "confidence": 95,
+      "trend": 0.2,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 1.61
+      },
+      "model": {
+        "projection": 1.615522222222222,
+        "weightedAverage": 1.5444444444444445,
+        "recentAverage": 1.8250000000000002,
+        "trend": 0.1988095238095237,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 7,
+      "matchupModifier": 0.9924,
+      "projectionBeforeMatchup": 1.62
+    },
+    {
       "id": "11643",
       "sleeperId": "11643",
       "name": "Jaylen Wright",
@@ -25812,37 +25845,6 @@
         "customNflverseModel": 0.0
       },
       "model": {},
-      "projectionWeek": 7
-    },
-    {
-      "id": "6931",
-      "sleeperId": "6931",
-      "name": "DeeJay Dallas",
-      "team": "FA",
-      "pos": "RB",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 95,
-      "trend": 0.2,
-      "flexEligible": true,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 1.615522222222222,
-        "weightedAverage": 1.5444444444444445,
-        "recentAverage": 1.8250000000000002,
-        "trend": 0.1988095238095237,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
       "projectionWeek": 7
     },
     {
@@ -105499,7 +105501,7 @@
       "team": "HOU",
       "pos": "WR",
       "opp": "vs NYG",
-      "injury": "Questionable",
+      "injury": "Healthy",
       "projection": null,
       "floor": null,
       "ceiling": null,
@@ -126562,6 +126564,39 @@
           "projectionBeforeMatchup": 0.66
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "vs GB",
+          "injury": "Historical",
+          "projection": 0.6,
+          "floor": 0.0,
+          "ceiling": 3.4,
+          "boom": 18,
+          "bust": 49,
+          "confidence": 80,
+          "trend": 0.21,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.6
+          },
+          "model": {
+            "projection": 0.55909,
+            "weightedAverage": 0.56,
+            "recentAverage": 0.525,
+            "trend": 0.21000000000000005,
+            "standardDeviation": 2.5,
+            "games": 5,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 1,
+          "matchupModifier": 1.0657,
+          "projectionBeforeMatchup": 0.56
+        },
+        {
           "id": "11573",
           "sleeperId": "11573",
           "name": "Frank Gore Jr.",
@@ -131370,37 +131405,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 1
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 80,
-          "trend": 0.21,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 0.55909,
-            "weightedAverage": 0.56,
-            "recentAverage": 0.525,
-            "trend": 0.21000000000000005,
-            "standardDeviation": 2.5,
-            "games": 5,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 1
         },
         {
@@ -231629,6 +231633,39 @@
           "projectionBeforeMatchup": 0.78
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "@ CHI",
+          "injury": "Historical",
+          "projection": 0.74,
+          "floor": 0.0,
+          "ceiling": 3.4,
+          "boom": 18,
+          "bust": 46,
+          "confidence": 85,
+          "trend": 0.22,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.74
+          },
+          "model": {
+            "projection": 0.74648,
+            "weightedAverage": 0.7142857142857143,
+            "recentAverage": 0.8,
+            "trend": 0.21714285714285708,
+            "standardDeviation": 2.5,
+            "games": 6,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 2,
+          "matchupModifier": 0.9886,
+          "projectionBeforeMatchup": 0.75
+        },
+        {
           "id": "11729",
           "sleeperId": "11729",
           "name": "Sione Vaki",
@@ -236478,37 +236515,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 2
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 85,
-          "trend": 0.22,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 0.74648,
-            "weightedAverage": 0.7142857142857143,
-            "recentAverage": 0.8,
-            "trend": 0.21714285714285708,
-            "standardDeviation": 2.5,
-            "games": 6,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 2
         },
         {
@@ -336448,6 +336454,39 @@
           "projectionBeforeMatchup": 1.5
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "@ TB",
+          "injury": "Historical",
+          "projection": 1.24,
+          "floor": 0.0,
+          "ceiling": 3.6,
+          "boom": 18,
+          "bust": 41,
+          "confidence": 90,
+          "trend": 0.4,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.24
+          },
+          "model": {
+            "projection": 1.3769,
+            "weightedAverage": 1.2857142857142858,
+            "recentAverage": 1.55,
+            "trend": 0.4,
+            "standardDeviation": 2.5,
+            "games": 7,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3,
+          "matchupModifier": 0.8972,
+          "projectionBeforeMatchup": 1.38
+        },
+        {
           "id": "6828",
           "sleeperId": "6828",
           "name": "AJ Dillon",
@@ -341858,37 +341897,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 90,
-          "trend": 0.4,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.3769,
-            "weightedAverage": 1.2857142857142858,
-            "recentAverage": 1.55,
-            "trend": 0.4,
-            "standardDeviation": 2.5,
-            "games": 7,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 3
         },
         {
@@ -442077,6 +442085,39 @@
           "projectionBeforeMatchup": 1.13
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "vs MIA",
+          "injury": "Historical",
+          "projection": 1.21,
+          "floor": 0.0,
+          "ceiling": 4.3,
+          "boom": 18,
+          "bust": 44,
+          "confidence": 95,
+          "trend": 0.21,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.21
+          },
+          "model": {
+            "projection": 1.0530722222222222,
+            "weightedAverage": 1.0444444444444445,
+            "recentAverage": 1.075,
+            "trend": 0.20952380952380953,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 4,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 1.05
+        },
+        {
           "id": "13288",
           "sleeperId": "13288",
           "name": "Nicholas Singleton",
@@ -447289,37 +447330,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 4
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.21,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.0530722222222222,
-            "weightedAverage": 1.0444444444444445,
-            "recentAverage": 1.075,
-            "trend": 0.20952380952380953,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 4
         },
         {
@@ -547453,6 +547463,39 @@
           "projectionBeforeMatchup": 1.4
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "@ NO",
+          "injury": "Historical",
+          "projection": 1.53,
+          "floor": 0.0,
+          "ceiling": 4.4,
+          "boom": 18,
+          "bust": 41,
+          "confidence": 95,
+          "trend": 0.22,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.53
+          },
+          "model": {
+            "projection": 1.3844055555555554,
+            "weightedAverage": 1.3111111111111111,
+            "recentAverage": 1.575,
+            "trend": 0.22380952380952374,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 5,
+          "matchupModifier": 1.1115,
+          "projectionBeforeMatchup": 1.38
+        },
+        {
           "id": "12171",
           "sleeperId": "12171",
           "name": "British Brooks",
@@ -552764,37 +552807,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 5
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.22,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.3844055555555554,
-            "weightedAverage": 1.3111111111111111,
-            "recentAverage": 1.575,
-            "trend": 0.22380952380952374,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 5
         },
         {
@@ -652866,6 +652878,39 @@
           "projectionBeforeMatchup": 1.71
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "",
+          "injury": "Historical",
+          "projection": 1.62,
+          "floor": 0.0,
+          "ceiling": 4.2,
+          "boom": 18,
+          "bust": 38,
+          "confidence": 95,
+          "trend": 0.2,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.62
+          },
+          "model": {
+            "projection": 1.615522222222222,
+            "weightedAverage": 1.5444444444444445,
+            "recentAverage": 1.8250000000000002,
+            "trend": 0.1988095238095237,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 6,
+          "matchupModifier": 1.0,
+          "projectionBeforeMatchup": 1.62
+        },
+        {
           "id": "11643",
           "sleeperId": "11643",
           "name": "Jaylen Wright",
@@ -658317,37 +658362,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 6
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.2,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.615522222222222,
-            "weightedAverage": 1.5444444444444445,
-            "recentAverage": 1.8250000000000002,
-            "trend": 0.1988095238095237,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 6
         },
         {
@@ -757776,6 +757790,39 @@
           "projectionBeforeMatchup": 1.63
         },
         {
+          "id": "6931",
+          "sleeperId": "6931",
+          "name": "DeeJay Dallas",
+          "team": "MIN",
+          "pos": "RB",
+          "opp": "vs IND",
+          "injury": "Healthy",
+          "projection": 1.61,
+          "floor": 0.0,
+          "ceiling": 4.2,
+          "boom": 18,
+          "bust": 38,
+          "confidence": 95,
+          "trend": 0.2,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.61
+          },
+          "model": {
+            "projection": 1.615522222222222,
+            "weightedAverage": 1.5444444444444445,
+            "recentAverage": 1.8250000000000002,
+            "trend": 0.1988095238095237,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 7,
+          "matchupModifier": 0.9924,
+          "projectionBeforeMatchup": 1.62
+        },
+        {
           "id": "11643",
           "sleeperId": "11643",
           "name": "Jaylen Wright",
@@ -763260,37 +763307,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 7
-        },
-        {
-          "id": "6931",
-          "sleeperId": "6931",
-          "name": "DeeJay Dallas",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.2,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.615522222222222,
-            "weightedAverage": 1.5444444444444445,
-            "recentAverage": 1.8250000000000002,
-            "trend": 0.1988095238095237,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 7
         },
         {
@@ -842947,7 +842963,7 @@
           "team": "HOU",
           "pos": "WR",
           "opp": "vs NYG",
-          "injury": "Questionable",
+          "injury": "Healthy",
           "projection": null,
           "floor": null,
           "ceiling": null,
@@ -844486,7 +844502,7 @@
               "lineupSlotId": 21,
               "lineupSlot": "IR",
               "starter": false,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
                 4,
@@ -844662,9 +844678,9 @@
               "canonicalName": "garrett wilson",
               "proTeam": "NYJ",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -844887,9 +844903,9 @@
               "canonicalName": "devonta smith",
               "proTeam": "PHI",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 3,
@@ -845411,30 +845427,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4427728",
-              "sleeperId": null,
-              "name": "Bam Knight",
-              "nameKey": "bam knight",
-              "canonicalName": "bam knight",
-              "proTeam": "ARI",
-              "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                2,
-                3,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "unmatched",
-              "matchConfidence": 0.0,
-              "modelPlayerId": null
-            },
-            {
               "espnId": "4568263",
               "sleeperId": "12961",
               "name": "Ryan Fitzgerald",
@@ -845495,9 +845487,9 @@
               "canonicalName": "courtland sutton",
               "proTeam": "DEN",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -845540,6 +845532,35 @@
               "projection": 14.77,
               "boom": 22,
               "bust": 24,
+              "confidence": 95
+            },
+            {
+              "espnId": "4710855",
+              "sleeperId": "12718",
+              "name": "Konata Mumpfield",
+              "nameKey": "konata mumpfield",
+              "canonicalName": "konata mumpfield",
+              "proTeam": "LAR",
+              "position": "WR",
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "12718",
+              "projection": 5.2,
+              "boom": 18,
+              "bust": 17,
               "confidence": 95
             }
           ]
@@ -848181,9 +848202,9 @@
               "canonicalName": "t j hockenson",
               "proTeam": "MIN",
               "position": "TE",
-              "lineupSlotId": 6,
-              "lineupSlot": "TE",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -848351,9 +848372,9 @@
               "canonicalName": "tyler higbee",
               "proTeam": "LAR",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 6,
+              "lineupSlot": "TE",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -849522,6 +849543,14 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
+        "12718": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
         "7564": {
           "isRostered": true,
           "ownerTeamId": 6,
@@ -850459,14 +850488,7 @@
           "matchConfidence": 0.99
         }
       },
-      "unmatchedPlayers": [
-        {
-          "name": "Bam Knight",
-          "team": "Team 5",
-          "espnId": "4427728",
-          "method": "unmatched"
-        }
-      ],
+      "unmatchedPlayers": [],
       "matchup": {
         "homeTeamId": 10,
         "awayTeamId": 11
@@ -850553,9 +850575,9 @@
               "canonicalName": "nico collins",
               "proTeam": "HOU",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -850692,9 +850714,9 @@
               "canonicalName": "christian watson",
               "proTeam": "GB",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -853797,9 +853819,9 @@
               "canonicalName": "puka nacua",
               "proTeam": "LAR",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
@@ -853966,9 +853988,9 @@
               "canonicalName": "sam laporta",
               "proTeam": "DET",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -854100,9 +854122,9 @@
               "canonicalName": "alvin kamara",
               "proTeam": "NO",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -854234,9 +854256,9 @@
               "canonicalName": "emanuel wilson",
               "proTeam": "SEA",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -854785,9 +854807,9 @@
               "canonicalName": "devonta smith",
               "proTeam": "PHI",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 3,
@@ -854977,35 +854999,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4428850",
-              "sleeperId": "9486",
-              "name": "Dontayvion Wicks",
-              "nameKey": "dontayvion wicks",
-              "canonicalName": "dontayvion wicks",
-              "proTeam": "PHI",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "OUT",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "9486",
-              "projection": 0.0,
-              "boom": 18,
-              "bust": 60,
-              "confidence": 95
-            },
-            {
               "espnId": "4711533",
               "sleeperId": "12495",
               "name": "Ollie Gordon II",
@@ -855192,6 +855185,35 @@
               "matchConfidence": 0.99,
               "modelPlayerId": "9501",
               "projection": 13.41,
+              "boom": 18,
+              "bust": 17,
+              "confidence": 95
+            },
+            {
+              "espnId": "4569603",
+              "sleeperId": "11610",
+              "name": "Malik Washington",
+              "nameKey": "malik washington",
+              "canonicalName": "malik washington",
+              "proTeam": "MIA",
+              "position": "WR",
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "11610",
+              "projection": 10.19,
               "boom": 18,
               "bust": 17,
               "confidence": 95
@@ -856472,14 +856494,6 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
-        "9486": {
-          "isRostered": true,
-          "ownerTeamId": 12,
-          "ownerTeamName": "Team 12",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "12495": {
           "isRostered": true,
           "ownerTeamId": 12,
@@ -856529,6 +856543,14 @@
           "matchConfidence": 0.99
         },
         "9501": {
+          "isRostered": true,
+          "ownerTeamId": 12,
+          "ownerTeamName": "Team 12",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "11610": {
           "isRostered": true,
           "ownerTeamId": 12,
           "ownerTeamName": "Team 12",
