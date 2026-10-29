@@ -13,7 +13,7 @@
     8
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-29T05:58:46.809086+00:00",
+  "generatedAt": "2026-10-29T13:17:40.143115+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -950574,34 +950574,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4596334",
-              "sleeperId": "9511",
-              "name": "Keaton Mitchell",
-              "nameKey": "keaton mitchell",
-              "canonicalName": "keaton mitchell",
-              "proTeam": "LAC",
-              "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                2,
-                3,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "9511",
-              "projection": 6.12,
-              "boom": 19,
-              "bust": 16,
-              "confidence": 95
-            },
-            {
               "espnId": "-16005",
               "sleeperId": "CLE",
               "name": "Browns D/ST",
@@ -950737,6 +950709,34 @@
               "boom": 19,
               "bust": 23,
               "confidence": 90
+            },
+            {
+              "espnId": "4685279",
+              "sleeperId": "12457",
+              "name": "Jaydon Blue",
+              "nameKey": "jaydon blue",
+              "canonicalName": "jaydon blue",
+              "proTeam": "",
+              "position": "RB",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "12457",
+              "projection": 5.34,
+              "boom": 19,
+              "bust": 16,
+              "confidence": 80
             }
           ]
         },
@@ -951028,59 +951028,6 @@
               "confidence": 95
             },
             {
-              "espnId": "-16010",
-              "sleeperId": "TEN",
-              "name": "Titans D/ST",
-              "nameKey": "titans dst",
-              "canonicalName": "titans dst",
-              "proTeam": "TEN",
-              "position": "DST",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                16,
-                20,
-                21
-              ],
-              "matchMethod": "dst_team",
-              "matchConfidence": 1.0,
-              "modelPlayerId": "TEN",
-              "projection": 5.55,
-              "boom": 17,
-              "bust": 19,
-              "confidence": 95
-            },
-            {
-              "espnId": "4426386",
-              "sleeperId": "10235",
-              "name": "Roschon Johnson",
-              "nameKey": "roschon johnson",
-              "canonicalName": "roschon johnson",
-              "proTeam": "CHI",
-              "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                2,
-                3,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "10235",
-              "projection": 5.58,
-              "boom": 19,
-              "bust": 16,
-              "confidence": 95
-            },
-            {
               "espnId": "4568263",
               "sleeperId": "12961",
               "name": "Ryan Fitzgerald",
@@ -951215,6 +951162,60 @@
               "projection": 4.39,
               "boom": 17,
               "bust": 17,
+              "confidence": 95
+            },
+            {
+              "espnId": "15864",
+              "sleeperId": "1373",
+              "name": "Geno Smith",
+              "nameKey": "geno smith",
+              "canonicalName": "geno smith",
+              "proTeam": "NYJ",
+              "position": "QB",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                0,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "espn_id",
+              "matchConfidence": 1.0,
+              "modelPlayerId": "1373",
+              "projection": 16.0,
+              "boom": 24,
+              "bust": 27,
+              "confidence": 95
+            },
+            {
+              "espnId": "4360238",
+              "sleeperId": "8129",
+              "name": "Dameon Pierce",
+              "nameKey": "dameon pierce",
+              "canonicalName": "dameon pierce",
+              "proTeam": "PHI",
+              "position": "RB",
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
+              "injuryStatus": "INJURY_RESERVE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "8129",
+              "projection": 0.0,
+              "boom": 19,
+              "bust": 58,
               "confidence": 95
             }
           ]
@@ -952254,9 +952255,9 @@
               "canonicalName": "dj moore",
               "proTeam": "BUF",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
@@ -952283,9 +952284,9 @@
               "canonicalName": "lamar jackson",
               "proTeam": "BAL",
               "position": "QB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 0,
+              "lineupSlot": "QB",
+              "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 0,
@@ -952448,9 +952449,9 @@
               "canonicalName": "patrick mahomes",
               "proTeam": "KC",
               "position": "QB",
-              "lineupSlotId": 0,
-              "lineupSlot": "QB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 0,
@@ -952502,9 +952503,9 @@
               "canonicalName": "malachi fields",
               "proTeam": "NYG",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -953862,9 +953863,9 @@
               "canonicalName": "rome odunze",
               "proTeam": "CHI",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -953948,9 +953949,9 @@
               "canonicalName": "antonio williams",
               "proTeam": "WAS",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -954999,14 +955000,6 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
-        "9511": {
-          "isRostered": true,
-          "ownerTeamId": 4,
-          "ownerTeamName": "Team 4",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "CLE": {
           "isRostered": true,
           "ownerTeamId": 4,
@@ -955040,6 +955033,14 @@
           "matchConfidence": 1.0
         },
         "13424": {
+          "isRostered": true,
+          "ownerTeamId": 4,
+          "ownerTeamName": "Team 4",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "12457": {
           "isRostered": true,
           "ownerTeamId": 4,
           "ownerTeamName": "Team 4",
@@ -955127,22 +955128,6 @@
           "matchMethod": "espn_id",
           "matchConfidence": 1.0
         },
-        "TEN": {
-          "isRostered": true,
-          "ownerTeamId": 5,
-          "ownerTeamName": "Team 5",
-          "isMyTeam": false,
-          "matchMethod": "dst_team",
-          "matchConfidence": 1.0
-        },
-        "10235": {
-          "isRostered": true,
-          "ownerTeamId": 5,
-          "ownerTeamName": "Team 5",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "12961": {
           "isRostered": true,
           "ownerTeamId": 5,
@@ -955176,6 +955161,22 @@
           "matchConfidence": 0.99
         },
         "12718": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "1373": {
+          "isRostered": true,
+          "ownerTeamId": 5,
+          "ownerTeamName": "Team 5",
+          "isMyTeam": false,
+          "matchMethod": "espn_id",
+          "matchConfidence": 1.0
+        },
+        "8129": {
           "isRostered": true,
           "ownerTeamId": 5,
           "ownerTeamName": "Team 5",
