@@ -13,7 +13,7 @@
     8
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-10-30T22:28:18.735496+00:00",
+  "generatedAt": "2026-10-31T05:55:26.916667+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -951775,9 +951775,9 @@
               "canonicalName": "carnell tate",
               "proTeam": "TEN",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 25,
@@ -952102,9 +952102,9 @@
               "canonicalName": "makai lemon",
               "proTeam": "PHI",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
