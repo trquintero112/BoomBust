@@ -15,7 +15,7 @@
     10
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-11-14T18:15:55.044177+00:00",
+  "generatedAt": "2026-11-14T22:36:20.597382+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -19328,6 +19328,39 @@
       "projectionBeforeMatchup": 6.07
     },
     {
+      "id": "9511",
+      "sleeperId": "9511",
+      "name": "Keaton Mitchell",
+      "team": "LAC",
+      "pos": "RB",
+      "opp": "@ BAL",
+      "injury": "Healthy",
+      "projection": 5.03,
+      "floor": 0.9,
+      "ceiling": 9.3,
+      "boom": 18,
+      "bust": 16,
+      "confidence": 95,
+      "trend": 0.05,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 5.03
+      },
+      "model": {
+        "projection": 5.760611111111111,
+        "weightedAverage": 6.322222222222223,
+        "recentAverage": 4.825,
+        "trend": 0.05119047619047658,
+        "standardDeviation": 4.610527549610162,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 0.8739,
+      "projectionBeforeMatchup": 5.76
+    },
+    {
       "id": "7561",
       "sleeperId": "7561",
       "name": "Elijah Mitchell",
@@ -19458,72 +19491,6 @@
       "projectionWeek": 10,
       "matchupModifier": 0.85,
       "projectionBeforeMatchup": 5.21
-    },
-    {
-      "id": "5892",
-      "sleeperId": "5892",
-      "name": "David Montgomery",
-      "team": "HOU",
-      "pos": "RB",
-      "opp": "@ CLE",
-      "injury": "Questionable",
-      "projection": 5.09,
-      "floor": 0.0,
-      "ceiling": 14.5,
-      "boom": 18,
-      "bust": 16,
-      "confidence": 95,
-      "trend": -0.41,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 5.09
-      },
-      "model": {
-        "projection": 5.947899999999999,
-        "weightedAverage": 6.949999999999999,
-        "recentAverage": 4.15,
-        "trend": -0.40714285714285725,
-        "standardDeviation": 8.941676097274572,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 1.005,
-      "projectionBeforeMatchup": 5.06
-    },
-    {
-      "id": "9511",
-      "sleeperId": "9511",
-      "name": "Keaton Mitchell",
-      "team": "LAC",
-      "pos": "RB",
-      "opp": "@ BAL",
-      "injury": "Questionable",
-      "projection": 4.28,
-      "floor": 0.1,
-      "ceiling": 8.5,
-      "boom": 18,
-      "bust": 17,
-      "confidence": 95,
-      "trend": 0.05,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 4.28
-      },
-      "model": {
-        "projection": 5.760611111111111,
-        "weightedAverage": 6.322222222222223,
-        "recentAverage": 4.825,
-        "trend": 0.05119047619047658,
-        "standardDeviation": 4.610527549610162,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 0.8739,
-      "projectionBeforeMatchup": 4.9
     },
     {
       "id": "10235",
@@ -19955,6 +19922,39 @@
       "projectionBeforeMatchup": 2.74
     },
     {
+      "id": "11370",
+      "sleeperId": "11370",
+      "name": "Chris Brooks",
+      "team": "GB",
+      "pos": "RB",
+      "opp": "vs MIN",
+      "injury": "Questionable",
+      "projection": 2.37,
+      "floor": 0.1,
+      "ceiling": 4.6,
+      "boom": 18,
+      "bust": 28,
+      "confidence": 95,
+      "trend": 0.2,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 2.37
+      },
+      "model": {
+        "projection": 3.210161111111111,
+        "weightedAverage": 3.3222222222222224,
+        "recentAverage": 3.1,
+        "trend": 0.2011904761904762,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 0.8681,
+      "projectionBeforeMatchup": 2.73
+    },
+    {
       "id": "12471",
       "sleeperId": "12471",
       "name": "DJ Giddens",
@@ -20285,6 +20285,39 @@
       "projectionBeforeMatchup": 1.71
     },
     {
+      "id": "4718",
+      "sleeperId": "4718",
+      "name": "Dare Ogunbowale",
+      "team": "HOU",
+      "pos": "RB",
+      "opp": "@ CLE",
+      "injury": "Healthy",
+      "projection": 1.66,
+      "floor": 0.0,
+      "ceiling": 4.5,
+      "boom": 18,
+      "bust": 37,
+      "confidence": 95,
+      "trend": -0.12,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 1.66
+      },
+      "model": {
+        "projection": 1.6500166666666665,
+        "weightedAverage": 1.9833333333333334,
+        "recentAverage": 1.025,
+        "trend": -0.12142857142857132,
+        "standardDeviation": 2.756680198043602,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 1.005,
+      "projectionBeforeMatchup": 1.65
+    },
+    {
       "id": "6828",
       "sleeperId": "6828",
       "name": "AJ Dillon",
@@ -20546,6 +20579,39 @@
       },
       "projectionWeek": 10,
       "matchupModifier": 1.0823,
+      "projectionBeforeMatchup": 0.96
+    },
+    {
+      "id": "7204",
+      "sleeperId": "7204",
+      "name": "Reggie Gilliam",
+      "team": "NE",
+      "pos": "RB",
+      "opp": "@ DET",
+      "injury": "Questionable",
+      "projection": 0.82,
+      "floor": 0.0,
+      "ceiling": 3.1,
+      "boom": 18,
+      "bust": 44,
+      "confidence": 95,
+      "trend": 0.26,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.82
+      },
+      "model": {
+        "projection": 1.1322888888888887,
+        "weightedAverage": 1.0777777777777777,
+        "recentAverage": 1.25,
+        "trend": 0.25952380952380943,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 0.85,
       "projectionBeforeMatchup": 0.96
     },
     {
@@ -23904,39 +23970,6 @@
       "projectionWeek": 10
     },
     {
-      "id": "11370",
-      "sleeperId": "11370",
-      "name": "Chris Brooks",
-      "team": "GB",
-      "pos": "RB",
-      "opp": "vs MIN",
-      "injury": "IR",
-      "projection": 0.0,
-      "floor": 0,
-      "ceiling": 2.6,
-      "boom": 18,
-      "bust": 58,
-      "confidence": 95,
-      "trend": 0.2,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 3.210161111111111,
-        "weightedAverage": 3.3222222222222224,
-        "recentAverage": 3.1,
-        "trend": 0.2011904761904762,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 0.8681,
-      "projectionBeforeMatchup": 0.0
-    },
-    {
       "id": "4273",
       "sleeperId": "4273",
       "name": "Chris Carson",
@@ -25006,37 +25039,6 @@
       "projectionWeek": 10
     },
     {
-      "id": "4718",
-      "sleeperId": "4718",
-      "name": "Dare Ogunbowale",
-      "team": "FA",
-      "pos": "RB",
-      "opp": "",
-      "injury": "FREE AGENT",
-      "projection": 0.0,
-      "floor": 0.0,
-      "ceiling": 0.0,
-      "boom": 0,
-      "bust": 100,
-      "confidence": 95,
-      "trend": -0.12,
-      "flexEligible": true,
-      "probabilityMethod": "inactive_player",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 1.6500166666666665,
-        "weightedAverage": 1.9833333333333334,
-        "recentAverage": 1.025,
-        "trend": -0.12142857142857132,
-        "standardDeviation": 2.756680198043602,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10
-    },
-    {
       "id": "7038",
       "sleeperId": "7038",
       "name": "Darius Anderson",
@@ -25518,6 +25520,39 @@
       },
       "model": {},
       "projectionWeek": 10
+    },
+    {
+      "id": "5892",
+      "sleeperId": "5892",
+      "name": "David Montgomery",
+      "team": "HOU",
+      "pos": "RB",
+      "opp": "@ CLE",
+      "injury": "Out",
+      "projection": 0.0,
+      "floor": 0,
+      "ceiling": 9.3,
+      "boom": 18,
+      "bust": 58,
+      "confidence": 95,
+      "trend": -0.41,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {
+        "projection": 5.947899999999999,
+        "weightedAverage": 6.949999999999999,
+        "recentAverage": 4.15,
+        "trend": -0.40714285714285725,
+        "standardDeviation": 8.941676097274572,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 1.005,
+      "projectionBeforeMatchup": 0.0
     },
     {
       "id": "5115",
@@ -35853,39 +35888,6 @@
       "projectionWeek": 10
     },
     {
-      "id": "7204",
-      "sleeperId": "7204",
-      "name": "Reggie Gilliam",
-      "team": "NE",
-      "pos": "RB",
-      "opp": "@ DET",
-      "injury": "IR",
-      "projection": 0.0,
-      "floor": 0,
-      "ceiling": 2.6,
-      "boom": 18,
-      "bust": 58,
-      "confidence": 95,
-      "trend": 0.26,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 1.1322888888888887,
-        "weightedAverage": 1.0777777777777777,
-        "recentAverage": 1.25,
-        "trend": 0.25952380952380943,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 0.0
-    },
-    {
       "id": "1387",
       "sleeperId": "1387",
       "name": "Rex Burkhead",
@@ -38565,7 +38567,7 @@
       "team": "NE",
       "pos": "RB",
       "opp": "@ DET",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 4.1,
@@ -39121,7 +39123,7 @@
       "team": "DAL",
       "pos": "RB",
       "opp": "vs SF",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 2.6,
@@ -40877,7 +40879,7 @@
       "team": "NO",
       "pos": "RB",
       "opp": "vs CAR",
-      "injury": "IR",
+      "injury": "Questionable",
       "projection": 13.95,
       "floor": 4.7,
       "ceiling": 23.2,
@@ -43852,6 +43854,39 @@
       "projectionWeek": 10,
       "matchupModifier": 0.85,
       "projectionBeforeMatchup": 1.14
+    },
+    {
+      "id": "7535",
+      "sleeperId": "7535",
+      "name": "Hunter Long",
+      "team": "ARI",
+      "pos": "TE",
+      "opp": "vs LAR",
+      "injury": "Questionable",
+      "projection": 0.89,
+      "floor": 0.0,
+      "ceiling": 3.1,
+      "boom": 15,
+      "bust": 45,
+      "confidence": 95,
+      "trend": -0.23,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.89
+      },
+      "model": {
+        "projection": 1.235569523809524,
+        "weightedAverage": 1.4666666666666668,
+        "recentAverage": 0.875,
+        "trend": -0.23214285714285698,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 0.85,
+      "projectionBeforeMatchup": 1.05
     },
     {
       "id": "4189",
@@ -51122,39 +51157,6 @@
       "projectionWeek": 10
     },
     {
-      "id": "7535",
-      "sleeperId": "7535",
-      "name": "Hunter Long",
-      "team": "ARI",
-      "pos": "TE",
-      "opp": "vs LAR",
-      "injury": "IR",
-      "projection": 0.0,
-      "floor": 0,
-      "ceiling": 2.6,
-      "boom": 15,
-      "bust": 58,
-      "confidence": 95,
-      "trend": -0.23,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 1.235569523809524,
-        "weightedAverage": 1.4666666666666668,
-        "recentAverage": 0.875,
-        "trend": -0.23214285714285698,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 0.0
-    },
-    {
       "id": "7522",
       "sleeperId": "7522",
       "name": "Hunter Thedford",
@@ -53499,7 +53501,7 @@
       "team": "GB",
       "pos": "TE",
       "opp": "vs MIN",
-      "injury": "Out",
+      "injury": "IR",
       "projection": 0.0,
       "floor": 0,
       "ceiling": 2.6,
@@ -65398,6 +65400,39 @@
       "projectionBeforeMatchup": 3.06
     },
     {
+      "id": "11626",
+      "sleeperId": "11626",
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "pos": "WR",
+      "opp": "@ NO",
+      "injury": "Questionable",
+      "projection": 3.08,
+      "floor": 0.0,
+      "ceiling": 6.1,
+      "boom": 17,
+      "bust": 27,
+      "confidence": 95,
+      "trend": 0.29,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 3.08
+      },
+      "model": {
+        "projection": 3.605327142857143,
+        "weightedAverage": 3.5749999999999997,
+        "recentAverage": 3.85,
+        "trend": 0.2892857142857145,
+        "standardDeviation": 2.916425160069381,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 1.0072,
+      "projectionBeforeMatchup": 3.06
+    },
+    {
       "id": "5086",
       "sleeperId": "5086",
       "name": "Marquez Valdes-Scantling",
@@ -66157,39 +66192,6 @@
       "projectionBeforeMatchup": 1.96
     },
     {
-      "id": "13380",
-      "sleeperId": "13380",
-      "name": "Brenen Thompson",
-      "team": "LAC",
-      "pos": "WR",
-      "opp": "@ BAL",
-      "injury": "Questionable",
-      "projection": 2.15,
-      "floor": 0.0,
-      "ceiling": 5.1,
-      "boom": 17,
-      "bust": 35,
-      "confidence": 60,
-      "trend": 0.0,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 2.15
-      },
-      "model": {
-        "projection": 2.2493999999999996,
-        "weightedAverage": 2.3,
-        "recentAverage": 2.3,
-        "trend": 0.0,
-        "standardDeviation": 2.5,
-        "games": 1,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 1.1259,
-      "projectionBeforeMatchup": 1.91
-    },
-    {
       "id": "8756",
       "sleeperId": "8756",
       "name": "Brandon Johnson",
@@ -66353,6 +66355,39 @@
       "projectionWeek": 10,
       "matchupModifier": 0.9038,
       "projectionBeforeMatchup": 1.77
+    },
+    {
+      "id": "8168",
+      "sleeperId": "8168",
+      "name": "Skyy Moore",
+      "team": "GB",
+      "pos": "WR",
+      "opp": "vs MIN",
+      "injury": "Questionable",
+      "projection": 1.46,
+      "floor": 0.0,
+      "ceiling": 3.6,
+      "boom": 17,
+      "bust": 37,
+      "confidence": 95,
+      "trend": 0.36,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 1.46
+      },
+      "model": {
+        "projection": 2.0188326190476187,
+        "weightedAverage": 1.7722222222222221,
+        "recentAverage": 2.625,
+        "trend": 0.3619047619047618,
+        "standardDeviation": 2.5,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 0.85,
+      "projectionBeforeMatchup": 1.72
     },
     {
       "id": "10228",
@@ -66716,6 +66751,39 @@
       "projectionWeek": 10,
       "matchupModifier": 0.9275,
       "projectionBeforeMatchup": 1.31
+    },
+    {
+      "id": "13380",
+      "sleeperId": "13380",
+      "name": "Brenen Thompson",
+      "team": "LAC",
+      "pos": "WR",
+      "opp": "@ BAL",
+      "injury": "Doubtful",
+      "projection": 1.4,
+      "floor": 0.0,
+      "ceiling": 4.3,
+      "boom": 17,
+      "bust": 42,
+      "confidence": 60,
+      "trend": 0.0,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 1.4
+      },
+      "model": {
+        "projection": 2.2493999999999996,
+        "weightedAverage": 2.3,
+        "recentAverage": 2.3,
+        "trend": 0.0,
+        "standardDeviation": 2.5,
+        "games": 1,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 10,
+      "matchupModifier": 1.1259,
+      "projectionBeforeMatchup": 1.24
     },
     {
       "id": "8223",
@@ -99547,39 +99615,6 @@
       "projectionBeforeMatchup": 0.0
     },
     {
-      "id": "8168",
-      "sleeperId": "8168",
-      "name": "Skyy Moore",
-      "team": "GB",
-      "pos": "WR",
-      "opp": "vs MIN",
-      "injury": "IR",
-      "projection": 0.0,
-      "floor": 0,
-      "ceiling": 2.6,
-      "boom": 17,
-      "bust": 60,
-      "confidence": 95,
-      "trend": 0.36,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 2.0188326190476187,
-        "weightedAverage": 1.7722222222222221,
-        "recentAverage": 2.625,
-        "trend": 0.3619047619047618,
-        "standardDeviation": 2.5,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 0.0
-    },
-    {
       "id": "8191",
       "sleeperId": "8191",
       "name": "Slade Bolden",
@@ -103568,39 +103603,6 @@
       },
       "model": {},
       "projectionWeek": 10
-    },
-    {
-      "id": "11626",
-      "sleeperId": "11626",
-      "name": "Xavier Legette",
-      "team": "CAR",
-      "pos": "WR",
-      "opp": "@ NO",
-      "injury": "IR",
-      "projection": 0.0,
-      "floor": 0,
-      "ceiling": 3.0,
-      "boom": 17,
-      "bust": 60,
-      "confidence": 95,
-      "trend": 0.29,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 0.0
-      },
-      "model": {
-        "projection": 3.605327142857143,
-        "weightedAverage": 3.5749999999999997,
-        "recentAverage": 3.85,
-        "trend": 0.2892857142857145,
-        "standardDeviation": 2.916425160069381,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 10,
-      "matchupModifier": 1.0072,
-      "projectionBeforeMatchup": 0.0
     },
     {
       "id": "13916",
@@ -125959,6 +125961,39 @@
           "projectionBeforeMatchup": 3.05
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "vs BUF",
+          "injury": "Historical",
+          "projection": 2.96,
+          "floor": 0.3,
+          "ceiling": 5.6,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.96
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 1,
+          "matchupModifier": 0.973,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "12491",
           "sleeperId": "12491",
           "name": "Corey Kiner",
@@ -130785,37 +130820,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 1
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 1
         },
         {
@@ -230816,6 +230820,39 @@
           "projectionBeforeMatchup": 3.1
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "vs CIN",
+          "injury": "Historical",
+          "projection": 2.87,
+          "floor": 0.3,
+          "ceiling": 5.5,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.87
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 2,
+          "matchupModifier": 0.9441,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "9511",
           "sleeperId": "9511",
           "name": "Keaton Mitchell",
@@ -235881,37 +235918,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 2
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 2
         },
         {
@@ -335986,6 +335992,39 @@
           "projectionBeforeMatchup": 3.1
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ IND",
+          "injury": "Historical",
+          "projection": 3.1,
+          "floor": 0.3,
+          "ceiling": 5.9,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.1
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 3,
+          "matchupModifier": 1.0195,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "11199",
           "sleeperId": "11199",
           "name": "Emari Demercado",
@@ -341249,37 +341288,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 3
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 3
         },
         {
@@ -441306,6 +441314,39 @@
           "projectionBeforeMatchup": 3.1
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "vs DAL",
+          "injury": "Historical",
+          "projection": 3.5,
+          "floor": 0.3,
+          "ceiling": 6.7,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.5
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 4,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "13414",
           "sleeperId": "13414",
           "name": "Kaelon Black",
@@ -446635,37 +446676,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 4
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 4
         },
         {
@@ -546736,6 +546746,39 @@
           "projectionBeforeMatchup": 3.1
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ TEN",
+          "injury": "Historical",
+          "projection": 2.58,
+          "floor": 0.3,
+          "ceiling": 4.9,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.58
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 5,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "11655",
           "sleeperId": "11655",
           "name": "Tyrone Tracy Jr.",
@@ -552098,37 +552141,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 5
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 5
         },
         {
@@ -652269,6 +652281,39 @@
           "projectionBeforeMatchup": 3.09
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ JAX",
+          "injury": "Historical",
+          "projection": 2.58,
+          "floor": 0.3,
+          "ceiling": 4.9,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.3,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.58
+          },
+          "model": {
+            "projection": 3.039827777777778,
+            "weightedAverage": 2.7055555555555557,
+            "recentAverage": 3.9250000000000003,
+            "trend": 0.3047619047619047,
+            "standardDeviation": 2.632217967526897,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 6,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 3.04
+        },
+        {
           "id": "11439",
           "sleeperId": "11439",
           "name": "Jaleel McLaughlin",
@@ -657639,37 +657684,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 6
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": 0.3,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.039827777777778,
-            "weightedAverage": 2.7055555555555557,
-            "recentAverage": 3.9250000000000003,
-            "trend": 0.3047619047619047,
-            "standardDeviation": 2.632217967526897,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 6
         },
         {
@@ -758289,6 +758303,39 @@
           "projectionBeforeMatchup": 2.27
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "vs NYG",
+          "injury": "Historical",
+          "projection": 2.07,
+          "floor": 0.0,
+          "ceiling": 4.8,
+          "boom": 18,
+          "bust": 33,
+          "confidence": 95,
+          "trend": -0.01,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.07
+          },
+          "model": {
+            "projection": 2.1725666666666665,
+            "weightedAverage": 2.183333333333333,
+            "recentAverage": 2.3000000000000003,
+            "trend": -0.014285714285714159,
+            "standardDeviation": 2.739134378386198,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 7,
+          "matchupModifier": 0.9538,
+          "projectionBeforeMatchup": 2.17
+        },
+        {
           "id": "12412",
           "sleeperId": "12412",
           "name": "Terrell Jennings",
@@ -763230,37 +763277,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 7
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.01,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 2.1725666666666665,
-            "weightedAverage": 2.183333333333333,
-            "recentAverage": 2.3000000000000003,
-            "trend": -0.014285714285714159,
-            "standardDeviation": 2.739134378386198,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 7
         },
         {
@@ -864009,6 +864025,39 @@
           "projectionBeforeMatchup": 2.27
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "vs SF",
+          "injury": "Historical",
+          "projection": 2.47,
+          "floor": 0.0,
+          "ceiling": 5.7,
+          "boom": 19,
+          "bust": 33,
+          "confidence": 95,
+          "trend": -0.01,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.47
+          },
+          "model": {
+            "projection": 2.1725666666666665,
+            "weightedAverage": 2.183333333333333,
+            "recentAverage": 2.3000000000000003,
+            "trend": -0.014285714285714159,
+            "standardDeviation": 2.739134378386198,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 8,
+          "matchupModifier": 1.1377,
+          "projectionBeforeMatchup": 2.17
+        },
+        {
           "id": "12412",
           "sleeperId": "12412",
           "name": "Terrell Jennings",
@@ -868884,37 +868933,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 8
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.01,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 2.1725666666666665,
-            "weightedAverage": 2.183333333333333,
-            "recentAverage": 2.3000000000000003,
-            "trend": -0.014285714285714159,
-            "standardDeviation": 2.739134378386198,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 8
         },
         {
@@ -969726,6 +969744,39 @@
           "projectionBeforeMatchup": 2.28
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ LAC",
+          "injury": "Historical",
+          "projection": 2.32,
+          "floor": 0.0,
+          "ceiling": 5.3,
+          "boom": 19,
+          "bust": 33,
+          "confidence": 95,
+          "trend": -0.01,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.32
+          },
+          "model": {
+            "projection": 2.1725666666666665,
+            "weightedAverage": 2.183333333333333,
+            "recentAverage": 2.3000000000000003,
+            "trend": -0.014285714285714159,
+            "standardDeviation": 2.739134378386198,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 9,
+          "matchupModifier": 1.0697,
+          "projectionBeforeMatchup": 2.17
+        },
+        {
           "id": "12412",
           "sleeperId": "12412",
           "name": "Terrell Jennings",
@@ -974576,37 +974627,6 @@
             "customNflverseModel": 0.0
           },
           "model": {},
-          "projectionWeek": 9
-        },
-        {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.01,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 2.1725666666666665,
-            "weightedAverage": 2.183333333333333,
-            "recentAverage": 2.3000000000000003,
-            "trend": -0.014285714285714159,
-            "standardDeviation": 2.739134378386198,
-            "games": 8,
-            "method": "historical_position_model"
-          },
           "projectionWeek": 9
         },
         {
@@ -1073871,6 +1073891,39 @@
           "projectionBeforeMatchup": 6.07
         },
         {
+          "id": "9511",
+          "sleeperId": "9511",
+          "name": "Keaton Mitchell",
+          "team": "LAC",
+          "pos": "RB",
+          "opp": "@ BAL",
+          "injury": "Healthy",
+          "projection": 5.03,
+          "floor": 0.9,
+          "ceiling": 9.3,
+          "boom": 18,
+          "bust": 16,
+          "confidence": 95,
+          "trend": 0.05,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 5.03
+          },
+          "model": {
+            "projection": 5.760611111111111,
+            "weightedAverage": 6.322222222222223,
+            "recentAverage": 4.825,
+            "trend": 0.05119047619047658,
+            "standardDeviation": 4.610527549610162,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 0.8739,
+          "projectionBeforeMatchup": 5.76
+        },
+        {
           "id": "7561",
           "sleeperId": "7561",
           "name": "Elijah Mitchell",
@@ -1074001,72 +1074054,6 @@
           "projectionWeek": 10,
           "matchupModifier": 0.85,
           "projectionBeforeMatchup": 5.21
-        },
-        {
-          "id": "5892",
-          "sleeperId": "5892",
-          "name": "David Montgomery",
-          "team": "HOU",
-          "pos": "RB",
-          "opp": "@ CLE",
-          "injury": "Questionable",
-          "projection": 5.09,
-          "floor": 0.0,
-          "ceiling": 14.5,
-          "boom": 18,
-          "bust": 16,
-          "confidence": 95,
-          "trend": -0.41,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 5.09
-          },
-          "model": {
-            "projection": 5.947899999999999,
-            "weightedAverage": 6.949999999999999,
-            "recentAverage": 4.15,
-            "trend": -0.40714285714285725,
-            "standardDeviation": 8.941676097274572,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 1.005,
-          "projectionBeforeMatchup": 5.06
-        },
-        {
-          "id": "9511",
-          "sleeperId": "9511",
-          "name": "Keaton Mitchell",
-          "team": "LAC",
-          "pos": "RB",
-          "opp": "@ BAL",
-          "injury": "Questionable",
-          "projection": 4.28,
-          "floor": 0.1,
-          "ceiling": 8.5,
-          "boom": 18,
-          "bust": 17,
-          "confidence": 95,
-          "trend": 0.05,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 4.28
-          },
-          "model": {
-            "projection": 5.760611111111111,
-            "weightedAverage": 6.322222222222223,
-            "recentAverage": 4.825,
-            "trend": 0.05119047619047658,
-            "standardDeviation": 4.610527549610162,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 0.8739,
-          "projectionBeforeMatchup": 4.9
         },
         {
           "id": "10235",
@@ -1074498,6 +1074485,39 @@
           "projectionBeforeMatchup": 2.74
         },
         {
+          "id": "11370",
+          "sleeperId": "11370",
+          "name": "Chris Brooks",
+          "team": "GB",
+          "pos": "RB",
+          "opp": "vs MIN",
+          "injury": "Questionable",
+          "projection": 2.37,
+          "floor": 0.1,
+          "ceiling": 4.6,
+          "boom": 18,
+          "bust": 28,
+          "confidence": 95,
+          "trend": 0.2,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 2.37
+          },
+          "model": {
+            "projection": 3.210161111111111,
+            "weightedAverage": 3.3222222222222224,
+            "recentAverage": 3.1,
+            "trend": 0.2011904761904762,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 0.8681,
+          "projectionBeforeMatchup": 2.73
+        },
+        {
           "id": "12471",
           "sleeperId": "12471",
           "name": "DJ Giddens",
@@ -1074828,6 +1074848,39 @@
           "projectionBeforeMatchup": 1.71
         },
         {
+          "id": "4718",
+          "sleeperId": "4718",
+          "name": "Dare Ogunbowale",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ CLE",
+          "injury": "Healthy",
+          "projection": 1.66,
+          "floor": 0.0,
+          "ceiling": 4.5,
+          "boom": 18,
+          "bust": 37,
+          "confidence": 95,
+          "trend": -0.12,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.66
+          },
+          "model": {
+            "projection": 1.6500166666666665,
+            "weightedAverage": 1.9833333333333334,
+            "recentAverage": 1.025,
+            "trend": -0.12142857142857132,
+            "standardDeviation": 2.756680198043602,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 1.005,
+          "projectionBeforeMatchup": 1.65
+        },
+        {
           "id": "6828",
           "sleeperId": "6828",
           "name": "AJ Dillon",
@@ -1075089,6 +1075142,39 @@
           },
           "projectionWeek": 10,
           "matchupModifier": 1.0823,
+          "projectionBeforeMatchup": 0.96
+        },
+        {
+          "id": "7204",
+          "sleeperId": "7204",
+          "name": "Reggie Gilliam",
+          "team": "NE",
+          "pos": "RB",
+          "opp": "@ DET",
+          "injury": "Questionable",
+          "projection": 0.82,
+          "floor": 0.0,
+          "ceiling": 3.1,
+          "boom": 18,
+          "bust": 44,
+          "confidence": 95,
+          "trend": 0.26,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.82
+          },
+          "model": {
+            "projection": 1.1322888888888887,
+            "weightedAverage": 1.0777777777777777,
+            "recentAverage": 1.25,
+            "trend": 0.25952380952380943,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 0.85,
           "projectionBeforeMatchup": 0.96
         },
         {
@@ -1078447,39 +1078533,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "11370",
-          "sleeperId": "11370",
-          "name": "Chris Brooks",
-          "team": "GB",
-          "pos": "RB",
-          "opp": "vs MIN",
-          "injury": "IR",
-          "projection": 0.0,
-          "floor": 0,
-          "ceiling": 2.6,
-          "boom": 18,
-          "bust": 58,
-          "confidence": 95,
-          "trend": 0.2,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.210161111111111,
-            "weightedAverage": 3.3222222222222224,
-            "recentAverage": 3.1,
-            "trend": 0.2011904761904762,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 0.8681,
-          "projectionBeforeMatchup": 0.0
-        },
-        {
           "id": "4273",
           "sleeperId": "4273",
           "name": "Chris Carson",
@@ -1079549,37 +1079602,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "4718",
-          "sleeperId": "4718",
-          "name": "Dare Ogunbowale",
-          "team": "FA",
-          "pos": "RB",
-          "opp": "",
-          "injury": "FREE AGENT",
-          "projection": 0.0,
-          "floor": 0.0,
-          "ceiling": 0.0,
-          "boom": 0,
-          "bust": 100,
-          "confidence": 95,
-          "trend": -0.12,
-          "flexEligible": true,
-          "probabilityMethod": "inactive_player",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.6500166666666665,
-            "weightedAverage": 1.9833333333333334,
-            "recentAverage": 1.025,
-            "trend": -0.12142857142857132,
-            "standardDeviation": 2.756680198043602,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10
-        },
-        {
           "id": "7038",
           "sleeperId": "7038",
           "name": "Darius Anderson",
@@ -1080061,6 +1080083,39 @@
           },
           "model": {},
           "projectionWeek": 10
+        },
+        {
+          "id": "5892",
+          "sleeperId": "5892",
+          "name": "David Montgomery",
+          "team": "HOU",
+          "pos": "RB",
+          "opp": "@ CLE",
+          "injury": "Out",
+          "projection": 0.0,
+          "floor": 0,
+          "ceiling": 9.3,
+          "boom": 18,
+          "bust": 58,
+          "confidence": 95,
+          "trend": -0.41,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 5.947899999999999,
+            "weightedAverage": 6.949999999999999,
+            "recentAverage": 4.15,
+            "trend": -0.40714285714285725,
+            "standardDeviation": 8.941676097274572,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 1.005,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "5115",
@@ -1090396,39 +1090451,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "7204",
-          "sleeperId": "7204",
-          "name": "Reggie Gilliam",
-          "team": "NE",
-          "pos": "RB",
-          "opp": "@ DET",
-          "injury": "IR",
-          "projection": 0.0,
-          "floor": 0,
-          "ceiling": 2.6,
-          "boom": 18,
-          "bust": 58,
-          "confidence": 95,
-          "trend": 0.26,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.1322888888888887,
-            "weightedAverage": 1.0777777777777777,
-            "recentAverage": 1.25,
-            "trend": 0.25952380952380943,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 0.0
-        },
-        {
           "id": "1387",
           "sleeperId": "1387",
           "name": "Rex Burkhead",
@@ -1093108,7 +1093130,7 @@
           "team": "NE",
           "pos": "RB",
           "opp": "@ DET",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 4.1,
@@ -1093664,7 +1093686,7 @@
           "team": "DAL",
           "pos": "RB",
           "opp": "vs SF",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 2.6,
@@ -1095420,7 +1095442,7 @@
           "team": "NO",
           "pos": "RB",
           "opp": "vs CAR",
-          "injury": "IR",
+          "injury": "Questionable",
           "projection": 13.95,
           "floor": 4.7,
           "ceiling": 23.2,
@@ -1098395,6 +1098417,39 @@
           "projectionWeek": 10,
           "matchupModifier": 0.85,
           "projectionBeforeMatchup": 1.14
+        },
+        {
+          "id": "7535",
+          "sleeperId": "7535",
+          "name": "Hunter Long",
+          "team": "ARI",
+          "pos": "TE",
+          "opp": "vs LAR",
+          "injury": "Questionable",
+          "projection": 0.89,
+          "floor": 0.0,
+          "ceiling": 3.1,
+          "boom": 15,
+          "bust": 45,
+          "confidence": 95,
+          "trend": -0.23,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.89
+          },
+          "model": {
+            "projection": 1.235569523809524,
+            "weightedAverage": 1.4666666666666668,
+            "recentAverage": 0.875,
+            "trend": -0.23214285714285698,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 1.05
         },
         {
           "id": "4189",
@@ -1105665,39 +1105720,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "7535",
-          "sleeperId": "7535",
-          "name": "Hunter Long",
-          "team": "ARI",
-          "pos": "TE",
-          "opp": "vs LAR",
-          "injury": "IR",
-          "projection": 0.0,
-          "floor": 0,
-          "ceiling": 2.6,
-          "boom": 15,
-          "bust": 58,
-          "confidence": 95,
-          "trend": -0.23,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 1.235569523809524,
-            "weightedAverage": 1.4666666666666668,
-            "recentAverage": 0.875,
-            "trend": -0.23214285714285698,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 0.0
-        },
-        {
           "id": "7522",
           "sleeperId": "7522",
           "name": "Hunter Thedford",
@@ -1108042,7 +1108064,7 @@
           "team": "GB",
           "pos": "TE",
           "opp": "vs MIN",
-          "injury": "Out",
+          "injury": "IR",
           "projection": 0.0,
           "floor": 0,
           "ceiling": 2.6,
@@ -1119941,6 +1119963,39 @@
           "projectionBeforeMatchup": 3.06
         },
         {
+          "id": "11626",
+          "sleeperId": "11626",
+          "name": "Xavier Legette",
+          "team": "CAR",
+          "pos": "WR",
+          "opp": "@ NO",
+          "injury": "Questionable",
+          "projection": 3.08,
+          "floor": 0.0,
+          "ceiling": 6.1,
+          "boom": 17,
+          "bust": 27,
+          "confidence": 95,
+          "trend": 0.29,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 3.08
+          },
+          "model": {
+            "projection": 3.605327142857143,
+            "weightedAverage": 3.5749999999999997,
+            "recentAverage": 3.85,
+            "trend": 0.2892857142857145,
+            "standardDeviation": 2.916425160069381,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 1.0072,
+          "projectionBeforeMatchup": 3.06
+        },
+        {
           "id": "5086",
           "sleeperId": "5086",
           "name": "Marquez Valdes-Scantling",
@@ -1120700,39 +1120755,6 @@
           "projectionBeforeMatchup": 1.96
         },
         {
-          "id": "13380",
-          "sleeperId": "13380",
-          "name": "Brenen Thompson",
-          "team": "LAC",
-          "pos": "WR",
-          "opp": "@ BAL",
-          "injury": "Questionable",
-          "projection": 2.15,
-          "floor": 0.0,
-          "ceiling": 5.1,
-          "boom": 17,
-          "bust": 35,
-          "confidence": 60,
-          "trend": 0.0,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 2.15
-          },
-          "model": {
-            "projection": 2.2493999999999996,
-            "weightedAverage": 2.3,
-            "recentAverage": 2.3,
-            "trend": 0.0,
-            "standardDeviation": 2.5,
-            "games": 1,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 1.1259,
-          "projectionBeforeMatchup": 1.91
-        },
-        {
           "id": "8756",
           "sleeperId": "8756",
           "name": "Brandon Johnson",
@@ -1120896,6 +1120918,39 @@
           "projectionWeek": 10,
           "matchupModifier": 0.9038,
           "projectionBeforeMatchup": 1.77
+        },
+        {
+          "id": "8168",
+          "sleeperId": "8168",
+          "name": "Skyy Moore",
+          "team": "GB",
+          "pos": "WR",
+          "opp": "vs MIN",
+          "injury": "Questionable",
+          "projection": 1.46,
+          "floor": 0.0,
+          "ceiling": 3.6,
+          "boom": 17,
+          "bust": 37,
+          "confidence": 95,
+          "trend": 0.36,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.46
+          },
+          "model": {
+            "projection": 2.0188326190476187,
+            "weightedAverage": 1.7722222222222221,
+            "recentAverage": 2.625,
+            "trend": 0.3619047619047618,
+            "standardDeviation": 2.5,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 0.85,
+          "projectionBeforeMatchup": 1.72
         },
         {
           "id": "10228",
@@ -1121259,6 +1121314,39 @@
           "projectionWeek": 10,
           "matchupModifier": 0.9275,
           "projectionBeforeMatchup": 1.31
+        },
+        {
+          "id": "13380",
+          "sleeperId": "13380",
+          "name": "Brenen Thompson",
+          "team": "LAC",
+          "pos": "WR",
+          "opp": "@ BAL",
+          "injury": "Doubtful",
+          "projection": 1.4,
+          "floor": 0.0,
+          "ceiling": 4.3,
+          "boom": 17,
+          "bust": 42,
+          "confidence": 60,
+          "trend": 0.0,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 1.4
+          },
+          "model": {
+            "projection": 2.2493999999999996,
+            "weightedAverage": 2.3,
+            "recentAverage": 2.3,
+            "trend": 0.0,
+            "standardDeviation": 2.5,
+            "games": 1,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 10,
+          "matchupModifier": 1.1259,
+          "projectionBeforeMatchup": 1.24
         },
         {
           "id": "8223",
@@ -1154090,39 +1154178,6 @@
           "projectionBeforeMatchup": 0.0
         },
         {
-          "id": "8168",
-          "sleeperId": "8168",
-          "name": "Skyy Moore",
-          "team": "GB",
-          "pos": "WR",
-          "opp": "vs MIN",
-          "injury": "IR",
-          "projection": 0.0,
-          "floor": 0,
-          "ceiling": 2.6,
-          "boom": 17,
-          "bust": 60,
-          "confidence": 95,
-          "trend": 0.36,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 2.0188326190476187,
-            "weightedAverage": 1.7722222222222221,
-            "recentAverage": 2.625,
-            "trend": 0.3619047619047618,
-            "standardDeviation": 2.5,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 0.0
-        },
-        {
           "id": "8191",
           "sleeperId": "8191",
           "name": "Slade Bolden",
@@ -1158113,39 +1158168,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "11626",
-          "sleeperId": "11626",
-          "name": "Xavier Legette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ NO",
-          "injury": "IR",
-          "projection": 0.0,
-          "floor": 0,
-          "ceiling": 3.0,
-          "boom": 17,
-          "bust": 60,
-          "confidence": 95,
-          "trend": 0.29,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 0.0
-          },
-          "model": {
-            "projection": 3.605327142857143,
-            "weightedAverage": 3.5749999999999997,
-            "recentAverage": 3.85,
-            "trend": 0.2892857142857145,
-            "standardDeviation": 2.916425160069381,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 1.0072,
-          "projectionBeforeMatchup": 0.0
-        },
-        {
           "id": "13916",
           "sleeperId": "13916",
           "name": "Xavier Loyd",
@@ -1161427,9 +1161449,9 @@
               "canonicalName": "a j brown",
               "proTeam": "NE",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 3,
@@ -1161702,9 +1161724,9 @@
               "canonicalName": "caleb douglas",
               "proTeam": "MIA",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 25,
@@ -1161761,9 +1161783,9 @@
               "canonicalName": "tank dell",
               "proTeam": "HOU",
               "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -1161819,9 +1161841,9 @@
               "canonicalName": "ryan flournoy",
               "proTeam": "DAL",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 3,
@@ -1162879,7 +1162901,7 @@
               "lineupSlotId": 20,
               "lineupSlot": "BENCH",
               "starter": false,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "OUT",
               "eligibleSlots": [
                 2,
                 3,
@@ -1162891,9 +1162913,9 @@
               "matchMethod": "espn_id",
               "matchConfidence": 1.0,
               "modelPlayerId": "5892",
-              "projection": 5.09,
+              "projection": 0.0,
               "boom": 18,
-              "bust": 16,
+              "bust": 58,
               "confidence": 95
             },
             {
@@ -1162907,7 +1162929,7 @@
               "lineupSlotId": 21,
               "lineupSlot": "IR",
               "starter": false,
-              "injuryStatus": "OUT",
+              "injuryStatus": "INJURY_RESERVE",
               "eligibleSlots": [
                 2,
                 3,
@@ -1163303,7 +1163325,7 @@
               "lineupSlotId": 21,
               "lineupSlot": "IR",
               "starter": false,
-              "injuryStatus": "INJURY_RESERVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 2,
                 3,
@@ -1163357,9 +1163379,9 @@
               "canonicalName": "carnell tate",
               "proTeam": "TEN",
               "position": "WR",
-              "lineupSlotId": 4,
-              "lineupSlot": "WR",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 25,
@@ -1163627,35 +1163649,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4431466",
-              "sleeperId": "12634",
-              "name": "Jordan Watkins",
-              "nameKey": "jordan watkins",
-              "canonicalName": "jordan watkins",
-              "proTeam": "SF",
-              "position": "WR",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
-              "injuryStatus": "ACTIVE",
-              "eligibleSlots": [
-                3,
-                4,
-                5,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "12634",
-              "projection": 11.01,
-              "boom": 17,
-              "bust": 16,
-              "confidence": 85
-            },
-            {
               "espnId": "8439",
               "sleeperId": "96",
               "name": "Aaron Rodgers",
@@ -1163732,6 +1163725,35 @@
               "projection": 3.65,
               "boom": 18,
               "bust": 21,
+              "confidence": 95
+            },
+            {
+              "espnId": "4686422",
+              "sleeperId": "10218",
+              "name": "Xavier Hutchinson",
+              "nameKey": "xavier hutchinson",
+              "canonicalName": "xavier hutchinson",
+              "proTeam": "HOU",
+              "position": "WR",
+              "lineupSlotId": 4,
+              "lineupSlot": "WR",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                3,
+                4,
+                5,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "exact_name",
+              "matchConfidence": 0.99,
+              "modelPlayerId": "10218",
+              "projection": 7.81,
+              "boom": 17,
+              "bust": 16,
               "confidence": 95
             }
           ]
@@ -1164321,9 +1164343,9 @@
               "canonicalName": "tucker kraft",
               "proTeam": "GB",
               "position": "TE",
-              "lineupSlotId": 6,
-              "lineupSlot": "TE",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -1164655,9 +1164677,9 @@
               "canonicalName": "colby parkinson",
               "proTeam": "LAR",
               "position": "TE",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 6,
+              "lineupSlot": "TE",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 5,
@@ -1167046,14 +1167068,6 @@
           "matchMethod": "dst_team",
           "matchConfidence": 1.0
         },
-        "12634": {
-          "isRostered": true,
-          "ownerTeamId": 7,
-          "ownerTeamName": "Team 7",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "96": {
           "isRostered": true,
           "ownerTeamId": 7,
@@ -1167071,6 +1167085,14 @@
           "matchConfidence": 1.0
         },
         "12504": {
+          "isRostered": true,
+          "ownerTeamId": 7,
+          "ownerTeamName": "Team 7",
+          "isMyTeam": false,
+          "matchMethod": "exact_name",
+          "matchConfidence": 0.99
+        },
+        "10218": {
           "isRostered": true,
           "ownerTeamId": 7,
           "ownerTeamName": "Team 7",
@@ -1168331,7 +1168353,7 @@
               "lineupSlotId": 21,
               "lineupSlot": "IR",
               "starter": false,
-              "injuryStatus": "INJURY_RESERVE",
+              "injuryStatus": "QUESTIONABLE",
               "eligibleSlots": [
                 2,
                 3,
@@ -1169345,9 +1169367,9 @@
               "canonicalName": "carnell tate",
               "proTeam": "TEN",
               "position": "WR",
-              "lineupSlotId": 23,
-              "lineupSlot": "FLEX",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 25,
@@ -1169375,9 +1169397,9 @@
               "canonicalName": "rico dowdle",
               "proTeam": "PIT",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 23,
+              "lineupSlot": "FLEX",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
@@ -1171406,7 +1171428,7 @@
               "lineupSlotId": 2,
               "lineupSlot": "RB",
               "starter": true,
-              "injuryStatus": "QUESTIONABLE",
+              "injuryStatus": "OUT",
               "eligibleSlots": [
                 2,
                 3,
@@ -1171418,9 +1171440,9 @@
               "matchMethod": "espn_id",
               "matchConfidence": 1.0,
               "modelPlayerId": "5892",
-              "projection": 5.09,
+              "projection": 0.0,
               "boom": 18,
-              "bust": 16,
+              "bust": 58,
               "confidence": 95
             },
             {
@@ -1172032,9 +1172054,9 @@
               "canonicalName": "kenneth walker",
               "proTeam": "KC",
               "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
+              "lineupSlotId": 20,
+              "lineupSlot": "BENCH",
+              "starter": false,
               "injuryStatus": "OUT",
               "eligibleSlots": [
                 2,
@@ -1172314,9 +1172336,9 @@
               "canonicalName": "tyler allgeier",
               "proTeam": "ARI",
               "position": "RB",
-              "lineupSlotId": 20,
-              "lineupSlot": "BENCH",
-              "starter": false,
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
               "injuryStatus": "ACTIVE",
               "eligibleSlots": [
                 2,
