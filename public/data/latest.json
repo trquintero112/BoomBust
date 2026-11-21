@@ -16,7 +16,7 @@
     11
   ],
   "scoring": "PPR",
-  "generatedAt": "2026-11-21T07:23:43.944651+00:00",
+  "generatedAt": "2026-11-21T19:27:33.356413+00:00",
   "isDemo": false,
   "providers": [
     {
@@ -7172,39 +7172,6 @@
       "projectionBeforeMatchup": 7.53
     },
     {
-      "id": "5870",
-      "sleeperId": "5870",
-      "name": "Daniel Jones",
-      "team": "IND",
-      "pos": "QB",
-      "opp": "@ HOU",
-      "injury": "Healthy",
-      "projection": 7.11,
-      "floor": 3.7,
-      "ceiling": 10.4,
-      "boom": 25,
-      "bust": 28,
-      "confidence": 95,
-      "trend": -0.37,
-      "flexEligible": false,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 7.11
-      },
-      "model": {
-        "projection": 7.292412317460317,
-        "weightedAverage": 7.853888888888889,
-        "recentAverage": 6.4,
-        "trend": -0.36738095238095175,
-        "standardDeviation": 3.3083519850739664,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 11,
-      "matchupModifier": 0.975,
-      "projectionBeforeMatchup": 7.29
-    },
-    {
       "id": "2306",
       "sleeperId": "2306",
       "name": "Jameis Winston",
@@ -10198,6 +10165,37 @@
         "customNflverseModel": 0.0
       },
       "model": {},
+      "projectionWeek": 11
+    },
+    {
+      "id": "5870",
+      "sleeperId": "5870",
+      "name": "Daniel Jones",
+      "team": "FA",
+      "pos": "QB",
+      "opp": "",
+      "injury": "FREE AGENT",
+      "projection": 0.0,
+      "floor": 0.0,
+      "ceiling": 0.0,
+      "boom": 0,
+      "bust": 100,
+      "confidence": 95,
+      "trend": -0.37,
+      "flexEligible": false,
+      "probabilityMethod": "inactive_player",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {
+        "projection": 7.292412317460317,
+        "weightedAverage": 7.853888888888889,
+        "recentAverage": 6.4,
+        "trend": -0.36738095238095175,
+        "standardDeviation": 3.3083519850739664,
+        "games": 8,
+        "method": "historical_position_model"
+      },
       "projectionWeek": 11
     },
     {
@@ -19787,39 +19785,6 @@
       },
       "projectionWeek": 11,
       "matchupModifier": 0.85,
-      "projectionBeforeMatchup": 3.56
-    },
-    {
-      "id": "9508",
-      "sleeperId": "9508",
-      "name": "Tyjae Spears",
-      "team": "TEN",
-      "pos": "RB",
-      "opp": "@ DAL",
-      "injury": "Questionable",
-      "projection": 4.09,
-      "floor": 0.0,
-      "ceiling": 8.7,
-      "boom": 18,
-      "bust": 24,
-      "confidence": 95,
-      "trend": -0.6,
-      "flexEligible": true,
-      "probabilityMethod": "empirical_position_residuals",
-      "sources": {
-        "customNflverseModel": 4.09
-      },
-      "model": {
-        "projection": 4.187672222222222,
-        "weightedAverage": 4.3694444444444445,
-        "recentAverage": 4.25,
-        "trend": -0.6047619047619041,
-        "standardDeviation": 3.871784380064867,
-        "games": 8,
-        "method": "historical_position_model"
-      },
-      "projectionWeek": 11,
-      "matchupModifier": 1.15,
       "projectionBeforeMatchup": 3.56
     },
     {
@@ -39069,6 +39034,39 @@
       },
       "model": {},
       "projectionWeek": 11
+    },
+    {
+      "id": "9508",
+      "sleeperId": "9508",
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "pos": "RB",
+      "opp": "@ DAL",
+      "injury": "IR",
+      "projection": 0.0,
+      "floor": 0,
+      "ceiling": 4.0,
+      "boom": 18,
+      "bust": 58,
+      "confidence": 95,
+      "trend": -0.6,
+      "flexEligible": true,
+      "probabilityMethod": "empirical_position_residuals",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {
+        "projection": 4.187672222222222,
+        "weightedAverage": 4.3694444444444445,
+        "recentAverage": 4.25,
+        "trend": -0.6047619047619041,
+        "standardDeviation": 3.871784380064867,
+        "games": 8,
+        "method": "historical_position_model"
+      },
+      "projectionWeek": 11,
+      "matchupModifier": 1.15,
+      "projectionBeforeMatchup": 0.0
     },
     {
       "id": "8208",
@@ -81474,6 +81472,29 @@
       "projectionWeek": 11
     },
     {
+      "id": "7559",
+      "sleeperId": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "team": "FA",
+      "pos": "WR",
+      "opp": "",
+      "injury": "FREE AGENT",
+      "projection": 0.0,
+      "floor": 0.0,
+      "ceiling": 0.0,
+      "boom": 0,
+      "bust": 100,
+      "confidence": 0,
+      "trend": null,
+      "flexEligible": true,
+      "probabilityMethod": "inactive_player",
+      "sources": {
+        "customNflverseModel": 0.0
+      },
+      "model": {},
+      "projectionWeek": 11
+    },
+    {
       "id": "8861",
       "sleeperId": "8861",
       "name": "Irvin Charles",
@@ -104798,29 +104819,6 @@
       "projectionWeek": 11
     },
     {
-      "id": "7559",
-      "sleeperId": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "team": "CAR",
-      "pos": "WR",
-      "opp": "vs BAL",
-      "injury": "Questionable",
-      "projection": null,
-      "floor": null,
-      "ceiling": null,
-      "boom": null,
-      "bust": null,
-      "confidence": 0,
-      "trend": null,
-      "flexEligible": true,
-      "probabilityMethod": "no_projection",
-      "sources": {
-        "customNflverseModel": null
-      },
-      "model": {},
-      "projectionWeek": 11
-    },
-    {
       "id": "4451",
       "sleeperId": "4451",
       "name": "Isaac Whitney",
@@ -112714,39 +112712,6 @@
           "projectionBeforeMatchup": 13.0
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "vs BAL",
-          "injury": "Historical",
-          "projection": 13.25,
-          "floor": 5.5,
-          "ceiling": 21.1,
-          "boom": 24,
-          "bust": 30,
-          "confidence": 95,
-          "trend": -2.38,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 13.25
-          },
-          "model": {
-            "projection": 12.843584412698412,
-            "weightedAverage": 13.630555555555556,
-            "recentAverage": 12.32,
-            "trend": -2.3780952380952356,
-            "standardDeviation": 7.23701398565537,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 1,
-          "matchupModifier": 1.0322,
-          "projectionBeforeMatchup": 12.84
-        },
-        {
           "id": "7585",
           "sleeperId": "7585",
           "name": "Davis Mills",
@@ -116136,6 +116101,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 1
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -2.38,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 12.843584412698412,
+            "weightedAverage": 13.630555555555556,
+            "recentAverage": 12.32,
+            "trend": -2.3780952380952356,
+            "standardDeviation": 7.23701398565537,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 1
         },
         {
@@ -186149,6 +186145,29 @@
           "projectionWeek": 1
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 1
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -208836,29 +208855,6 @@
           "projectionWeek": 1
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs CHI",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 1
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -217662,39 +217658,6 @@
           "projectionBeforeMatchup": 11.27
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ KC",
-          "injury": "Historical",
-          "projection": 9.55,
-          "floor": 3.2,
-          "ceiling": 15.9,
-          "boom": 24,
-          "bust": 29,
-          "confidence": 95,
-          "trend": -2.34,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 9.55
-          },
-          "model": {
-            "projection": 11.23664946031746,
-            "weightedAverage": 11.99388888888889,
-            "recentAverage": 10.705,
-            "trend": -2.3409523809523796,
-            "standardDeviation": 7.18509369657567,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 2,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 11.24
-        },
-        {
           "id": "96",
           "sleeperId": "96",
           "name": "Aaron Rodgers",
@@ -220919,6 +220882,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 2
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -2.34,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 11.23664946031746,
+            "weightedAverage": 11.99388888888889,
+            "recentAverage": 10.705,
+            "trend": -2.3409523809523796,
+            "standardDeviation": 7.18509369657567,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 2
         },
         {
@@ -291728,6 +291722,29 @@
           "projectionWeek": 2
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 2
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -314340,29 +314357,6 @@
           "projectionWeek": 2
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ ATL",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 2
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -322966,39 +322960,6 @@
           "projectionBeforeMatchup": 10.57
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "vs HOU",
-          "injury": "Historical",
-          "projection": 11.1,
-          "floor": 3.7,
-          "ceiling": 18.4,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -1.81,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 11.1
-          },
-          "model": {
-            "projection": 10.374494,
-            "weightedAverage": 11.255,
-            "recentAverage": 9.345,
-            "trend": -1.8149999999999984,
-            "standardDeviation": 6.564248950619887,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 3,
-          "matchupModifier": 1.0701,
-          "projectionBeforeMatchup": 10.37
-        },
-        {
           "id": "5854",
           "sleeperId": "5854",
           "name": "Drew Lock",
@@ -326157,6 +326118,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 3
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -1.81,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 10.374494,
+            "weightedAverage": 11.255,
+            "recentAverage": 9.345,
+            "trend": -1.8149999999999984,
+            "standardDeviation": 6.564248950619887,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 3
         },
         {
@@ -397234,6 +397226,29 @@
           "projectionWeek": 3
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 3
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -419754,29 +419769,6 @@
           "projectionWeek": 3
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ CLE",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 3
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -428532,39 +428524,6 @@
           "projectionBeforeMatchup": 9.43
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ WAS",
-          "injury": "Historical",
-          "projection": 10.33,
-          "floor": 3.8,
-          "ceiling": 16.8,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -1.22,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 10.33
-          },
-          "model": {
-            "projection": 8.981610031746031,
-            "weightedAverage": 10.038888888888888,
-            "recentAverage": 7.285,
-            "trend": -1.2202380952380938,
-            "standardDeviation": 5.427469155008753,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 4,
-          "matchupModifier": 1.15,
-          "projectionBeforeMatchup": 8.98
-        },
-        {
           "id": "827",
           "sleeperId": "827",
           "name": "Tyrod Taylor",
@@ -431591,6 +431550,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 4
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -1.22,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 8.981610031746031,
+            "weightedAverage": 10.038888888888888,
+            "recentAverage": 7.285,
+            "trend": -1.2202380952380938,
+            "standardDeviation": 5.427469155008753,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 4
         },
         {
@@ -502781,6 +502771,29 @@
           "projectionWeek": 4
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 4
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -525400,29 +525413,6 @@
           "projectionWeek": 4
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs DET",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 4
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -534096,39 +534086,6 @@
           "projectionBeforeMatchup": 9.25
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ PIT",
-          "injury": "Historical",
-          "projection": 7.76,
-          "floor": 2.9,
-          "ceiling": 12.6,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -1.23,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 7.76
-          },
-          "model": {
-            "projection": 8.963300666666667,
-            "weightedAverage": 9.251666666666667,
-            "recentAverage": 9.065000000000001,
-            "trend": -1.2349999999999994,
-            "standardDeviation": 5.440020351852686,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 5,
-          "matchupModifier": 0.8656,
-          "projectionBeforeMatchup": 8.96
-        },
-        {
           "id": "827",
           "sleeperId": "827",
           "name": "Tyrod Taylor",
@@ -537155,6 +537112,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 5
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -1.23,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 8.963300666666667,
+            "weightedAverage": 9.251666666666667,
+            "recentAverage": 9.065000000000001,
+            "trend": -1.2349999999999994,
+            "standardDeviation": 5.440020351852686,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 5
         },
         {
@@ -608428,6 +608416,29 @@
           "projectionWeek": 5
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 5
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -630991,29 +631002,6 @@
           "projectionWeek": 5
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs MIA",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 5
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -639664,39 +639652,6 @@
           "projectionBeforeMatchup": 9.32
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "vs TEN",
-          "injury": "Historical",
-          "projection": 8.95,
-          "floor": 3.8,
-          "ceiling": 14.1,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -0.69,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 8.95
-          },
-          "model": {
-            "projection": 9.228100349206349,
-            "weightedAverage": 9.337777777777777,
-            "recentAverage": 9.575,
-            "trend": -0.6876190476190475,
-            "standardDeviation": 5.095555486331762,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 6,
-          "matchupModifier": 0.9699,
-          "projectionBeforeMatchup": 9.23
-        },
-        {
           "id": "1737",
           "sleeperId": "1737",
           "name": "Case Keenum",
@@ -642756,6 +642711,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 6
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -0.69,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 9.228100349206349,
+            "weightedAverage": 9.337777777777777,
+            "recentAverage": 9.575,
+            "trend": -0.6876190476190475,
+            "standardDeviation": 5.095555486331762,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 6
         },
         {
@@ -714100,6 +714086,29 @@
           "projectionWeek": 6
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 6
+        },
+        {
           "id": "2871",
           "sleeperId": "2871",
           "name": "Isaac Fruechte",
@@ -736663,29 +736672,6 @@
           "projectionWeek": 6
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ PHI",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 6
-        },
-        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -745158,39 +745144,6 @@
           "projectionBeforeMatchup": 10.1
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ MIN",
-          "injury": "Historical",
-          "projection": 8.55,
-          "floor": 4.5,
-          "ceiling": 12.7,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": 0.33,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 8.55
-          },
-          "model": {
-            "projection": 10.060059079365079,
-            "weightedAverage": 10.142222222222223,
-            "recentAverage": 10.165,
-            "trend": 0.3319047619047622,
-            "standardDeviation": 4.610258746999534,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 7,
-          "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 10.06
-        },
-        {
           "id": "12522",
           "sleeperId": "12522",
           "name": "Cam Ward",
@@ -748382,6 +748335,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 7
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": 0.33,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 10.060059079365079,
+            "weightedAverage": 10.142222222222223,
+            "recentAverage": 10.165,
+            "trend": 0.3319047619047622,
+            "standardDeviation": 4.610258746999534,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 7
         },
         {
@@ -819767,6 +819751,29 @@
           "projectionWeek": 7
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 7
+        },
+        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -842340,29 +842347,6 @@
           "projectionWeek": 7
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs TB",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 7
-        },
-        {
           "id": "4451",
           "sleeperId": "4451",
           "name": "Isaac Whitney",
@@ -850911,39 +850895,6 @@
           "projectionBeforeMatchup": 8.86
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ JAX",
-          "injury": "Historical",
-          "projection": 8.94,
-          "floor": 4.5,
-          "ceiling": 13.4,
-          "boom": 25,
-          "bust": 27,
-          "confidence": 95,
-          "trend": 0.5,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 8.94
-          },
-          "model": {
-            "projection": 8.817108031746033,
-            "weightedAverage": 8.77888888888889,
-            "recentAverage": 9.094999999999999,
-            "trend": 0.5047619047619046,
-            "standardDeviation": 4.243610322759215,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 8,
-          "matchupModifier": 1.0133,
-          "projectionBeforeMatchup": 8.82
-        },
-        {
           "id": "12522",
           "sleeperId": "12522",
           "name": "Cam Ward",
@@ -854036,6 +853987,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 8
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": 0.5,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 8.817108031746033,
+            "weightedAverage": 8.77888888888889,
+            "recentAverage": 9.094999999999999,
+            "trend": 0.5047619047619046,
+            "standardDeviation": 4.243610322759215,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 8
         },
         {
@@ -925464,6 +925446,29 @@
           "projectionWeek": 8
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 8
+        },
+        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -948037,29 +948042,6 @@
           "projectionWeek": 8
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ GB",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 8
-        },
-        {
           "id": "4451",
           "sleeperId": "4451",
           "name": "Isaac Whitney",
@@ -956618,39 +956600,6 @@
           "projectionBeforeMatchup": 8.41
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "vs DAL",
-          "injury": "Historical",
-          "projection": 9.6,
-          "floor": 5.9,
-          "ceiling": 13.3,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -0.43,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 9.6
-          },
-          "model": {
-            "projection": 8.350568158730159,
-            "weightedAverage": 8.394444444444446,
-            "recentAverage": 8.73,
-            "trend": -0.4311904761904754,
-            "standardDeviation": 3.1720644471925312,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 9,
-          "matchupModifier": 1.15,
-          "projectionBeforeMatchup": 8.35
-        },
-        {
           "id": "4892",
           "sleeperId": "4892",
           "name": "Baker Mayfield",
@@ -959710,6 +959659,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 9
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -0.43,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 8.350568158730159,
+            "weightedAverage": 8.394444444444446,
+            "recentAverage": 8.73,
+            "trend": -0.4311904761904754,
+            "standardDeviation": 3.1720644471925312,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 9
         },
         {
@@ -1031239,6 +1031219,29 @@
           "projectionWeek": 9
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 9
+        },
+        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -1053789,29 +1053792,6 @@
           "projectionWeek": 9
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs DEN",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 9
-        },
-        {
           "id": "4451",
           "sleeperId": "4451",
           "name": "Isaac Whitney",
@@ -1062304,39 +1062284,6 @@
           "projectionBeforeMatchup": 8.61
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "vs MIA",
-          "injury": "Historical",
-          "projection": 9.47,
-          "floor": 5.8,
-          "ceiling": 13.2,
-          "boom": 24,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -0.3,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 9.47
-          },
-          "model": {
-            "projection": 8.521374539682538,
-            "weightedAverage": 8.70611111111111,
-            "recentAverage": 8.535,
-            "trend": -0.29904761904761873,
-            "standardDeviation": 3.2111902555194165,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 10,
-          "matchupModifier": 1.1111,
-          "projectionBeforeMatchup": 8.52
-        },
-        {
           "id": "12470",
           "sleeperId": "12470",
           "name": "Riley Leonard",
@@ -1065495,6 +1065442,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 10
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -0.3,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 8.521374539682538,
+            "weightedAverage": 8.70611111111111,
+            "recentAverage": 8.535,
+            "trend": -0.29904761904761873,
+            "standardDeviation": 3.2111902555194165,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 10
         },
         {
@@ -1137150,6 +1137128,29 @@
           "projectionWeek": 10
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 10
+        },
+        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -1159710,29 +1159711,6 @@
           "projectionWeek": 10
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "@ NO",
-          "injury": "Historical",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 10
-        },
-        {
           "id": "4451",
           "sleeperId": "4451",
           "name": "Isaac Whitney",
@@ -1168057,39 +1168035,6 @@
           "projectionBeforeMatchup": 7.53
         },
         {
-          "id": "5870",
-          "sleeperId": "5870",
-          "name": "Daniel Jones",
-          "team": "IND",
-          "pos": "QB",
-          "opp": "@ HOU",
-          "injury": "Healthy",
-          "projection": 7.11,
-          "floor": 3.7,
-          "ceiling": 10.4,
-          "boom": 25,
-          "bust": 28,
-          "confidence": 95,
-          "trend": -0.37,
-          "flexEligible": false,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 7.11
-          },
-          "model": {
-            "projection": 7.292412317460317,
-            "weightedAverage": 7.853888888888889,
-            "recentAverage": 6.4,
-            "trend": -0.36738095238095175,
-            "standardDeviation": 3.3083519850739664,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 11,
-          "matchupModifier": 0.975,
-          "projectionBeforeMatchup": 7.29
-        },
-        {
           "id": "2306",
           "sleeperId": "2306",
           "name": "Jameis Winston",
@@ -1171083,6 +1171028,37 @@
             "customNflverseModel": 0.0
           },
           "model": {},
+          "projectionWeek": 11
+        },
+        {
+          "id": "5870",
+          "sleeperId": "5870",
+          "name": "Daniel Jones",
+          "team": "FA",
+          "pos": "QB",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 95,
+          "trend": -0.37,
+          "flexEligible": false,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 7.292412317460317,
+            "weightedAverage": 7.853888888888889,
+            "recentAverage": 6.4,
+            "trend": -0.36738095238095175,
+            "standardDeviation": 3.3083519850739664,
+            "games": 8,
+            "method": "historical_position_model"
+          },
           "projectionWeek": 11
         },
         {
@@ -1180672,39 +1180648,6 @@
           },
           "projectionWeek": 11,
           "matchupModifier": 0.85,
-          "projectionBeforeMatchup": 3.56
-        },
-        {
-          "id": "9508",
-          "sleeperId": "9508",
-          "name": "Tyjae Spears",
-          "team": "TEN",
-          "pos": "RB",
-          "opp": "@ DAL",
-          "injury": "Questionable",
-          "projection": 4.09,
-          "floor": 0.0,
-          "ceiling": 8.7,
-          "boom": 18,
-          "bust": 24,
-          "confidence": 95,
-          "trend": -0.6,
-          "flexEligible": true,
-          "probabilityMethod": "empirical_position_residuals",
-          "sources": {
-            "customNflverseModel": 4.09
-          },
-          "model": {
-            "projection": 4.187672222222222,
-            "weightedAverage": 4.3694444444444445,
-            "recentAverage": 4.25,
-            "trend": -0.6047619047619041,
-            "standardDeviation": 3.871784380064867,
-            "games": 8,
-            "method": "historical_position_model"
-          },
-          "projectionWeek": 11,
-          "matchupModifier": 1.15,
           "projectionBeforeMatchup": 3.56
         },
         {
@@ -1199954,6 +1199897,39 @@
           },
           "model": {},
           "projectionWeek": 11
+        },
+        {
+          "id": "9508",
+          "sleeperId": "9508",
+          "name": "Tyjae Spears",
+          "team": "TEN",
+          "pos": "RB",
+          "opp": "@ DAL",
+          "injury": "IR",
+          "projection": 0.0,
+          "floor": 0,
+          "ceiling": 4.0,
+          "boom": 18,
+          "bust": 58,
+          "confidence": 95,
+          "trend": -0.6,
+          "flexEligible": true,
+          "probabilityMethod": "empirical_position_residuals",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {
+            "projection": 4.187672222222222,
+            "weightedAverage": 4.3694444444444445,
+            "recentAverage": 4.25,
+            "trend": -0.6047619047619041,
+            "standardDeviation": 3.871784380064867,
+            "games": 8,
+            "method": "historical_position_model"
+          },
+          "projectionWeek": 11,
+          "matchupModifier": 1.15,
+          "projectionBeforeMatchup": 0.0
         },
         {
           "id": "8208",
@@ -1242359,6 +1242335,29 @@
           "projectionWeek": 11
         },
         {
+          "id": "7559",
+          "sleeperId": "7559",
+          "name": "Ihmir Smith-Marsette",
+          "team": "FA",
+          "pos": "WR",
+          "opp": "",
+          "injury": "FREE AGENT",
+          "projection": 0.0,
+          "floor": 0.0,
+          "ceiling": 0.0,
+          "boom": 0,
+          "bust": 100,
+          "confidence": 0,
+          "trend": null,
+          "flexEligible": true,
+          "probabilityMethod": "inactive_player",
+          "sources": {
+            "customNflverseModel": 0.0
+          },
+          "model": {},
+          "projectionWeek": 11
+        },
+        {
           "id": "8861",
           "sleeperId": "8861",
           "name": "Irvin Charles",
@@ -1265683,29 +1265682,6 @@
           "projectionWeek": 11
         },
         {
-          "id": "7559",
-          "sleeperId": "7559",
-          "name": "Ihmir Smith-Marsette",
-          "team": "CAR",
-          "pos": "WR",
-          "opp": "vs BAL",
-          "injury": "Questionable",
-          "projection": null,
-          "floor": null,
-          "ceiling": null,
-          "boom": null,
-          "bust": null,
-          "confidence": 0,
-          "trend": null,
-          "flexEligible": true,
-          "probabilityMethod": "no_projection",
-          "sources": {
-            "customNflverseModel": null
-          },
-          "model": {},
-          "projectionWeek": 11
-        },
-        {
           "id": "4451",
           "sleeperId": "4451",
           "name": "Isaac Whitney",
@@ -1267294,34 +1267270,6 @@
               "confidence": 95
             },
             {
-              "espnId": "4428557",
-              "sleeperId": "9508",
-              "name": "Tyjae Spears",
-              "nameKey": "tyjae spears",
-              "canonicalName": "tyjae spears",
-              "proTeam": "TEN",
-              "position": "RB",
-              "lineupSlotId": 2,
-              "lineupSlot": "RB",
-              "starter": true,
-              "injuryStatus": "QUESTIONABLE",
-              "eligibleSlots": [
-                2,
-                3,
-                23,
-                7,
-                20,
-                21
-              ],
-              "matchMethod": "exact_name",
-              "matchConfidence": 0.99,
-              "modelPlayerId": "9508",
-              "projection": 4.09,
-              "boom": 18,
-              "bust": 24,
-              "confidence": 95
-            },
-            {
               "espnId": "4429096",
               "sleeperId": "11586",
               "name": "Blake Corum",
@@ -1267373,6 +1267321,34 @@
               "projection": 23.44,
               "boom": 19,
               "bust": 21,
+              "confidence": 95
+            },
+            {
+              "espnId": "3116389",
+              "sleeperId": "4147",
+              "name": "Samaje Perine",
+              "nameKey": "samaje perine",
+              "canonicalName": "samaje perine",
+              "proTeam": "CIN",
+              "position": "RB",
+              "lineupSlotId": 2,
+              "lineupSlot": "RB",
+              "starter": true,
+              "injuryStatus": "ACTIVE",
+              "eligibleSlots": [
+                2,
+                3,
+                23,
+                7,
+                20,
+                21
+              ],
+              "matchMethod": "espn_id",
+              "matchConfidence": 1.0,
+              "modelPlayerId": "4147",
+              "projection": 7.26,
+              "boom": 18,
+              "bust": 16,
               "confidence": 95
             }
           ]
@@ -1272673,14 +1272649,6 @@
           "matchMethod": "exact_name",
           "matchConfidence": 0.99
         },
-        "9508": {
-          "isRostered": true,
-          "ownerTeamId": 1,
-          "ownerTeamName": "Team 1",
-          "isMyTeam": false,
-          "matchMethod": "exact_name",
-          "matchConfidence": 0.99
-        },
         "11586": {
           "isRostered": true,
           "ownerTeamId": 1,
@@ -1272690,6 +1272658,14 @@
           "matchConfidence": 0.99
         },
         "4046": {
+          "isRostered": true,
+          "ownerTeamId": 1,
+          "ownerTeamName": "Team 1",
+          "isMyTeam": false,
+          "matchMethod": "espn_id",
+          "matchConfidence": 1.0
+        },
+        "4147": {
           "isRostered": true,
           "ownerTeamId": 1,
           "ownerTeamName": "Team 1",
